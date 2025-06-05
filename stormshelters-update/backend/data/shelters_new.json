@@ -1,0 +1,762 @@
+{
+  "businesses": [
+    {
+      "id": "R1-n8UsUhpc6ubgZnZLX5Q",
+      "alias": "baychester-motel-bronx",
+      "name": "Baychester Motel",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/5HAq-hhskrNfVzfUj2ySpQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/baychester-motel-bronx?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "nonprofit",
+          "title": "Community Service/Non-Profit"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.8770179748535,
+        "longitude": -73.8390884399414
+      },
+      "transactions": [],
+      "location": {
+        "address1": "1440 E 222nd St",
+        "address2": "",
+        "address3": "",
+        "city": "Bronx",
+        "zip_code": "10469",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "1440 E 222nd St",
+          "Bronx, NY 10469"
+        ]
+      },
+      "phone": "+17183797143",
+      "display_phone": "(718) 379-7143",
+      "distance": 33338.79315595373
+    },
+    {
+      "id": "kIVvwdqlohY8d-G6kxQr5A",
+      "alias": "homes-for-homeless-saratoga-family-residence-jamaica",
+      "name": "Homes For Homeless - Saratoga Family Residence",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/homes-for-homeless-saratoga-family-residence-jamaica?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.657902,
+        "longitude": -73.769404
+      },
+      "transactions": [],
+      "location": {
+        "address1": "17515 Rockaway Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Jamaica",
+        "zip_code": "11434",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "17515 Rockaway Blvd",
+          "Jamaica, NY 11434"
+        ]
+      },
+      "phone": "+17182440670",
+      "display_phone": "(718) 244-0670",
+      "distance": 15827.926375624489
+    },
+    {
+      "id": "OxnON_Lpp8rnRPdpsB5GgA",
+      "alias": "homeless-long-island-holbrook",
+      "name": "Homeless Long Island",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cSe-E6jhk1aKzX3fBR6C-A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/homeless-long-island-holbrook?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.80639,
+        "longitude": -73.069232
+      },
+      "transactions": [],
+      "location": {
+        "address1": "440 Furrows Rd",
+        "address2": null,
+        "address3": "",
+        "city": "Holbrook",
+        "zip_code": "11741",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "440 Furrows Rd",
+          "Holbrook, NY 11741"
+        ]
+      },
+      "phone": "+16312601363",
+      "display_phone": "(631) 260-1363",
+      "distance": 46660.90647405308
+    },
+    {
+      "id": "Ev3grW2MtLCx2t60ZhiXcA",
+      "alias": "saratoga-family-inn-jamaica",
+      "name": "Saratoga Family Inn",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/17OiEAqud7LTeK_4m7kymg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/saratoga-family-inn-jamaica?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 6,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        },
+        {
+          "alias": "assistedliving",
+          "title": "Assisted Living Facilities"
+        }
+      ],
+      "rating": 3.0,
+      "coordinates": {
+        "latitude": 40.65785944626998,
+        "longitude": -73.7697673279681
+      },
+      "transactions": [],
+      "location": {
+        "address1": "175-15 Rockaway Blvd",
+        "address2": "",
+        "address3": null,
+        "city": "Jamaica",
+        "zip_code": "11434",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "175-15 Rockaway Blvd",
+          "Jamaica, NY 11434"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 15859.300144010145
+    },
+    {
+      "id": "Nk71FN4OCa_yVpI0cFuVyg",
+      "alias": "hotel-lyn-brooklyn",
+      "name": "Hotel Lyn",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/42DF_oveRfScgYN88yOIGA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hotel-lyn-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 40.67333,
+        "longitude": -73.98908
+      },
+      "transactions": [],
+      "location": {
+        "address1": "399 3rd Ave",
+        "address2": "",
+        "address3": null,
+        "city": "Brooklyn",
+        "zip_code": "11215",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "399 3rd Ave",
+          "Brooklyn, NY 11215"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 34441.49494196774
+    },
+    {
+      "id": "Y-VQaMrCv_NE9wduWp20jg",
+      "alias": "lincoln-motor-inn-jamaica",
+      "name": "Lincoln Motor Inn",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-ulDDbXxo8TwWs2LZLzXnA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/lincoln-motor-inn-jamaica?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 5,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 2.6,
+      "coordinates": {
+        "latitude": 40.699877,
+        "longitude": -73.814459
+      },
+      "transactions": [],
+      "location": {
+        "address1": "9035 Van Wyck Expy",
+        "address2": "",
+        "address3": "",
+        "city": "Jamaica",
+        "zip_code": "11435",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "9035 Van Wyck Expy",
+          "Jamaica, NY 11435"
+        ]
+      },
+      "phone": "+17187396700",
+      "display_phone": "(718) 739-6700",
+      "distance": 20398.514219428613
+    },
+    {
+      "id": "yL24SH4GcuDXBgbY9a_xyw",
+      "alias": "all-about-cats-rescue-freeport",
+      "name": "all about cats rescue",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/xLlebEUpxu1ltf_rMd6dIg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/all-about-cats-rescue-freeport?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 47,
+      "categories": [
+        {
+          "alias": "animalshelters",
+          "title": "Animal Shelters"
+        }
+      ],
+      "rating": 3.3,
+      "coordinates": {
+        "latitude": 40.65719,
+        "longitude": -73.57678
+      },
+      "transactions": [],
+      "location": {
+        "address1": "111 East Sunrise Hwy",
+        "address2": "",
+        "address3": "",
+        "city": "freeport",
+        "zip_code": "11572",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "111 East Sunrise Hwy",
+          "freeport, NY 11572"
+        ]
+      },
+      "phone": "+15165826137",
+      "display_phone": "(516) 582-6137",
+      "distance": 1017.1569527229141
+    },
+    {
+      "id": "qGthtp8i6OMdgPFIkV11SQ",
+      "alias": "bobbi-and-the-strays-freeport",
+      "name": "Bobbi & The Strays",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/g9Hqn4n3TxhI9nA34dJd4Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bobbi-and-the-strays-freeport?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 86,
+      "categories": [
+        {
+          "alias": "animalshelters",
+          "title": "Animal Shelters"
+        }
+      ],
+      "rating": 2.4,
+      "coordinates": {
+        "latitude": 40.6482966,
+        "longitude": -73.5725341
+      },
+      "transactions": [],
+      "location": {
+        "address1": "2 Rider Pl",
+        "address2": "",
+        "address3": "",
+        "city": "Freeport",
+        "zip_code": "11520",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "2 Rider Pl",
+          "Freeport, NY 11520"
+        ]
+      },
+      "phone": "+15163784340",
+      "display_phone": "(516) 378-4340",
+      "distance": 836.4780219522396
+    },
+    {
+      "id": "ZsRbaDMQ206fC7PnB9mLEw",
+      "alias": "the-gateway-family-ymca-the-dudley-house-plainfield",
+      "name": "The Gateway Family YMCA - The Dudley House",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/4kpvbZ-_FJzWYVu7qryapA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-gateway-family-ymca-the-dudley-house-plainfield?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "veteransorganizations",
+          "title": "Veterans Organizations"
+        },
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.61918,
+        "longitude": -74.41136
+      },
+      "transactions": [],
+      "location": {
+        "address1": "930 Putnam Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Plainfield",
+        "zip_code": "07060",
+        "country": "US",
+        "state": "NJ",
+        "display_address": [
+          "930 Putnam Ave",
+          "Plainfield, NJ 07060"
+        ]
+      },
+      "phone": "+19085732121",
+      "display_phone": "(908) 573-2121",
+      "distance": 70055.33347270414
+    },
+    {
+      "id": "vsC1U2V3vdbqV-h-piovMQ",
+      "alias": "chips-soup-kitchen-and-womens-shelter-brooklyn",
+      "name": "CHiPS Soup Kitchen & Women's Shelter",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/x0DhtqT1b9QNQ-1mqtPXGQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/chips-soup-kitchen-and-womens-shelter-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 12,
+      "categories": [
+        {
+          "alias": "nonprofit",
+          "title": "Community Service/Non-Profit"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 40.67833,
+        "longitude": -73.98284
+      },
+      "transactions": [],
+      "location": {
+        "address1": "200 4th Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11217",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "200 4th Ave",
+          "Brooklyn, NY 11217"
+        ]
+      },
+      "phone": "+17182372962",
+      "display_phone": "(718) 237-2962",
+      "distance": 33954.99878194735
+    },
+    {
+      "id": "F0Yxpf8fiPq9nS2eEvT-_A",
+      "alias": "market-street-mission-morristown-3",
+      "name": "Market Street Mission",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_GIUAdglDynDIQaJEQxAbA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/market-street-mission-morristown-3?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 4,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 3.8,
+      "coordinates": {
+        "latitude": 40.796416,
+        "longitude": -74.482087
+      },
+      "transactions": [],
+      "location": {
+        "address1": "9 Market St",
+        "address2": null,
+        "address3": null,
+        "city": "Morristown",
+        "zip_code": "07960",
+        "country": "US",
+        "state": "NJ",
+        "display_address": [
+          "9 Market St",
+          "Morristown, NJ 07960"
+        ]
+      },
+      "phone": "+19735380431",
+      "display_phone": "(973) 538-0431",
+      "distance": 77591.66371940466
+    },
+    {
+      "id": "ZnHC8KwVPzRhXjfbttsYZw",
+      "alias": "colonial-hotel-jamaica",
+      "name": "Colonial Hotel",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/colonial-hotel-jamaica?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 1.0,
+      "coordinates": {
+        "latitude": 40.706764,
+        "longitude": -73.799898
+      },
+      "transactions": [],
+      "location": {
+        "address1": "8855 161st St",
+        "address2": "",
+        "address3": "",
+        "city": "Jamaica",
+        "zip_code": "11432",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "8855 161st St",
+          "Jamaica, NY 11432"
+        ]
+      },
+      "phone": "+17185234102",
+      "display_phone": "(718) 523-4102",
+      "distance": 19457.596088935807
+    },
+    {
+      "id": "p0UaZB65wbPQqyrWTfLDIA",
+      "alias": "project-renewal-brooklyn-3",
+      "name": "Project Renewal",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/project-renewal-brooklyn-3?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 3,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 1.0,
+      "coordinates": {
+        "latitude": 40.7043073,
+        "longitude": -73.9339328
+      },
+      "transactions": [],
+      "location": {
+        "address1": "249 Varet St",
+        "address2": "",
+        "address3": null,
+        "city": "Brooklyn",
+        "zip_code": "11206",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "249 Varet St",
+          "Brooklyn, NY 11206"
+        ]
+      },
+      "phone": "+12126200340",
+      "display_phone": "(212) 620-0340",
+      "distance": 30298.05444808018
+    },
+    {
+      "id": "ptk5l3HulzT-lZPaHmSy_Q",
+      "alias": "the-bowery-mission-new-york-3",
+      "name": "The Bowery Mission",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YaCId81zAWivCaJRh7T1Kg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-bowery-mission-new-york-3?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 33,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 40.722044602447795,
+        "longitude": -73.99307801504676
+      },
+      "transactions": [],
+      "location": {
+        "address1": "227 Bowery",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10002",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "227 Bowery",
+          "New York, NY 10002"
+        ]
+      },
+      "phone": "+12126743456",
+      "display_phone": "(212) 674-3456",
+      "distance": 35589.66025056458
+    },
+    {
+      "id": "SnaBwv88BBE0WceROL7kVQ",
+      "alias": "homeless-solutions-morristown",
+      "name": "Homeless Solutions",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/homeless-solutions-morristown?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.83199531226699,
+        "longitude": -74.52186153072373
+      },
+      "transactions": [],
+      "location": {
+        "address1": "540 W Hanover Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Morristown",
+        "zip_code": "07960",
+        "country": "US",
+        "state": "NJ",
+        "display_address": [
+          "540 W Hanover Ave",
+          "Morristown, NJ 07960"
+        ]
+      },
+      "phone": "+19739930833",
+      "display_phone": "(973) 993-0833",
+      "distance": 81744.15349079206
+    },
+    {
+      "id": "DZYhEzG5spLhPegyg54z-Q",
+      "alias": "ruff-house-rescue-west-islip",
+      "name": "Ruff House Rescue",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/J8ffbmxoWJaErtF9w5wQAw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/ruff-house-rescue-west-islip?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 169,
+      "categories": [
+        {
+          "alias": "petadoption",
+          "title": "Pet Adoption"
+        },
+        {
+          "alias": "nonprofit",
+          "title": "Community Service/Non-Profit"
+        }
+      ],
+      "rating": 3.6,
+      "coordinates": {
+        "latitude": 40.70944214,
+        "longitude": -73.29733276
+      },
+      "transactions": [],
+      "location": {
+        "address1": "",
+        "address2": null,
+        "address3": "",
+        "city": "West Islip",
+        "zip_code": "11795",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "West Islip, NY 11795"
+        ]
+      },
+      "phone": "+15163064998",
+      "display_phone": "(516) 306-4998",
+      "distance": 24287.976123342556
+    },
+    {
+      "id": "yC8HZhPWF0YrZczVf2FeEg",
+      "alias": "camba-homeless-shelter-brooklyn",
+      "name": "Camba Homeless Shelter",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Xk4aeacg4GHkB4isDSiC9Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/camba-homeless-shelter-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 4,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 1.0,
+      "coordinates": {
+        "latitude": 40.69563,
+        "longitude": -73.9823
+      },
+      "transactions": [],
+      "location": {
+        "address1": "59 - 65 Prince St",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11201",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "59 - 65 Prince St",
+          "Brooklyn, NY 11201"
+        ]
+      },
+      "phone": "+17187970285",
+      "display_phone": "(718) 797-0285",
+      "distance": 34139.48524532443
+    },
+    {
+      "id": "fjiQG_GcCYY5E-pzOXKpsw",
+      "alias": "st-christophers-inn-garrison",
+      "name": "St Christophers Inn",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/xWMHyzb9GfrhH63fCDYk_A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/st-christophers-inn-garrison?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "religiousorgs",
+          "title": "Religious Organizations"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 41.38052,
+        "longitude": -73.94042
+      },
+      "transactions": [],
+      "location": {
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "city": "Garrison",
+        "zip_code": "10524",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "Garrison, NY 10524"
+        ]
+      },
+      "phone": "+18454243616",
+      "display_phone": "(845) 424-3616",
+      "distance": 86716.74411785061
+    },
+    {
+      "id": "6VzosSXRs7h3wUpA_iD0fw",
+      "alias": "400-mcguinness-shelter-homeless-shelter-new-york",
+      "name": "400 McGuinness Shelter - Homeless Shelter",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6pFrTeyYhLpp1kdfuCV9PQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/400-mcguinness-shelter-homeless-shelter-new-york?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 2,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 1.5,
+      "coordinates": {
+        "latitude": 40.736696,
+        "longitude": -73.952116
+      },
+      "transactions": [],
+      "location": {
+        "address1": "400 McGuinness",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "11222",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "400 McGuinness",
+          "New York, NY 11222"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 32681.87850542587
+    },
+    {
+      "id": "cWKgzNCUKkrCGuBl5X3Eyw",
+      "alias": "pacific-house-stamford-3",
+      "name": "Pacific House",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/7J5cPCLeAO4iSXEc73vbzw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/pacific-house-stamford-3?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "homelessshelters",
+          "title": "Homeless Shelters"
+        }
+      ],
+      "rating": 1.0,
+      "coordinates": {
+        "latitude": 41.04415,
+        "longitude": -73.53869
+      },
+      "transactions": [],
+      "location": {
+        "address1": "137 Henry St",
+        "address2": "Ste 205",
+        "address3": null,
+        "city": "Stamford",
+        "zip_code": "06902",
+        "country": "US",
+        "state": "CT",
+        "display_address": [
+          "137 Henry St",
+          "Ste 205",
+          "Stamford, CT 06902"
+        ]
+      },
+      "phone": "+12034060017",
+      "display_phone": "(203) 406-0017",
+      "distance": 44104.910615893816
+    }
+  ],
+  "total": 147,
+  "region": {
+    "center": {
+      "longitude": -73.58213424682617,
+      "latitude": 40.64899387005062
+    }
+  }
+}

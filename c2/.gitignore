@@ -1,0 +1,9 @@
+*.o
+backdoor
+c2_client
+client
+tiny-aes/*.o
+tiny-aes/test.elf
+tiny-aes/test.map
+tiny-aes/test.o
+.vscode/

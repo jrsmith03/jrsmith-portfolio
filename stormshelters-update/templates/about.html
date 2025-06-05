@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .center-text {
+            text-align: center
+        }
+        body {
+            text-align: center
+        }
+        .team-members-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .team-member-card {
+            width: 15%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 20px;
+            text-align: center;
+        }
+        
+        .team-member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-member-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .text {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+    <title>City Model</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">StormShelters</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="city-model.html">Cities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shelter-model.html">Shelters & Emergency Relief</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="storm-model.html">Disasters</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1 class="text-center">StormShelters</h1>
+
+    <div class="center-text">
+        <p>StormShelters is an application that can provide those in Harris County that have been affected by natural disasters with resources for help and shelter. The website provides information on
+            the different cities in the ocunty, the disasters they were struck by and different shelter locations nearby.
+            Data sources used: Yelp, FEMA, Wikipedia, Census. 
+            Tools used: GitLab repository with CI/CD, Visual Studio Code, JavaScript, HTML/CSS, Postman, Bootstrap
+            <br>
+            <br>
+            Through our research, we have found interesting correlations between data we didn't realize was so closely connected. 
+            The most interesting realization was how shelters were concentrated near the areas where many storms take place.
+        </p>
+    </div>
+    
+    <!-- Team Member Cards Container -->
+    <div class="team-members-container">
+        <div class="team-member-card">
+            <img src="./static/img/aaron.jpg" alt="Image 1">
+            <div class="text">Aaron Kulkarni</div>
+            <div class="text">I am a CS major currently in my third year from New Jersey. My favorite activities outside of the classroom are basketball, judo, and guitar. Major Responsibilities: Backend</div>
+            <div class="text" id="issues_aaronk2711">Number of issues: </div>
+            <div class="text" id="commits_aaronk2711"> Number of commits: </div>
+            <div class="text" id="unitTests_aaronk2711">Number of unit tests: </div>
+        </div>
+        
+        <div class="team-member-card">
+            <img src="./static/img/shreya.PNG" alt="Image 1">
+            <div class="text">Shreya Nakka</div>
+            <div class="text">I'm a Computer Science major in my Junior year. In my free time, I enjoy playing tennis, volleyball, and painting. Major Responsibilities: Frontend</div>
+            <div class="text" id="issues_shreya.n">Number of issues: </div>
+            <div class="text" id="commits_shreya.n">Number of commits: </div>
+            <div class="text" id="unitTests_shreya.n">Number of unit tests: </div>
+        </div>
+        
+        <div class="team-member-card">
+            <img src="./static/img/rohit.jpeg" alt="Image 1">
+            <div class="text">Rohit Chawla</div>
+            <div class="text">I'm a Computer Science major in my Junior year. I have lived in Austin my entire life and I enjoy playing board games. Major Responsibilities: Frontend </div>
+            <div class="text" id="issues_rohitc28">Number of issues: </div>
+            <div class="text" id="commits_rohitc28">Number of commits: </div>
+            <div class="text" id="unitTests_rohitc28">Number of unit tests: </div>
+        </div>
+        
+        <div class="team-member-card">
+            <img src="./static/img/john.jpg" alt="Image 1">
+            <div class="text">John Smith</div>
+            <div class="text">I am a junior computer science major from the Rio Grande Valley. In my free time, I enjoy camping and spending time with family. Major Responsibilities: Frontend</div>
+            <div class="text" id="issues_johnrsmith2003">Number of issues: </div>
+            <div class="text" id="commits_johnrsmith2003">Number of commits: </div>
+            <div class="text" id="unitTests_johnrsmith2003">Number of unit tests: </div>
+        </div>
+        
+        <div class="team-member-card">
+            <img src="./static/img/adriana.png" alt="Image 1">
+            <div class="text">Adriana Reyes</div>
+            <div class="text">I'm a senior computer science major from Austin. Outside of CS I like to play guitar, skateboard, and draw. Major responsibilities: Frontend</div>
+            <div class="text" id="issues_areye2020">Number of issues: </div>
+            <div class="text" id="commits_areye2020">Number of commits: </div>
+            <div class="text" id="unitTests_areye2020">Number of unit tests: </div>
+        </div>
+    </div>    
+    <div class="statistics" style="justify-content: left;">
+        <p id="total-commits">Total commits: </p>
+        <p id="total-issues">Total issues: </p>
+    </div>
+    <!-- JavaScript for fetching and updating contributor data -->
+    <script>
+        const projectId = '50438097';
+
+        contributor_data = ["aaronk2711", "shreya.n", "rohitc28", "johnrsmith2003", "areye2020"]
+        commit_names = ["Aaron Kulkarni", "Shreya Nakka", "Rohit Chawla", "jrsmith0", "Adriana Reyes"]
+
+        async function fetchAndUpdateContributorData() {
+            let total_commits = 0;
+            let total_issues = 0;
+            for (var i = 0; i < contributor_data.length; i++) {
+                const contributorName = contributor_data[i];
+
+                console.log(contributorName)
+
+                // scrape issues
+                const issuesResponse = await fetch(`https://gitlab.com/api/v4/projects/${projectId}/issues?author_username=${contributorName}`);
+                if (!issuesResponse.ok) {
+                    throw new Error(`HTTP error! Status: ${issuesResponse.status}`);
+                }
+                const issuesData = await issuesResponse.json();
+
+                const issuesTextElement = document.getElementById(`issues_${contributorName}`);
+                issuesTextElement.textContent = `Number of issues: ${issuesData.length}`;
+                total_issues += issuesData.length;
+                console.log("The total issues:" + total_issues);
+
+
+                // scrape commits
+                const commitsResponse = await fetch(`https://gitlab.com/api/v4/projects/${projectId}/repository/commits?author_username=${contributorName}&per_page=100`);
+                if (!commitsResponse.ok) {
+                    throw new Error(`HTTP error! Status: ${commitsResponse.status}`);
+                }
+                const commitsData = await commitsResponse.json();
+
+                let count = 0
+                for (const commit of commitsData) {
+                    if (commit.author_name === commit_names[i]) {
+                        count++
+                    }
+                }
+                total_commits += count;
+                console.log("The total commits: " + total_commits);
+
+                console.log(commitsData);
+
+                const commitsTextElement = document.getElementById(`commits_${contributorName}`);
+                commitsTextElement.textContent = `Number of commits: ${count}`;
+
+
+                // scrape unit tests
+                // const unitTestsResponse = await fetch(`https://gitlab.com/api/v4/projects/${projectId}/pipelines?username=${contributorName}&scope=success`);
+                // if (!unitTestsResponse.ok) {
+                //     throw new Error(`HTTP error! Status: ${unitTestsResponse.status}`);
+                // }
+                // const unitTestsData = await unitTestsResponse.json();
+
+                const unitTestsTextElement = document.getElementById(`unitTests_${contributorName}`);
+                unitTestsTextElement.textContent = `Number of unit tests: 0`;
+
+                const totalCommitsText = document.getElementById("total-commits");
+                totalCommitsText.textContent = `Total commits: ${total_commits}`;
+
+                const totalIssuesText = document.getElementById("total-issues");
+                totalIssuesText.textContent = `Total issues: ${total_issues}`;
+            }
+        }
+
+        fetchAndUpdateContributorData();
+    </script>
+
+
+    <div class="center-text">
+        <br>
+        <a href="https://documenter.getpostman.com/view/29974721/2s9YJZ3jac">API Documentation</a>
+        <br>
+        <a href="https://gitlab.com/cs373-group5/stormshelters">GitLab Repository</a>
+    </div>
+
+    <div class="text-left">
+        <br>
+        <h2>Tools Used:</h2>
+        <ul>
+            <li>VS Code: integrated environment for command line and pushing to Git</li>
+            <li>VS Code Liveshare: remotely edit the same project simultaneously</li>
+            <li>Zoom: for remote collaboration</li>
+            <li>AWS Amplify and Route53: Hosting the website directly from the GitLab repository and configuring the different domain provisions (i.e .dev, .amplify, .www)</li>
+        </ul>
+
+        <h2>Data sources:</h2>
+        <ul>
+            <li><a href="https://census.gov">Census</li>
+            <li><a href="https://fusion.yelp.com">Yelp Fusion</li>
+            <li><a href="https://www.mediawiki.org/wiki/API:Main_page">MediaWiki</li>
+            <li><a href="https://www.fema.gov/about/reports-and-data/openfema">OpenFEMA</li>
+        </ul>
+        <p>Each of these sites provides a RESTful API. For Phase 1, we first analyzed the documentation to find the appropiate endpoints. Then, we scraped the data using a curl request and filtered the data by hand to find the appropiate information. Finally, we added the data to a JSON file so that it could be re-used across different pages.</p>
+        <br>
+    </div>
+
+</body>
+</html>

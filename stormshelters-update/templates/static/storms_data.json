@@ -1,0 +1,31 @@
+{
+    "storm":[
+        {
+            "name": "Severe Storms",
+			"startDate": "10/24/2002",
+			"endDate": "11/15/2002",
+			"type": "Severe storms",
+			"code": "Disaster Declaration",
+			"totalAid": "$115,969,311.20"
+            
+        },
+        {
+			"name": "Hurricane Ivan",
+			"startDate": "09/14/2004",
+			"endDate": "10/30/2004",
+			"type": "Hurricane",
+			"code": "Emergency Declaration",
+			"totalAid": "$26,747,466.42"
+		},
+		{
+			"name": "Hurricane Rita",
+			"startDate": "09/23/2005",
+			"endDate": "10/14/2005",
+			"type": "Hurricane",
+			"code": "Emergency Declaration",
+			"totalAid": "$1,237,011,539.98"
+		}
+    ]
+   
+
+}

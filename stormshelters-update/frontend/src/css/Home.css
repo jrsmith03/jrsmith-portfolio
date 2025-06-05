@@ -1,0 +1,127 @@
+.shelters-container {
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.shelter-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+}
+.shelter-container-container {
+  padding: 50px;
+}
+.shelter-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.shelter-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.shelter-image-container {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shelter-card-img-top {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.shelter-card-body {
+  padding: 10px;
+  align-items: center;
+  color: white;
+}
+
+.shelter-card-title {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+  gap: 20px;
+}
+
+.shelter-button {
+  width: 150px;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+.shelter-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.shelter-button:disabled:hover {
+  background-color: #323639;
+  cursor: not-allowed;
+}
+.shelter-button:disabled {
+  background-color: #323639;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: none;
+}
+
+.bg {
+  position: relative;
+  background-image: url("https://i.abcnewsfe.com/a/2faca673-3ac1-4c5b-92f8-f69a6f09364c/lightning-pa-ht-ps-230627_1687872248320_hpMain_16x9.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.list-group-item {
+ list-style-type: circle; 
+}
+
+.text-container {
+  position: absolute; /* Position the text container absolutely within the parent */
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  text-align: center; /* Center-align text content */
+  color: white; /* Set text color to white */
+  padding: 20px; /* Add padding around the text */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color */
+}

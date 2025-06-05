@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+    <title>City Model</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">StormShelters</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="city-model.html">Cities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shelter-model.html">Shelters & Emergency Relief</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="storm-model.html">Disasters</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1 class="text-center">City Model</h1>
+    <p>Total Instances: 3</p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="./static/img/houston.jpg" alt="Houston">
+                    <div class="card-body">
+                        <h4 class="card-title">Houston</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Population: 2,302,878</li>
+                            <li class="list-group-item">Size: 665</li>
+                            <li class="list-group-item">Homeless Population: 3200</li>
+                            <li class="list-group-item">Disasters: 26</li>
+                            <li class="list-group-item">Number of Homeless Shelters: 28</li>
+                        </ul>
+                        <a href="houston.html" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="./static/img/katy.jpg" alt="Katy">
+                    <div class="card-body">
+                        <h4 class="card-title">Katy</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Population: 27,111</li>
+                            <li class="list-group-item">Size: 14.6</li>
+                            <li class="list-group-item">Homeless Population: 200</li>
+                            <li class="list-group-item">Disasters: 26</li>
+                            <li class="list-group-item">Number of Homeless Shelters: 6</li>
+                        </ul>
+                        <a href="katy.html" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="./static/img/cypress.jpg" alt="Cypress">
+                    <div class="card-body">
+                        <h4 class="card-title">Cypress</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Population: 184,851</li>
+                            <li class="list-group-item">Size: 53</li>
+                            <li class="list-group-item">Homeless Population: 500</li>
+                            <li class="list-group-item">Disasters: 26</li>
+                            <li class="list-group-item">Number of Homeless Shelters: 28</li>
+                        </ul>
+                        <a href="cypress.html" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

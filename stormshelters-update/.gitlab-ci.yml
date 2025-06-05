@@ -1,0 +1,61 @@
+# # cache:
+# #   paths:
+# #     - node_modules
+
+# stages:
+#   - build
+#   - test
+
+# frontend-build:
+#   stage: build
+#   image: node:18.18.0
+#   script:
+#     - cd frontend
+#     - npm install -g npm@latest
+#     - npm install
+#     - CI=false npm run build
+#   artifacts:
+#     paths:
+#       - build
+#       - node_modules/
+
+# backend-build:
+#   stage: build
+#   image: python:3.10
+#   script:
+#     - cd backend
+#     - pip3 install -r requirements.txt
+
+# python-tests:
+#   image: python:3
+#   stage: test
+#   script:
+#     - cd backend
+#     - pip3 install -r requirements.txt
+#     - python tests.py
+#   # needs:
+#   #     - backend-deploy
+  
+# postman_tests:
+#   stage: test
+#   image:
+#     name: postman/newman_alpine33
+#     entrypoint: [""]
+#   script:
+#     - cd backend
+#     - newman --version
+#     - newman run postman_tests.json
+
+# selenium-tests:
+#   image: joyzoursky/python-chromedriver:3.9-selenium
+#   stage: test
+#   before_script:
+#     - pip install -r frontend/requirements.txt
+#   script:
+#     - python frontend/guitests.py
+
+# jest-test:
+#   image: node:14
+#   script:
+#     - npm install
+#     - npm test

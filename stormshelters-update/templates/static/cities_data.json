@@ -1,0 +1,33 @@
+{
+    "city":[
+        {
+            "name": "Houston",
+            "population" : "2,302,878",
+			"size": "665",
+            "homeless" : "3200",
+            "disasters": "26",
+			"shelters": "28",
+            "about" : "Houston is the most populous city in Texas and in the Southern United States. It is the fourth-most populous city in the United States after New York City, Los Angeles, and Chicago, and the sixth-most populous city in North America. With a population of 2,302,878 in 2022,[2] Houston is located in Southeast Texas near Galveston Bay and the Gulf of Mexico; it is the seat and largest city of Harris County and the principal city of the Greater Houston metropolitan area, which is the fifth-most populous metropolitan statistical area in the United States and the second-most populous in Texas after Dallas–Fort Worth. Flooding has been a recurring problem in the Houston area, exacerbated by a lack of zoning laws, which allowed unregulated building of residential homes and other structures in flood-prone areas.[49] In June 2001, Tropical Storm Allison dumped up to 40 inches (1,000 mm) of rain on parts of Houston, causing what was then the worst flooding in the city's history and billions of dollars in damage, and killed 20 people in Texas. One month later, about 2.5 million Houston-area residents evacuated when Hurricane Rita approached the Gulf Coast, leaving little damage to the Houston area. The worst came in late August 2017, when Hurricane Harvey stalled over southeastern Texas, much like Tropical Storm Allison did sixteen years earlier, causing severe flooding in the Houston area, with some areas receiving over 50 inches (1,300 mm) of rain.[55] The rainfall exceeded 50 inches in several areas locally, breaking the national record for rainfall. The damage for the Houston area was estimated at up to $125 billion U.S. dollars,[56] and was considered to be one of the worst natural disasters in the history of the United States,[57] with the death toll exceeding 70 people."
+        },
+        {
+			"name": "Katy",
+			"population": "27,111",
+			"size": "14.6",
+			"homeless": "200",
+			"disasters": "26",
+			"shelters": "6",
+            "about" : "Katy is a city in the U.S. state of Texas. It is the Greater Katy area, itself forming the western part of the Greater Houston metropolitan area. Homes and businesses may have Katy postal addresses without being in the City of Katy. The city of Katy is approximately centered at the tripoint of Harris, Fort Bend, and Waller counties. "
+		},
+		{
+			"name": "Cypress",
+			"population": "184,851",
+			"size": "53",
+			"homeless": "500",
+			"disasters": "26",
+			"shelters": "28",
+            "about": "Cypress is an unincorporated community in Harris County, Texas, United States, located completely inside the extraterritorial jurisdiction of the City of Houston. The Cypress area is located along U.S. Highway 290 (Northwest Freeway) is twenty-four miles (35 km) northwest of Downtown Houston. Due to its close proximity to the gulf coast, Cypress is occasionally hit by landfalling tropical storms and hurricanes; the most significant storms to impact the area in recent history have been Hurricane Alicia in 1983, Hurricane Ike in 2008, and Hurricane Harvey in 2017.[7][8][9] According to Risk Factor, for the next 30 years, Cypress has a minor risk of flooding, meaning that it is probable that flooding may impact the every day life in the area. 20% of all the properties in Cypress have a greater than 26% chance of being severely flooded over the next three decades."
+		}
+    ]
+   
+
+}

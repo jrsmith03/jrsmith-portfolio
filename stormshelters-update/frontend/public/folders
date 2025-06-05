@@ -1,0 +1,19 @@
+"""
+
+my-multipage-app/
+  |- src/
+  |   |- components/
+  |   |   |- Navbar.js
+  |   |- pages/
+  |   |   |- Home.js
+  |   |   |- About.js
+  |   |   |- Contact.js
+  |   |- App.js
+  |   |- Routes.js
+  |   |- index.js
+  |- public/
+  |   |- index.html
+  |- package.json
+
+  
+  """"

@@ -1,0 +1,752 @@
+{
+  "businesses": [
+    {
+      "id": "K6Kxfb57fuMzGqEVOfvuyg",
+      "alias": "fresh-food-box-new-york",
+      "name": "Fresh Food Box",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/upQLEZaNkepTXYgAi2uTjA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/fresh-food-box-new-york?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.8050122793266,
+        "longitude": -73.93890572599224
+      },
+      "transactions": [],
+      "location": {
+        "address1": "125 St And Park Ave",
+        "address2": "",
+        "address3": "Uptown Grand Central",
+        "city": "New York",
+        "zip_code": "10035",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "125 St And Park Ave",
+          "Uptown Grand Central",
+          "New York, NY 10035"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 34710.23627095052
+    },
+    {
+      "id": "ly3lywHKm1e01ez0AWooTA",
+      "alias": "st-johns-bread-and-life-brooklyn",
+      "name": "St. John's Bread & Life",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/V_CpadO4U81bz5upW-KI8g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/st-johns-bread-and-life-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 4,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.6904475,
+        "longitude": -73.9289665
+      },
+      "transactions": [],
+      "location": {
+        "address1": "795 Lexington Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11221",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "795 Lexington Ave",
+          "Brooklyn, NY 11221"
+        ]
+      },
+      "phone": "+17185740058",
+      "display_phone": "(718) 574-0058",
+      "distance": 29611.61138302275
+    },
+    {
+      "id": "sP0z5b6THD3d6A2KCVQbBw",
+      "alias": "connecticut-food-bank-fairfield",
+      "name": "Connecticut Food Bank",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PRTnb-jYMJ5kqDP7Y_Z5AQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/connecticut-food-bank-fairfield?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 41.14178,
+        "longitude": -73.27001
+      },
+      "transactions": [],
+      "location": {
+        "address1": "74 Linwood Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Fairfield",
+        "zip_code": "06824",
+        "country": "US",
+        "state": "CT",
+        "display_address": [
+          "74 Linwood Ave",
+          "Fairfield, CT 06824"
+        ]
+      },
+      "phone": "+12032561935",
+      "display_phone": "(203) 256-1935",
+      "distance": 60743.42901719918
+    },
+    {
+      "id": "rJfG3MF_GEM5M_fodZMzLQ",
+      "alias": "people-in-need-pin-brooklyn",
+      "name": "People In Need - PIN",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/cdOMOhKpwpw7Jqr79iLOTg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/people-in-need-pin-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.638759348243,
+        "longitude": -73.9689789
+      },
+      "transactions": [],
+      "location": {
+        "address1": "766 Coney Island Ave",
+        "address2": "",
+        "address3": null,
+        "city": "Brooklyn",
+        "zip_code": "11218",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "766 Coney Island Ave",
+          "Brooklyn, NY 11218"
+        ]
+      },
+      "phone": "+13472475076",
+      "display_phone": "(347) 247-5076",
+      "distance": 32658.50375904967
+    },
+    {
+      "id": "K3OObShlOCVBWjHDNbC-eQ",
+      "alias": "kehilat-sephardim-food-pantry-queens",
+      "name": "Kehilat Sephardim Food Pantry",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/QA9WSQmNf-0NkfSSzpsGdg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kehilat-sephardim-food-pantry-queens?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 3,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 1.0,
+      "coordinates": {
+        "latitude": 40.72106,
+        "longitude": -73.81156
+      },
+      "transactions": [],
+      "location": {
+        "address1": "150-62 78th Rd",
+        "address2": null,
+        "address3": "",
+        "city": "Queens",
+        "zip_code": "11367",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "150-62 78th Rd",
+          "Queens, NY 11367"
+        ]
+      },
+      "phone": "+17185919574",
+      "display_phone": "(718) 591-9574",
+      "distance": 20938.18333042117
+    },
+    {
+      "id": "mZ2fI9nNDO8jgRqkJmI9kA",
+      "alias": "hands-of-hope-for-the-community-edison",
+      "name": "Hands Of Hope For The Community",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1APpJuoO3qxcym7Mkq_3hQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hands-of-hope-for-the-community-edison?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.50031,
+        "longitude": -74.39629
+      },
+      "transactions": [],
+      "location": {
+        "address1": "2136 Woodbridge Ave",
+        "address2": "",
+        "address3": null,
+        "city": "Edison",
+        "zip_code": "08817",
+        "country": "US",
+        "state": "NJ",
+        "display_address": [
+          "2136 Woodbridge Ave",
+          "Edison, NJ 08817"
+        ]
+      },
+      "phone": "+17322363330",
+      "display_phone": "(732) 236-3330",
+      "distance": 70722.6284185999
+    },
+    {
+      "id": "94uxMhC5H7W-3l0_ItiOCg",
+      "alias": "help-a-needy-new-york",
+      "name": "Help A Needy",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9grENu6WA8bbztb5KWKubg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/help-a-needy-new-york?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.67357995982025,
+        "longitude": -73.8178746703226
+      },
+      "transactions": [],
+      "location": {
+        "address1": "",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "11420",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "New York, NY 11420"
+        ]
+      },
+      "phone": "+19296360672",
+      "display_phone": "(929) 636-0672",
+      "distance": 20071.6497541225
+    },
+    {
+      "id": "9jb-e6BXxe4MgCPWEy3GBA",
+      "alias": "hillside-food-outreach-mount-kisco",
+      "name": "Hillside Food Outreach",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hillside-food-outreach-mount-kisco?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 7,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 4.4,
+      "coordinates": {
+        "latitude": 41.20179578817009,
+        "longitude": -73.72819787916475
+      },
+      "transactions": [],
+      "location": {
+        "address1": null,
+        "address2": null,
+        "address3": null,
+        "city": "Mount Kisco",
+        "zip_code": "10549",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "Mount Kisco, NY 10549"
+        ]
+      },
+      "phone": "+19147470095",
+      "display_phone": "(914) 747-0095",
+      "distance": 62681.630781998785
+    },
+    {
+      "id": "DcKRL5QjRbDVhyCoggbfbg",
+      "alias": "island-harvest-hauppauge",
+      "name": "Island Harvest",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/island-harvest-hauppauge?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 1.0,
+      "coordinates": {
+        "latitude": 40.80906,
+        "longitude": -73.24784
+      },
+      "transactions": [],
+      "location": {
+        "address1": "40 Marcus Blvd",
+        "address2": "",
+        "address3": null,
+        "city": "Hauppauge",
+        "zip_code": "11788",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "40 Marcus Blvd",
+          "Hauppauge, NY 11788"
+        ]
+      },
+      "phone": "+16318734775",
+      "display_phone": "(631) 873-4775",
+      "distance": 33343.37713783966
+    },
+    {
+      "id": "lsrKabKvHq2n39dHsNV--w",
+      "alias": "food-4ur-soul-int-l-kitchen-north-babylon",
+      "name": "Food 4UR Soul Int\u2019l Kitchen",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/tq2FkBpSR7jHJ59VhnTo2A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/food-4ur-soul-int-l-kitchen-north-babylon?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.73311,
+        "longitude": -73.32715
+      },
+      "transactions": [],
+      "location": {
+        "address1": null,
+        "address2": null,
+        "address3": null,
+        "city": "North Babylon",
+        "zip_code": "11703",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "North Babylon, NY 11703"
+        ]
+      },
+      "phone": "+15163502577",
+      "display_phone": "(516) 350-2577",
+      "distance": 23312.217424226208
+    },
+    {
+      "id": "O0VWIEaNncs2i2QWlTwEww",
+      "alias": "li-cares-gus-truck-harry-chapin-organization-central-islip",
+      "name": "LI Cares Gus Truck-Harry Chapin Organization",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/5Iw9DvcM-qlXosn4NzEeLQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/li-cares-gus-truck-harry-chapin-organization-central-islip?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 4,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.787387,
+        "longitude": -73.221179
+      },
+      "transactions": [],
+      "location": {
+        "address1": "12 Route 111",
+        "address2": "",
+        "address3": null,
+        "city": "Central Islip",
+        "zip_code": "11722",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "12 Route 111",
+          "Central Islip, NY 11722"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 34104.00044114133
+    },
+    {
+      "id": "1KZQafvNTNylDW22i6gO2g",
+      "alias": "the-urban-outreach-center-of-nyc-new-york",
+      "name": "The Urban Outreach Center of NYC",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Kneac_DTGZye_C2TBl60hw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-urban-outreach-center-of-nyc-new-york?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.779816,
+        "longitude": -73.94763000000002
+      },
+      "transactions": [],
+      "location": {
+        "address1": "1745 First Ave",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10128",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "1745 First Ave",
+          "New York, NY 10128"
+        ]
+      },
+      "phone": "+12122886743",
+      "display_phone": "(212) 288-6743",
+      "distance": 34066.75153182305
+    },
+    {
+      "id": "QiRsU6EwxLCadJtXaTJHfQ",
+      "alias": "middle-island-food-pantry-middle-island",
+      "name": "Middle Island Food Pantry",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/middle-island-food-pantry-middle-island?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.8816271623939,
+        "longitude": -72.9486618563533
+      },
+      "transactions": [],
+      "location": {
+        "address1": "271 Middle Country Rd",
+        "address2": "",
+        "address3": "Middle Island Congregational United Church Of Christ",
+        "city": "Middle Island",
+        "zip_code": "11953",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "271 Middle Country Rd",
+          "Middle Island Congregational United Church Of Christ",
+          "Middle Island, NY 11953"
+        ]
+      },
+      "phone": "+15167042449",
+      "display_phone": "(516) 704-2449",
+      "distance": 59289.96396461611
+    },
+    {
+      "id": "WHMTdos2dNWBlKO9nja_sA",
+      "alias": "greater-brooklyn-senior-alliance-brooklyn-3",
+      "name": "Greater Brooklyn Senior Alliance",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/FeuS72BW4WiM037wYwdsSA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/greater-brooklyn-senior-alliance-brooklyn-3?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.67110378757122,
+        "longitude": -73.93630432182184
+      },
+      "transactions": [],
+      "location": {
+        "address1": null,
+        "address2": null,
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11213",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "Brooklyn, NY 11213"
+        ]
+      },
+      "phone": "+13475498056",
+      "display_phone": "(347) 549-8056",
+      "distance": 29975.617692459542
+    },
+    {
+      "id": "OSLfEb7zNNJJuwxqbj_N1w",
+      "alias": "queens-together-new-york",
+      "name": "queens together",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/queens-together-new-york?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.761719,
+        "longitude": -73.931831
+      },
+      "transactions": [],
+      "location": {
+        "address1": null,
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "11106",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "New York, NY 11106"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 32031.548344070667
+    },
+    {
+      "id": "-v32nYrgjc36o-4rtRtbXA",
+      "alias": "reaching-out-community-services-brooklyn",
+      "name": "Reaching Out Community Services",
+      "image_url": "",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/reaching-out-community-services-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 2,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.619249431958174,
+        "longitude": -73.98975209999999
+      },
+      "transactions": [],
+      "location": {
+        "address1": "6417 18th Ave",
+        "address2": null,
+        "address3": null,
+        "city": "Brooklyn",
+        "zip_code": "11204",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "6417 18th Ave",
+          "Brooklyn, NY 11204"
+        ]
+      },
+      "phone": "+17183734565",
+      "display_phone": "(718) 373-4565",
+      "distance": 34555.00705099873
+    },
+    {
+      "id": "0RYQFH0pLQM5eazvQ6ElOg",
+      "alias": "church-of-god-eglise-de-dieu-brooklyn",
+      "name": "Church of God - Eglise de Dieu",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1LeMt7RobVyZwiUreapRqA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/church-of-god-eglise-de-dieu-brooklyn?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "churches",
+          "title": "Churches"
+        },
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.6602606778098,
+        "longitude": -73.9261084405102
+      },
+      "transactions": [],
+      "location": {
+        "address1": "1011 Winthrop St",
+        "address2": null,
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11212",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "1011 Winthrop St",
+          "Brooklyn, NY 11212"
+        ]
+      },
+      "phone": "+17184933031",
+      "display_phone": "(718) 493-3031",
+      "distance": 29043.98645366263
+    },
+    {
+      "id": "PXV2gf4usjY_Hca7usa5rA",
+      "alias": "food-bank-network-of-somerset-county-bound-brook",
+      "name": "Food Bank Network of Somerset County",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/3RhV_l2gNdUuP8LAfemRCA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/food-bank-network-of-somerset-county-bound-brook?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 3,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 2.7,
+      "coordinates": {
+        "latitude": 40.5721268802881,
+        "longitude": -74.5612974464893
+      },
+      "transactions": [],
+      "location": {
+        "address1": "7E Easy St",
+        "address2": "",
+        "address3": "",
+        "city": "Bound Brook",
+        "zip_code": "08805",
+        "country": "US",
+        "state": "NJ",
+        "display_address": [
+          "7E Easy St",
+          "Bound Brook, NJ 08805"
+        ]
+      },
+      "phone": "+17325601813",
+      "display_phone": "(732) 560-1813",
+      "distance": 82807.86514546673
+    },
+    {
+      "id": "rF0KnWiCVGT3Ybs9lICmEA",
+      "alias": "community-kitchen-of-west-harlem-new-york",
+      "name": "Community Kitchen of West Harlem",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4Sb78CL8icFYINKr5P_NEQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/community-kitchen-of-west-harlem-new-york?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 1,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 40.803949,
+        "longitude": -73.9549929
+      },
+      "transactions": [],
+      "location": {
+        "address1": "252 W 116th St",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10026",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "252 W 116th St",
+          "New York, NY 10026"
+        ]
+      },
+      "phone": "+12126659082",
+      "display_phone": "(212) 665-9082",
+      "distance": 35833.26068469651
+    },
+    {
+      "id": "bsDl9umCT5D27IwhKDefBw",
+      "alias": "the-hope-line-bronx",
+      "name": "The Hope Line",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-jvjQGdvF5bi5JYyy4fVDg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-hope-line-bronx?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w",
+      "review_count": 0,
+      "categories": [
+        {
+          "alias": "foodbanks",
+          "title": "Food Banks"
+        }
+      ],
+      "rating": 0.0,
+      "coordinates": {
+        "latitude": 40.82004,
+        "longitude": -73.91502
+      },
+      "transactions": [],
+      "location": {
+        "address1": "421 E 155th St",
+        "address2": null,
+        "address3": null,
+        "city": "Bronx",
+        "zip_code": "10455",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "421 E 155th St",
+          "Bronx, NY 10455"
+        ]
+      },
+      "phone": "+17184021212",
+      "display_phone": "(718) 402-1212",
+      "distance": 33891.83422992249
+    }
+  ],
+  "total": 126,
+  "region": {
+    "center": {
+      "longitude": -73.58213424682617,
+      "latitude": 40.64899387005062
+    }
+  }
+}

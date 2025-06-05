@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <title>Hurricane Rita</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">StormShelters</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="city-model.html">Cities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shelter-model.html">Shelters & Emergency Relief</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="storm-model.html">Disasters</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="text-center">Hurricane Rita</h1>
+    <!-- data.shelter not correct?-->
+    <script>
+        fetch('../static/storms_data.json')
+          .then(response => response.json())
+          .then(data => {
+              var storm_3 = data.storm.find(storm => storm.name === 'Hurricane Rita');
+              document.getElementById("startDate").textContent = "Start Date: " + storm_3.startDate;
+              document.getElementById("endDate").textContent = "End Date: " + storm_3.endDate;
+              document.getElementById("type").textContent = "Type: " + storm_3.type;
+              document.getElementById("code").textContent = "Code: " + storm_3.code;
+              document.getElementById("totalAid").textContent = "Total FEMA Aid: " + storm_3.totalAid;
+  
+          })
+  
+          .catch(error => console.error('Error:', error));
+      </script>
+
+<div class="container" style="display: flex; justify-content: center">
+  <!--Bootstrap carousel test, from Bootstrap documentation-->
+  
+  <div style="width: 800px; height: 450px" id="carouselExampleControls" class="carousel slide active" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./static/img/storm3_1.jpg" alt="First slide"      width=800px height="450px">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+  <div class="instanceText" style="padding-left: 20px" id="instanceInformationList">
+    <h3 class="text-left">About: </h3>
+    <p id="startDate">Start Date: </p>
+    <p id="endDate">End Date: </p>
+    <p id="type">Type: </p>
+    <p id="code">Code: </p>
+    <p id="totalAid">Aid: </p>
+  </div>
+  <img class="center" src="./static/img/rita_gif.gif" style="width: 560;" height="315">
+
+  <div class="extraMedia" style="justify-content: center; display: flex">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/51f4g9l18L4?si=PsMaYbvWkcrHvkkp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  
+  <h3 class="text-left">Related</h3>
+  <div class="row">
+    <div class="col-sm-4 card">
+      <img class="card-img-top" src="./static/img/cypress.jpg" alt="Katy">
+      <div class="card-body">
+      <h4 class="card-title">Cypress</h4>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Population: 184,851</li>
+        <li class="list-group-item">Size: 53</li>
+        <li class="list-group-item">Homeless Population: 500</li>
+        <li class="list-group-item">Disasters: 26</li>
+        <li class="list-group-item">Number of Homeless Shelters: 28</li>
+      </ul>
+      <a href="cypress.html" class="btn btn-primary">Learn more</a>
+    </div>
+    </div>
+    
+    <div class="col-sm-4 card">
+      <img class="card-img-top" src="./static/img/shelter3.jpeg" alt="Salvation Army">
+      <div class="card-body">
+      <h4 class="card-title">Cornerstone Community</h4>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">City: Houston</li>
+        <li class="list-group-item">Type: Men's Shelter</li>
+        <li class="list-group-item">Beds: 200</li>
+        <li class="list-group-item">Ages: 18+</li>
+        <li class="list-group-item">On-site medical clinic: yes</li>
+      </ul>
+      <a href="shelter3.html" class="btn btn-primary">Learn more</a>
+    </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,1805 @@
+[
+  {
+    "name": "CVS Pharmacy",
+    "city": "Baytown",
+    "address": "CVS Pharmacy, 4510 Garth Road, Baytown, TX 77521, United States of America",
+    "distance_m": 4035,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7718884,
+    "longitude": -94.9759886
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Baytown",
+    "address": "H-E-B Pharmacy, 6430 Garth Road, Baytown, TX 77521, United States of America",
+    "distance_m": 6691,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7958615,
+    "longitude": -94.9777303
+  },
+  {
+    "name": "Walgreens",
+    "city": "Baytown",
+    "address": "Walgreens, 4849 North Highway 146, Baytown, TX 77520, United States of America",
+    "distance_m": 6771,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7690433,
+    "longitude": -94.9189179
+  },
+  {
+    "name": "Walgreens",
+    "city": "Baytown",
+    "address": "Walgreens, 7216 Garth Road, Baytown, TX 77521, United States of America",
+    "distance_m": 7849,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial",
+      "commercial.chemist",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.806399,
+    "longitude": -94.98143099999999
+  },
+  {
+    "name": "Walgreens",
+    "city": "La Porte",
+    "address": "Walgreens, 9705 Spencer Highway, La Porte, TX 77571, United States of America",
+    "distance_m": 13137,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6647686,
+    "longitude": -95.0863507
+  },
+  {
+    "name": "Walgreens",
+    "city": "Bellaire",
+    "address": "Walgreens, 5002 Bellaire Boulevard, Bellaire, TX 77074, United States of America",
+    "distance_m": 806,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7066521,
+    "longitude": -95.4670967
+  },
+  {
+    "name": "Randalls Pharmacy",
+    "city": "Bellaire",
+    "address": "Randalls Pharmacy, 5130 Bellaire Boulevard, Bellaire, TX 77401, United States of America",
+    "distance_m": 1048,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7064464,
+    "longitude": -95.4696286
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Bellaire",
+    "address": "H-E-B Pharmacy, 5106 Bissonnet Street, Bellaire, TX 77401, United States of America",
+    "distance_m": 1100,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7075368,
+    "longitude": -95.4700166
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 5430 Bissonnet Street, Houston, TX 77099, United States of America",
+    "distance_m": 1642,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.704422,
+    "longitude": -95.475731
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Southside Place",
+    "address": "CVS Pharmacy, Stella Link Road, Southside Place, TX 77025, United States of America",
+    "distance_m": 1839,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.705301499999997,
+    "longitude": -95.43967345029637
+  },
+  {
+    "name": "Walgreens",
+    "city": "Deer Park",
+    "address": "Walgreens, 3330 Center Street, Deer Park, TX 77536, United States of America",
+    "distance_m": 2618,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.681614,
+    "longitude": -95.1238875
+  },
+  {
+    "name": "Walmart Pharmacy",
+    "city": "La Porte",
+    "address": "Walmart Pharmacy, 9025 Spencer Highway, La Porte, TX 77571, United States of America",
+    "distance_m": 4872,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6666099,
+    "longitude": -95.099783
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Deer Park",
+    "address": "H-E-B Pharmacy, 4701 East Boulevard, Deer Park, TX 77536, United States of America",
+    "distance_m": 5013,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.666908,
+    "longitude": -95.096314
+  },
+  {
+    "name": "Walgreens",
+    "city": "La Porte",
+    "address": "Walgreens, 9705 Spencer Highway, La Porte, TX 77571, United States of America",
+    "distance_m": 5768,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6647686,
+    "longitude": -95.0863507
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "La Porte",
+    "address": "CVS Pharmacy, 3122 Underwood Road, La Porte, TX 77571, United States of America",
+    "distance_m": 5800,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6635951,
+    "longitude": -95.0875215
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Cypress",
+    "address": "H-E-B Pharmacy, 24224 Northwest Freeway, Cypress, TX 77429, United States of America",
+    "distance_m": 2588,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9577705,
+    "longitude": -95.673734
+  },
+  {
+    "name": "Walgreens",
+    "city": "Cypress",
+    "address": "Walgreens, Queenston Boulevard, Cypress, TX 77433, United States of America",
+    "distance_m": 3089,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9477432,
+    "longitude": -95.6766234
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Cypress",
+    "address": "H-E-B Pharmacy, 28550 Northwest Freeway, Cypress, TX 77433, United States of America",
+    "distance_m": 5303,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9925377,
+    "longitude": -95.7450852
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Reserve at Cypress Creek",
+    "address": "H-E-B Pharmacy, 14100 Spring Cypress Road, Reserve at Cypress Creek, TX 77429, United States of America",
+    "distance_m": 6775,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0027826,
+    "longitude": -95.6385734
+  },
+  {
+    "name": "Walgreens",
+    "city": "Baytown",
+    "address": "Walgreens, 7216 Garth Road, Baytown, TX 77521, United States of America",
+    "distance_m": 7318,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial",
+      "commercial.chemist",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.806399,
+    "longitude": -94.98143099999999
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Baytown",
+    "address": "H-E-B Pharmacy, 6430 Garth Road, Baytown, TX 77521, United States of America",
+    "distance_m": 7987,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7958615,
+    "longitude": -94.9777303
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Baytown",
+    "address": "CVS Pharmacy, 4510 Garth Road, Baytown, TX 77521, United States of America",
+    "distance_m": 9327,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7718884,
+    "longitude": -94.9759886
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 13631 Tidwell Road, Houston, TX 77044, United States of America",
+    "distance_m": 13317,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.853943100000002,
+    "longitude": -95.18806404919204
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, Congress Street, Houston, TX 77003, United States of America",
+    "distance_m": 670,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7632412,
+    "longitude": -95.3628385
+  },
+  {
+    "name": "Randalls Pharmacy",
+    "city": "Houston",
+    "address": "Randalls Pharmacy, 2225 Louisiana Street, Houston, TX 77002, United States of America",
+    "distance_m": 1308,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7489076,
+    "longitude": -95.3748243
+  },
+  {
+    "name": "Mid Town Specialty RX Pharmacy",
+    "city": "Houston",
+    "address": "Mid Town Specialty RX Pharmacy, 1701 Webster Street, Houston, TX 77003, United States of America",
+    "distance_m": 1621,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7444269,
+    "longitude": -95.3655938
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 2612 Smith Street, Houston, TX 77006, United States of America",
+    "distance_m": 1636,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7471973,
+    "longitude": -95.3782201576291
+  },
+  {
+    "name": "Iridium Pharmacy",
+    "city": "Houston",
+    "address": "Iridium Pharmacy, 2240 Navigation Boulevard, Houston, TX 77012, United States of America",
+    "distance_m": 1952,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7578023,
+    "longitude": -95.3475537
+  },
+  {
+    "name": "Walgreens",
+    "city": "Katy",
+    "address": "Walgreens, Kingsland Boulevard, Katy, TX 77494, United States of America",
+    "distance_m": 1430,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7736549,
+    "longitude": -95.8193776
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Katy",
+    "address": "H-E-B Pharmacy, 25675 Nelson Way, Katy, TX 77494, United States of America",
+    "distance_m": 1437,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7730001,
+    "longitude": -95.8219099
+  },
+  {
+    "name": "Brookshire Brothers Pharmacy",
+    "city": "Katy",
+    "address": "Brookshire Brothers Pharmacy, 5249 Franz Road, Katy, TX 77493, United States of America",
+    "distance_m": 2169,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.8005323,
+    "longitude": -95.8096455
+  },
+  {
+    "name": "Walgreens",
+    "city": "Katy",
+    "address": "Walgreens, Franz Road, Katy, TX 77449, United States of America",
+    "distance_m": 2293,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.8010172,
+    "longitude": -95.8083431
+  },
+  {
+    "name": "Tayco Farms",
+    "city": "Crosby",
+    "address": "Tayco Farms, 21224 Crosby Huffman Road, Crosby, TX 77532, United States of America",
+    "distance_m": 4959,
+    "cat": [
+      "building",
+      "building.commercial",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9823797,
+    "longitude": -95.08880230287204
+  },
+  {
+    "name": "Walgreens",
+    "city": "Humble",
+    "address": "Walgreens, 7440 FM 1960 East, Humble, TX 77346, United States of America",
+    "distance_m": 8118,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9975347,
+    "longitude": -95.1627099
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Humble",
+    "address": "H-E-B Pharmacy, 7405 FM 1960 East, Humble, TX 77346, United States of America",
+    "distance_m": 8195,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0003282,
+    "longitude": -95.1649152
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Humble",
+    "address": "CVS Pharmacy, 6931 FM 1960 East, Humble, TX 77346, United States of America",
+    "distance_m": 8906,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0007562,
+    "longitude": -95.1729512
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, West Lake Houston Parkway, Houston, TX 77345, United States of America",
+    "distance_m": 9591,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.04813455,
+    "longitude": -95.18248443726497
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, West Lake Houston Parkway, Houston, TX 77345, United States of America",
+    "distance_m": 245,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.04813455,
+    "longitude": -95.18248443726497
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 4445 Kingwood Drive, Houston, TX 77339, United States of America",
+    "distance_m": 308,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0520192,
+    "longitude": -95.1863954
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Houston",
+    "address": "H-E-B Pharmacy, 4517 Kingwood Drive, Houston, TX 77345, United States of America",
+    "distance_m": 343,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0527844,
+    "longitude": -95.1842088
+  },
+  {
+    "name": "Kelsey-Seybold Pharmacy",
+    "city": "Houston",
+    "address": "Kelsey-Seybold Pharmacy, 2755 West Lake Houston Parkway, Houston, TX 77339, United States of America",
+    "distance_m": 418,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0461349,
+    "longitude": -95.1832586
+  },
+  {
+    "name": "Kroger Pharmacy",
+    "city": "Houston",
+    "address": "Kroger Pharmacy, 3410 Northpark Drive, Houston, TX 77345, United States of America",
+    "distance_m": 1911,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0667532,
+    "longitude": -95.187566
+  },
+  {
+    "name": "Walgreens",
+    "city": "Pasadena",
+    "address": "Walgreens, Spencer Highway, Pasadena, TX 77504, United States of America",
+    "distance_m": 3536,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6656133,
+    "longitude": -95.1871984
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, Bellfort Street, Houston, TX 77061, United States of America",
+    "distance_m": 6809,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.67198505,
+    "longitude": -95.27633805245804
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, Bellfort Street, Houston, TX 77061, United States of America",
+    "distance_m": 6934,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6728594,
+    "longitude": -95.27797568736054
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Pasadena",
+    "address": "CVS Pharmacy, 5757 Fairmont Parkway, Pasadena, TX 77505, United States of America",
+    "distance_m": 6948,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.652398,
+    "longitude": -95.1527302
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Pasadena",
+    "address": "H-E-B Pharmacy, 6210 Fairmont Parkway, Pasadena, TX 77502, United States of America",
+    "distance_m": 7855,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6487433,
+    "longitude": -95.1441311
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Old Town Spring",
+    "address": "H-E-B Pharmacy, 2121 FM 2920, Old Town Spring, TX 77388, United States of America",
+    "distance_m": 3347,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0682829,
+    "longitude": -95.4493084
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Spring",
+    "address": "H-E-B Pharmacy, 3540 Rayford Road, Spring, TX 77386, United States of America",
+    "distance_m": 4253,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.1080093,
+    "longitude": -95.387241
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Spring",
+    "address": "CVS Pharmacy, 3487 Rayford Road, Spring, TX 77386, United States of America",
+    "distance_m": 4492,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.11170555,
+    "longitude": -95.38811698474063
+  },
+  {
+    "name": "Brookshire Brothers Pharmacy",
+    "city": "Waller",
+    "address": "Brookshire Brothers Pharmacy, 31303 FM 2920, Waller, TX 77484, United States of America",
+    "distance_m": 1259,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0582123,
+    "longitude": -95.9138177
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Waller",
+    "address": "CVS Pharmacy, 31013 FM 2920, Waller, TX 77484, United States of America",
+    "distance_m": 1319,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.062334,
+    "longitude": -95.911503
+  },
+  {
+    "name": "Brookshire Brothers Pharmacy",
+    "city": "Hempstead",
+    "address": "Brookshire Brothers Pharmacy, 300 Hempstead Highway, Hempstead, TX 77445, United States of America",
+    "distance_m": 13952,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0969957,
+    "longitude": -96.0647084
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Cypress",
+    "address": "H-E-B Pharmacy, 28550 Northwest Freeway, Cypress, TX 77433, United States of America",
+    "distance_m": 19081,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9925377,
+    "longitude": -95.7450852
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Tomball",
+    "address": "H-E-B Pharmacy, 28520 Tomball Parkway, Tomball, TX 77375, United States of America",
+    "distance_m": 1626,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0883488,
+    "longitude": -95.6295424
+  },
+  {
+    "name": "Walgreens",
+    "city": "Tomball",
+    "address": "Walgreens, Tomball Parkway, Tomball, TX 77375, United States of America",
+    "distance_m": 1806,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0873505,
+    "longitude": -95.63132250000001
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Old Town Spring",
+    "address": "H-E-B Pharmacy, 20311 Champion Forest Drive, Old Town Spring, TX 77379, United States of America",
+    "distance_m": 6064,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.054176,
+    "longitude": -95.5771636
+  },
+  {
+    "name": "Walgreens",
+    "city": "Humble",
+    "address": "Walgreens, FM 1960 Bypass Road West, Humble, TX 77338, United States of America",
+    "distance_m": 1103,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.003372,
+    "longitude": -95.2723253
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Humble",
+    "address": "CVS Pharmacy, Townsen Boulevard, Humble, TX 77338, United States of America",
+    "distance_m": 2320,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0189564,
+    "longitude": -95.2687544
+  },
+  {
+    "name": "Walgreens",
+    "city": "Humble",
+    "address": "Walgreens, 3755 Atascocita Road, Humble, TX 77346, United States of America",
+    "distance_m": 4699,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.97935125,
+    "longitude": -95.21860305870214
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, Greenbelt Trails, Houston, TX 77339, United States of America",
+    "distance_m": 6112,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0486473,
+    "longitude": -95.2349907
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Humble",
+    "address": "CVS Pharmacy, 8000 North Sam Houston Parkway East, Humble, TX 77396, United States of America",
+    "distance_m": 6786,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.93774935,
+    "longitude": -95.26958452528558
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, El Camino Real, Houston, TX 77058, United States of America",
+    "distance_m": 2242,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.5549683,
+    "longitude": -95.1209094
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Nassau Bay",
+    "address": "CVS Pharmacy, 1610 Point Lookout Drive, Nassau Bay, TX 77058, United States of America",
+    "distance_m": 2494,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.5486358,
+    "longitude": -95.0955375
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, El Camino Real, Houston, TX 77062, United States of America",
+    "distance_m": 2545,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.557305,
+    "longitude": -95.1231388
+  },
+  {
+    "name": "Walgreens",
+    "city": "League City",
+    "address": "Walgreens, 1088 West Main Street, League City, TX 77573, United States of America",
+    "distance_m": 3405,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.5060121,
+    "longitude": -95.1051093
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Webster",
+    "address": "H-E-B Pharmacy, 18611 Eastfield Drive, Webster, TX 77598, United States of America",
+    "distance_m": 3734,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.5527421,
+    "longitude": -95.1490279
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 12959 Aldine Westfield Road, Houston, TX 77039, United States of America",
+    "distance_m": 1798,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9018119,
+    "longitude": -95.3558564
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 10660 Eastex Freeway, Houston, TX 77093, United States of America",
+    "distance_m": 3484,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.8692348,
+    "longitude": -95.3293491
+  },
+  {
+    "name": "Tidwell Professional Pharmacy",
+    "city": "Houston",
+    "address": "Tidwell Professional Pharmacy, 2310 Tidwell Road, Houston, TX 77093, United States of America",
+    "distance_m": 5894,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.8477316,
+    "longitude": -95.3493185
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 6600 Airline Drive, Houston, TX 77076, United States of America",
+    "distance_m": 6302,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy",
+      "wheelchair",
+      "wheelchair.yes"
+    ],
+    "latitude": 29.859962,
+    "longitude": -95.3838292
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 105 West Road, Houston, TX 77037, United States of America",
+    "distance_m": 6798,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9146686,
+    "longitude": -95.4056751
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 7710 Gessner Road, Houston, TX 77040, United States of America",
+    "distance_m": 2850,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.88662135,
+    "longitude": -95.54034072291253
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Houston",
+    "address": "H-E-B Pharmacy, 9503 Jones Road, Houston, TX 77065, United States of America",
+    "distance_m": 2883,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9105159,
+    "longitude": -95.5859429
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 12445 FM 1960 West, Houston, TX 77065, United States of America",
+    "distance_m": 4929,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9215947,
+    "longitude": -95.6041019
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 10965 FM 1960 West, Houston, TX 77065, United States of America",
+    "distance_m": 4980,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9317543,
+    "longitude": -95.5841728
+  },
+  {
+    "name": "Walgreens",
+    "city": "Humble",
+    "address": "Walgreens, 7440 FM 1960 East, Humble, TX 77346, United States of America",
+    "distance_m": 177,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9975347,
+    "longitude": -95.1627099
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Humble",
+    "address": "H-E-B Pharmacy, 7405 FM 1960 East, Humble, TX 77346, United States of America",
+    "distance_m": 316,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0003282,
+    "longitude": -95.1649152
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Humble",
+    "address": "CVS Pharmacy, 6931 FM 1960 East, Humble, TX 77346, United States of America",
+    "distance_m": 1073,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0007562,
+    "longitude": -95.1729512
+  },
+  {
+    "name": "Kelsey-Seybold Pharmacy",
+    "city": "Houston",
+    "address": "Kelsey-Seybold Pharmacy, 2755 West Lake Houston Parkway, Houston, TX 77339, United States of America",
+    "distance_m": 5612,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 30.0461349,
+    "longitude": -95.1832586
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Southside Place",
+    "address": "CVS Pharmacy, Stella Link Road, Southside Place, TX 77025, United States of America",
+    "distance_m": 262,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.705301499999997,
+    "longitude": -95.43967345029637
+  },
+  {
+    "name": "Randalls Pharmacy",
+    "city": "Houston",
+    "address": "Randalls Pharmacy, 3131 West Holcombe Boulevard, Houston, TX 77025, United States of America",
+    "distance_m": 1088,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7050017,
+    "longitude": -95.4257078
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 8413 Stella Link Road, Houston, TX 77025, United States of America",
+    "distance_m": 1548,
+    "cat": [
+      "building",
+      "building.commercial",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6920607,
+    "longitude": -95.43933512135627
+  },
+  {
+    "name": "Randalls Pharmacy",
+    "city": "Houston",
+    "address": "Randalls Pharmacy, 5586 Weslayan Street, Houston, TX 77005, United States of America",
+    "distance_m": 1790,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7215167,
+    "longitude": -95.4422632
+  },
+  {
+    "name": "Campbell's Compounding",
+    "city": "Houston",
+    "address": "Campbell's Compounding, 6601 Kirby Drive, Houston, TX 77030, United States of America",
+    "distance_m": 1828,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7077741,
+    "longitude": -95.4180942
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Houston",
+    "address": "H-E-B Pharmacy, 9710 Katy Freeway, Houston, TX 77055, United States of America",
+    "distance_m": 1511,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7872598,
+    "longitude": -95.5318913
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 984 Gessner Road, Houston, TX 77043, United States of America",
+    "distance_m": 2167,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7824101,
+    "longitude": -95.5409454
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 1002 Gessner Road, Houston, TX 77043, United States of America",
+    "distance_m": 2481,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7857915,
+    "longitude": -95.543482
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 8201 Katy Freeway, Houston, TX 77055, United States of America",
+    "distance_m": 3247,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7830165,
+    "longitude": -95.485324
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 9455 Hammerly Boulevard, Houston, TX 77043, United States of America",
+    "distance_m": 3267,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.8090579,
+    "longitude": -95.5239035
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 984 Gessner Road, Houston, TX 77043, United States of America",
+    "distance_m": 1970,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7824101,
+    "longitude": -95.5409454
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Houston",
+    "address": "H-E-B Pharmacy, 9710 Katy Freeway, Houston, TX 77055, United States of America",
+    "distance_m": 2204,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7872598,
+    "longitude": -95.5318913
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 1002 Gessner Road, Houston, TX 77043, United States of America",
+    "distance_m": 2418,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7857915,
+    "longitude": -95.543482
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, West Bough Lane, Houston, TX 77024, United States of America",
+    "distance_m": 2866,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7738888,
+    "longitude": -95.5586501
+  },
+  {
+    "name": "Randalls Pharmacy",
+    "city": "Houston",
+    "address": "Randalls Pharmacy, 12850 Memorial Drive, Houston, TX 77024, United States of America",
+    "distance_m": 2940,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7735146,
+    "longitude": -95.5595341
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Seabrook",
+    "address": "CVS Pharmacy, 2800 Bayport Boulevard, Seabrook, TX 77586, United States of America",
+    "distance_m": 1367,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.57788625,
+    "longitude": -95.03208428759952
+  },
+  {
+    "name": "Randalls Pharmacy",
+    "city": "League City",
+    "address": "Randalls Pharmacy, 2951 Marina Bay Drive, League City, TX 77573, United States of America",
+    "distance_m": 4077,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.538502,
+    "longitude": -95.0637028
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Clear Lake Shores",
+    "address": "CVS Pharmacy, 255 Marina Bay Drive, Clear Lake Shores, TX 77565, United States of America",
+    "distance_m": 4112,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.538968,
+    "longitude": -95.022769
+  },
+  {
+    "name": "Walgreens",
+    "city": "Clear Lake Shores",
+    "address": "Walgreens, Hanson Road, Clear Lake Shores, TX 77565, United States of America",
+    "distance_m": 4382,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.5376648,
+    "longitude": -95.0198514
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Nassau Bay",
+    "address": "CVS Pharmacy, 1610 Point Lookout Drive, Nassau Bay, TX 77058, United States of America",
+    "distance_m": 5571,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.5486358,
+    "longitude": -95.0955375
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 13631 Tidwell Road, Houston, TX 77044, United States of America",
+    "distance_m": 5963,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.853943100000002,
+    "longitude": -95.18806404919204
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Houston",
+    "address": "H-E-B Pharmacy, 12680 West Lake Houston Parkway, Houston, TX 77044, United States of America",
+    "distance_m": 8977,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.9231229,
+    "longitude": -95.196355
+  },
+  {
+    "name": "Market Street Pharmacy",
+    "city": "Midland",
+    "address": "Market Street Pharmacy, 4706 North Midkiff Road, Midland, TX 79705, United States of America",
+    "distance_m": 2208,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 32.0357514,
+    "longitude": -102.129749
+  },
+  {
+    "name": "Walgreens",
+    "city": "Midland",
+    "address": "Walgreens, 3201 North Big Spring Street, Midland, TX 79705, United States of America",
+    "distance_m": 3333,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 32.0285516,
+    "longitude": -102.08397566722456
+  },
+  {
+    "name": "Walgreens",
+    "city": "Midland",
+    "address": "Walgreens, 3221 West Wadley Avenue, Midland, TX 79707, United States of America",
+    "distance_m": 3390,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 32.0193952,
+    "longitude": -102.1240568
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Midland",
+    "address": "H-E-B Pharmacy, 3325 West Wadley Avenue, Midland, TX 79707, United States of America",
+    "distance_m": 3622,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 32.0180548,
+    "longitude": -102.126695
+  },
+  {
+    "name": "Walmart Pharmacy",
+    "city": "Midland",
+    "address": "Walmart Pharmacy, Northcrest Drive, Midland, TX 79707, United States of America",
+    "distance_m": 4045,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 32.02938925,
+    "longitude": -102.14829082821102
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Jacinto City",
+    "address": "CVS Pharmacy, 10222 East Freeway, Jacinto City, TX 77013, United States of America",
+    "distance_m": 7441,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7728943,
+    "longitude": -95.2485775
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 13631 Tidwell Road, Houston, TX 77044, United States of America",
+    "distance_m": 8511,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.853943100000002,
+    "longitude": -95.18806404919204
+  },
+  {
+    "name": "Walgreens",
+    "city": "Deer Park",
+    "address": "Walgreens, 3330 Center Street, Deer Park, TX 77536, United States of America",
+    "distance_m": 11678,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.681614,
+    "longitude": -95.1238875
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Belton",
+    "address": "H-E-B Pharmacy, 2509 North Main Street, Belton, TX 76513, United States of America",
+    "distance_m": 7547,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 31.0808914,
+    "longitude": -97.4548204
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Temple",
+    "address": "CVS Pharmacy, 3550 South General Bruce Drive, Temple, TX 76504, United States of America",
+    "distance_m": 9474,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 31.0938113,
+    "longitude": -97.3850551
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Temple",
+    "address": "H-E-B Pharmacy, 1314 West Adams Avenue, Temple, TX 76504, United States of America",
+    "distance_m": 11536,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 31.1019794,
+    "longitude": -97.3530853
+  },
+  {
+    "name": "Westside Drug",
+    "city": "Temple",
+    "address": "Westside Drug, West Avenue P, Temple, TX 76504, United States of America",
+    "distance_m": 11616,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 31.0861524,
+    "longitude": -97.3634818
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Temple",
+    "address": "CVS Pharmacy, 2674 South 31st Street, Temple, TX 76504, United States of America",
+    "distance_m": 12039,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 31.0751269,
+    "longitude": -97.3683633
+  },
+  {
+    "name": "Walgreens",
+    "city": "La Porte",
+    "address": "Walgreens, 9705 Spencer Highway, La Porte, TX 77571, United States of America",
+    "distance_m": 6485,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6647686,
+    "longitude": -95.0863507
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "La Porte",
+    "address": "CVS Pharmacy, 3122 Underwood Road, La Porte, TX 77571, United States of America",
+    "distance_m": 6602,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6635951,
+    "longitude": -95.0875215
+  },
+  {
+    "name": "H-E-B Pharmacy",
+    "city": "Deer Park",
+    "address": "H-E-B Pharmacy, 4701 East Boulevard, Deer Park, TX 77536, United States of America",
+    "distance_m": 7450,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.666908,
+    "longitude": -95.096314
+  },
+  {
+    "name": "Walmart Pharmacy",
+    "city": "La Porte",
+    "address": "Walmart Pharmacy, 9025 Spencer Highway, La Porte, TX 77571, United States of America",
+    "distance_m": 7785,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.6666099,
+    "longitude": -95.099783
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Seabrook",
+    "address": "CVS Pharmacy, 2800 Bayport Boulevard, Seabrook, TX 77586, United States of America",
+    "distance_m": 9794,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.57788625,
+    "longitude": -95.03208428759952
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Jacinto City",
+    "address": "CVS Pharmacy, 10222 East Freeway, Jacinto City, TX 77013, United States of America",
+    "distance_m": 4708,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7728943,
+    "longitude": -95.2485775
+  },
+  {
+    "name": "CVS Pharmacy",
+    "city": "Houston",
+    "address": "CVS Pharmacy, 806 South 75th Street, Houston, TX 77011, United States of America",
+    "distance_m": 6586,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.7166053,
+    "longitude": -95.2954571
+  },
+  {
+    "name": "Walgreens",
+    "city": "Houston",
+    "address": "Walgreens, 6895 Griggs Road, Houston, TX 77012, United States of America",
+    "distance_m": 6646,
+    "cat": [
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy",
+      "office"
+    ],
+    "latitude": 29.7148199,
+    "longitude": -95.295457
+  },
+  {
+    "name": "East End Pharmacy",
+    "city": "Houston",
+    "address": "East End Pharmacy, 6802 Navigation Boulevard, Houston, TX 77012, United States of America",
+    "distance_m": 7116,
+    "cat": [
+      "building",
+      "building.commercial",
+      "building.healthcare",
+      "commercial.health_and_beauty",
+      "commercial.health_and_beauty.pharmacy",
+      "healthcare",
+      "healthcare.pharmacy"
+    ],
+    "latitude": 29.744765,
+    "longitude": -95.30278726810602
+  }
+]

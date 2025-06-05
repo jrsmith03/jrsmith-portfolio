@@ -1,0 +1,590 @@
+{
+	"info": {
+		"_postman_id": "01f04343-6689-4ac4-afcf-8953c604bc31",
+		"name": "StormShelters",
+		"description": "## API\n\nThis API will return endpoints to GET all instances of a model and to GET a specific instance of a model.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29974721",
+		"_collection_link": "https://stormshelters.postman.co/workspace/4d7d352c-b35e-4a9c-97b2-8db77c6fe1f9/collection/29974721-01f04343-6689-4ac4-afcf-8953c604bc31?action=share&source=collection_link&creator=29974721"
+	},
+	"item": [
+		{
+			"name": "All Cities",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"cloudy\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/cities",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormshelters",
+						"me"
+					],
+					"path": [
+						"cities"
+					]
+				},
+				"description": "Gets the City page with the following information:\n\n- Population\n- Temperature (F)\n    \n- Wind Speed (mph)\n    \n- Weather Condition\n    \n- Precipitation (in)"
+			},
+			"response": [
+				{
+					"name": "All Cities",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/cities",
+							"protocol": "https",
+							"host": [
+								"api",
+								"stormshelters",
+								"me"
+							],
+							"path": [
+								"cities"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 17 Oct 2023 06:06:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1114"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"cities\": [\n        {\n            \"cond\": \"Partly cloudy\",\n            \"id\": 1,\n            \"name\": \"Baytown\",\n            \"pop\": 82543,\n            \"precip_in\": 0,\n            \"temp_in_f\": 82,\n            \"wind_mph\": 12\n        },\n        {\n            \"cond\": \"Sunny\",\n            \"id\": 2,\n            \"name\": \"Bellaire\",\n            \"pop\": 17262,\n            \"precip_in\": 0,\n            \"temp_in_f\": 82,\n            \"wind_mph\": 4\n        },\n        {\n            \"cond\": \"Partly cloudy\",\n            \"id\": 3,\n            \"name\": \"Deer Park\",\n            \"pop\": 34240,\n            \"precip_in\": 0,\n            \"temp_in_f\": 82,\n            \"wind_mph\": 12\n        },\n        {\n            \"cond\": \"Sunny\",\n            \"id\": 4,\n            \"name\": \"Cypress\",\n            \"pop\": 2173,\n            \"precip_in\": 0,\n            \"temp_in_f\": 87,\n            \"wind_mph\": 9\n        },\n        {\n            \"cond\": \"Partly cloudy\",\n            \"id\": 5,\n            \"name\": \"Highlands\",\n            \"pop\": 7714,\n            \"precip_in\": 0,\n            \"temp_in_f\": 82,\n            \"wind_mph\": 12\n        },\n        {\n            \"cond\": \"Sunny\",\n            \"id\": 6,\n            \"name\": \"Houston\",\n            \"pop\": 2293288,\n            \"precip_in\": 0,\n            \"temp_in_f\": 82,\n            \"wind_mph\": 4\n        },\n        {\n            \"cond\": \"Sunny\",\n            \"id\": 7,\n            \"name\": \"Katy\",\n            \"pop\": 21926,\n            \"precip_in\": 0,\n            \"temp_in_f\": 86,\n            \"wind_mph\": 9\n        },\n        {\n            \"cond\": \"Partly cloudy\",\n            \"id\": 8,\n            \"name\": \"Huffman\",\n            \"pop\": 0,\n            \"precip_in\": 0,\n            \"temp_in_f\": 87,\n            \"wind_mph\": 14\n        },\n        {\n            \"cond\": \"Partly cloudy\",\n            \"id\": 9,\n            \"name\": \"Kingwood\",\n            \"pop\": 0,\n            \"precip_in\": 0,\n            \"temp_in_f\": 88,\n            \"wind_mph\": 8\n        },\n        {\n            \"cond\": \"Partly cloudy\",\n            \"id\": 10,\n            \"name\": \"Pasadena\",\n            \"pop\": 151964,\n            \"precip_in\": 0,\n            \"temp_in_f\": 82,\n            \"wind_mph\": 12\n        }\n    ],\n    \"meta\": {\n        \"count\": 28\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Single City",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/api/cities/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormshelters",
+						"me"
+					],
+					"path": [
+						"api",
+						"cities",
+						"1"
+					]
+				},
+				"description": "Return the city corresponding to the id"
+			},
+			"response": [
+				{
+					"name": "Single City",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/cities/6",
+							"protocol": "https",
+							"host": [
+								"api",
+								"stormshelters",
+								"me"
+							],
+							"path": [
+								"cities",
+								"6"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 17 Oct 2023 06:09:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "114"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city\": {\n        \"cond\": \"Sunny\",\n        \"id\": 6,\n        \"name\": \"Houston\",\n        \"pop\": 2293288,\n        \"precip_in\": 0,\n        \"temp_in_f\": 82,\n        \"wind_mph\": 4\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "All Shelters/Food",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/shelters?name={string}&is_closed={string}&url={string}&rating={float}&address={string}&phone={string}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormshelters",
+						"me"
+					],
+					"path": [
+						"shelters"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{string}"
+						},
+						{
+							"key": "is_closed",
+							"value": "{string}"
+						},
+						{
+							"key": "url",
+							"value": "{string}"
+						},
+						{
+							"key": "rating",
+							"value": "{float}"
+						},
+						{
+							"key": "address",
+							"value": "{string}"
+						},
+						{
+							"key": "phone",
+							"value": "{string}"
+						}
+					]
+				},
+				"description": "Gets the shelter page with the following information:\n\n- Name\n    \n- Open/Closed\n    \n- URL\n    \n- Rating\n    \n- City\n    \n- Address\n    \n- Phone"
+			},
+			"response": [
+				{
+					"name": "All Shelters/Food",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/shelters",
+							"protocol": "https",
+							"host": [
+								"api",
+								"stormshelters",
+								"me"
+							],
+							"path": [
+								"shelters"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 17 Oct 2023 06:21:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4533"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"count\": 36\n    },\n    \"shelters\": [\n        {\n            \"city\": \"Pasadena\",\n            \"display_address\": \"711 Perla Rd, Pasadena, TX 77502\",\n            \"display_phone\": \"(713) 475-1480\",\n            \"id\": 1,\n            \"image_url\": \"https://s3-media1.fl.yelpcdn.com/bphoto/v4Oj75FFOKr6d7dZt6WwOw/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Sarah's House\",\n            \"rating\": 3,\n            \"url\": \"https://www.yelp.com/biz/sarahs-house-pasadena?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"2575 Reed Rd, Houston, TX 77051\",\n            \"display_phone\": \"(713) 222-2220\",\n            \"id\": 2,\n            \"image_url\": \"https://s3-media3.fl.yelpcdn.com/bphoto/5ZlpMPk2-7S8b13hG7wrCw/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Star of Hope Cornerstone Community\",\n            \"rating\": 2,\n            \"url\": \"https://www.yelp.com/biz/star-of-hope-cornerstone-community-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"821 Peakwood, Houston, TX 77090\",\n            \"display_phone\": \"(832) 965-5511\",\n            \"id\": 3,\n            \"image_url\": \"https://s3-media4.fl.yelpcdn.com/bphoto/xZz5SyZQQYglTSLXju4exQ/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Hope Center Houston\",\n            \"rating\": 5,\n            \"url\": \"https://www.yelp.com/biz/hope-center-houston-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"10030 Scarsdale Blvd, Houston, TX 77089\",\n            \"display_phone\": \"(281) 484-9243\",\n            \"id\": 4,\n            \"image_url\": \"https://s3-media3.fl.yelpcdn.com/bphoto/2kB789hg30umFHC_4zCfdA/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Crossroads United Methodist Church\",\n            \"rating\": 4,\n            \"url\": \"https://www.yelp.com/biz/crossroads-united-methodist-church-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"4848 Loop Central Dr, Ste 500, Houston, TX 77081\",\n            \"display_phone\": \"(713) 748-0700\",\n            \"id\": 5,\n            \"image_url\": \"https://s3-media3.fl.yelpcdn.com/bphoto/eJlPQEkc6sFtVxV69_tpXA/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Star of Hope\",\n            \"rating\": 2,\n            \"url\": \"https://www.yelp.com/biz/star-of-hope-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"2411 Bay Area Blvd, Houston, TX 77058\",\n            \"display_phone\": \"(281) 738-3844\",\n            \"id\": 6,\n            \"image_url\": \"https://s3-media1.fl.yelpcdn.com/bphoto/O5Sx8nFAcQkKLWc1K_ffxg/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Goodwill Select Store And Donation Center\",\n            \"rating\": 3,\n            \"url\": \"https://www.yelp.com/biz/goodwill-select-store-and-donation-center-houston-2?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"1410 Elgin St, Houston, TX 77288\",\n            \"display_phone\": \"(713) 529-4231\",\n            \"id\": 7,\n            \"image_url\": \"https://s3-media4.fl.yelpcdn.com/bphoto/5raceCQTN6_vaY6pPpnYdA/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Magnificat House\",\n            \"rating\": 3,\n            \"url\": \"https://www.yelp.com/biz/magnificat-house-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"1111 Lovett Blvd, Houston, TX 77006\",\n            \"display_phone\": \"(713) 528-5994\",\n            \"id\": 8,\n            \"image_url\": \"https://s3-media2.fl.yelpcdn.com/bphoto/nFoGrl2byfZ8jSWJLNPh8w/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Covenant House\",\n            \"rating\": 3,\n            \"url\": \"https://www.yelp.com/biz/covenant-house-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"4950 Memorial Dr, Houston, TX 77007\",\n            \"display_phone\": \"(713) 861-4849\",\n            \"id\": 9,\n            \"image_url\": \"https://s3-media4.fl.yelpcdn.com/bphoto/lcnDfBwB4WgTN4sdOQ20LQ/o.jpg\",\n            \"is_closed\": true,\n            \"name\": \"Family Houston\",\n            \"rating\": 4,\n            \"url\": \"https://www.yelp.com/biz/family-houston-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        },\n        {\n            \"city\": \"Houston\",\n            \"display_address\": \"1701 Jacquelyn Dr, Houston, TX 77055\",\n            \"display_phone\": \"(713) 957-0099\",\n            \"id\": 10,\n            \"image_url\": \"\",\n            \"is_closed\": true,\n            \"name\": \"Turning Point Center\",\n            \"rating\": 3,\n            \"url\": \"https://www.yelp.com/biz/turning-point-center-houston-2?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Single Shelter/Food",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/shelters/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormshelters",
+						"me"
+					],
+					"path": [
+						"shelters",
+						"1"
+					]
+				},
+				"description": "Return the shelter/food corresponding to the shelter_id"
+			},
+			"response": [
+				{
+					"name": "Single Shelter/Food",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/shelters/5",
+							"protocol": "https",
+							"host": [
+								"api",
+								"stormshelters",
+								"me"
+							],
+							"path": [
+								"shelters",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 17 Oct 2023 06:39:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "461"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"shelter\": {\n        \"city\": \"Houston\",\n        \"display_address\": \"4848 Loop Central Dr, Ste 500, Houston, TX 77081\",\n        \"display_phone\": \"(713) 748-0700\",\n        \"id\": 5,\n        \"image_url\": \"https://s3-media3.fl.yelpcdn.com/bphoto/eJlPQEkc6sFtVxV69_tpXA/o.jpg\",\n        \"is_closed\": true,\n        \"name\": \"Star of Hope\",\n        \"rating\": 2,\n        \"url\": \"https://www.yelp.com/biz/star-of-hope-houston?adjust_creative=6aT9O-M3-H7ucEIOQsUt5w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=6aT9O-M3-H7ucEIOQsUt5w\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "All Pharmacies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/pharmacies?name={string}&city={string}&address={string}&distance={float}&category={string}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormshelters",
+						"me"
+					],
+					"path": [
+						"pharmacies"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{string}"
+						},
+						{
+							"key": "city",
+							"value": "{string}"
+						},
+						{
+							"key": "address",
+							"value": "{string}"
+						},
+						{
+							"key": "distance",
+							"value": "{float}"
+						},
+						{
+							"key": "category",
+							"value": "{string}"
+						}
+					]
+				},
+				"description": "Gets the pharmacy page with the following information:\n\n- Name\n    \n- City\n    \n- Address\n    \n- Distance\n    \n- Category"
+			},
+			"response": [
+				{
+					"name": "All Pharmacies",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/pharmacies?name={string}&city={string}&address={string}&distance={float}&category={string}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"stormshelters",
+								"me"
+							],
+							"path": [
+								"pharmacies"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "{string}"
+								},
+								{
+									"key": "city",
+									"value": "{string}"
+								},
+								{
+									"key": "address",
+									"value": "{string}"
+								},
+								{
+									"key": "distance",
+									"value": "{float}"
+								},
+								{
+									"key": "category",
+									"value": "{string}"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 18 Oct 2023 18:32:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2853"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"meta\": {\n        \"count\": 124\n    },\n    \"pharmacies\": [\n        {\n            \"address\": \"CVS Pharmacy, 4510 Garth Road, Baytown, TX 77521, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Baytown\",\n            \"distance_m\": 4035,\n            \"id\": 1,\n            \"name\": \"CVS Pharmacy\"\n        },\n        {\n            \"address\": \"H-E-B Pharmacy, 6430 Garth Road, Baytown, TX 77521, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Baytown\",\n            \"distance_m\": 6691,\n            \"id\": 2,\n            \"name\": \"H-E-B Pharmacy\"\n        },\n        {\n            \"address\": \"Walgreens, 4849 North Highway 146, Baytown, TX 77520, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Baytown\",\n            \"distance_m\": 6771,\n            \"id\": 3,\n            \"name\": \"Walgreens\"\n        },\n        {\n            \"address\": \"Walgreens, 7216 Garth Road, Baytown, TX 77521, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Baytown\",\n            \"distance_m\": 7849,\n            \"id\": 4,\n            \"name\": \"Walgreens\"\n        },\n        {\n            \"address\": \"Walgreens, 9705 Spencer Highway, La Porte, TX 77571, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"La Porte\",\n            \"distance_m\": 13137,\n            \"id\": 5,\n            \"name\": \"Walgreens\"\n        },\n        {\n            \"address\": \"Walgreens, 5002 Bellaire Boulevard, Bellaire, TX 77074, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Bellaire\",\n            \"distance_m\": 806,\n            \"id\": 6,\n            \"name\": \"Walgreens\"\n        },\n        {\n            \"address\": \"Randalls Pharmacy, 5130 Bellaire Boulevard, Bellaire, TX 77401, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Bellaire\",\n            \"distance_m\": 1048,\n            \"id\": 7,\n            \"name\": \"Randalls Pharmacy\"\n        },\n        {\n            \"address\": \"H-E-B Pharmacy, 5106 Bissonnet Street, Bellaire, TX 77401, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Bellaire\",\n            \"distance_m\": 1100,\n            \"id\": 8,\n            \"name\": \"H-E-B Pharmacy\"\n        },\n        {\n            \"address\": \"CVS Pharmacy, 5430 Bissonnet Street, Houston, TX 77099, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Houston\",\n            \"distance_m\": 1642,\n            \"id\": 9,\n            \"name\": \"CVS Pharmacy\"\n        },\n        {\n            \"address\": \"CVS Pharmacy, Stella Link Road, Southside Place, TX 77025, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Southside Place\",\n            \"distance_m\": 1839,\n            \"id\": 10,\n            \"name\": \"CVS Pharmacy\"\n        },\n        {\n            \"address\": \"Walgreens, 3330 Center Street, Deer Park, TX 77536, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Deer Park\",\n            \"distance_m\": 2618,\n            \"id\": 11,\n            \"name\": \"Walgreens\"\n        },\n        {\n            \"address\": \"Walmart Pharmacy, 9025 Spencer Highway, La Porte, TX 77571, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"La Porte\",\n            \"distance_m\": 4872,\n            \"id\": 12,\n            \"name\": \"Walmart Pharmacy\"\n        },\n        {\n            \"address\": \"H-E-B Pharmacy, 4701 East Boulevard, Deer Park, TX 77536, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"Deer Park\",\n            \"distance_m\": 5013,\n            \"id\": 13,\n            \"name\": \"H-E-B Pharmacy\"\n        },\n        {\n            \"address\": \"Walgreens, 9705 Spencer Highway, La Porte, TX 77571, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"La Porte\",\n            \"distance_m\": 5768,\n            \"id\": 14,\n            \"name\": \"Walgreens\"\n        },\n        {\n            \"address\": \"CVS Pharmacy, 3122 Underwood Road, La Porte, TX 77571, United States of America\",\n            \"categories\": \"healthcare\",\n            \"city\": \"La Porte\",\n            \"distance_m\": 5800,\n            \"id\": 15,\n            \"name\": \"CVS Pharmacy\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Single Pharmacy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/pharmacies/3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"stormshelters",
+						"me"
+					],
+					"path": [
+						"pharmacies",
+						"3"
+					]
+				},
+				"description": "Return the pharmacy corresponding to the pharm_id"
+			},
+			"response": [
+				{
+					"name": "Single Pharmacy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/pharmacies/3",
+							"protocol": "https",
+							"host": [
+								"api",
+								"stormshelters",
+								"me"
+							],
+							"path": [
+								"pharmacies",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "gunicorn"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 18 Oct 2023 18:32:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "195"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"pharmacy\": {\n        \"address\": \"Walgreens, 4849 North Highway 146, Baytown, TX 77520, United States of America\",\n        \"categories\": \"healthcare\",\n        \"city\": \"Baytown\",\n        \"distance_m\": 6771,\n        \"id\": 3,\n        \"name\": \"Walgreens\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-API-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://farming-simulator.pstmn.io"
+		},
+		{
+			"key": "URL",
+			"value": "https//www.stormshelters.me"
+		}
+	]
+}

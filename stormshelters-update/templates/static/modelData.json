@@ -1,0 +1,78 @@
+{
+	"city": [
+		{
+			"name": "Houston",
+			"population": "2,302,878",
+			"size": "601.7",
+			"homeless": "3,200",
+			"disasters": "26"
+		},
+		{
+			"name": "Katy",
+			"population": "27,111",
+			"size": "14.6",
+			"homeless": "200",
+			"disasters": "26"
+		},
+		{
+			"name": "Cypress",
+			"population": "184,851",
+			"size": "53",
+			"homeless": "500",
+			"disasters": "26"
+		}
+	],
+    "shelter": [
+        {
+            "name": "Women & Family Development Center",
+			"city": "Houston",
+            "type": "Women's shelter",
+            "beds": "200",
+            "ages": "All",
+			"clinic": "No"
+        },
+        {
+            "name": "The Salvation Army Greater Houston Area Command",
+			"city": "Houston",
+            "type": "Emergency",
+            "beds": "450",
+            "ages": "All",
+			"clinic": "No"
+        },
+        {
+            "name": "Cornerstone Community",
+			"city": "Houston",
+            "type": "Men's shelter",
+            "beds": "200",
+            "ages": "18+",
+			"clinic": "Yes"
+        }
+    ],
+    "storm":[
+        {
+            "name": "Severe Storms, Tornadoes and Flooding",
+			"startDate": "10/24/2002",
+			"endDate": "11/15/2002",
+			"type": "Severe storms",
+			"totalAid": "115969311.2"
+            
+        },
+        {
+			"name": "Hurricane Ivan",
+			"startDate": "09/14/2004",
+			"endDate": "10/30/2004",
+			"type": "Hurricane",
+			"totalAid": "26747466.42"
+		},
+		{
+			"name": "Hurricane Rita",
+			"startDate": "09/23/2005",
+			"endDate": "10/14/2005",
+			"type": "Hurricane",
+			"totalAid": "1237011539.98"
+		}
+    ]
+}
+			
+
+			

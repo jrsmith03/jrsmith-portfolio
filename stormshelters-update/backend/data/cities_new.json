@@ -1,0 +1,4002 @@
+[
+  {
+    "name": "San Antonio",
+    "pop": 1434625,
+    "temp in f": 82.9,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Houston",
+    "pop": 2304580,
+    "temp in f": 80.8,
+    "wind_mph": 9.8,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Austin",
+    "pop": 931830,
+    "temp in f": 82.9,
+    "wind_mph": 11.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "El Paso",
+    "pop": 681124,
+    "temp in f": 87.1,
+    "wind_mph": 7.2,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Dallas",
+    "pop": 1300092,
+    "temp in f": 84.9,
+    "wind_mph": 13.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fort Worth",
+    "pop": 918915,
+    "temp in f": 86.5,
+    "wind_mph": 18.3,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lubbock",
+    "pop": 249042,
+    "temp in f": 87.1,
+    "wind_mph": 20.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Midland",
+    "pop": 132950,
+    "temp in f": 83.7,
+    "wind_mph": 21.7,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Odessa",
+    "pop": 118968,
+    "temp in f": 80.1,
+    "wind_mph": 22.6,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "San Angelo",
+    "pop": 100450,
+    "temp in f": 87.1,
+    "wind_mph": 9.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Richardson",
+    "pop": 110815,
+    "temp in f": 84.7,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Round Rock",
+    "pop": 115997,
+    "temp in f": 81.0,
+    "wind_mph": 11.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Waco",
+    "pop": 132356,
+    "temp in f": 82.9,
+    "wind_mph": 16.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wichita Falls",
+    "pop": 104710,
+    "temp in f": 75.9,
+    "wind_mph": 14.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pasadena",
+    "pop": 153784,
+    "temp in f": 81.0,
+    "wind_mph": 9.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Plano",
+    "pop": 283558,
+    "temp in f": 84.7,
+    "wind_mph": 12.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "McAllen",
+    "pop": 140269,
+    "temp in f": 82.0,
+    "wind_mph": 13.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mesquite",
+    "pop": 144788,
+    "temp in f": 81.5,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Irving",
+    "pop": 236607,
+    "temp in f": 84.9,
+    "wind_mph": 15.0,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Killeen",
+    "pop": 140806,
+    "temp in f": 84.0,
+    "wind_mph": 17.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tyler",
+    "pop": 103700,
+    "temp in f": 82.9,
+    "wind_mph": 11.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Abilene",
+    "pop": 125182,
+    "temp in f": 84.0,
+    "wind_mph": 12.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "College Station",
+    "pop": 107889,
+    "temp in f": 81.0,
+    "wind_mph": 8.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Brownsville",
+    "pop": 183887,
+    "temp in f": 82.0,
+    "wind_mph": 12.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Laredo",
+    "pop": 255473,
+    "temp in f": 88.0,
+    "wind_mph": 20.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Corpus Christi",
+    "pop": 326586,
+    "temp in f": 80.1,
+    "wind_mph": 14.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Denton",
+    "pop": 131044,
+    "temp in f": 84.0,
+    "wind_mph": 11.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Arlington",
+    "pop": 388125,
+    "temp in f": 83.7,
+    "wind_mph": 16.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Beaumont",
+    "pop": 115282,
+    "temp in f": 77.7,
+    "wind_mph": 7.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Garland",
+    "pop": 236897,
+    "temp in f": 84.7,
+    "wind_mph": 12.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Grand Prairie",
+    "pop": 187809,
+    "temp in f": 83.7,
+    "wind_mph": 15.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Amarillo",
+    "pop": 198645,
+    "temp in f": 71.1,
+    "wind_mph": 19.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Spring",
+    "pop": 54298,
+    "temp in f": 39.6,
+    "wind_mph": 4.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sugar Land",
+    "pop": 88156,
+    "temp in f": 81.0,
+    "wind_mph": 9.4,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nacogdoches",
+    "pop": 33894,
+    "temp in f": 80.1,
+    "wind_mph": 7.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "New Braunfels",
+    "pop": 70543,
+    "temp in f": 80.1,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Victoria",
+    "pop": 67574,
+    "temp in f": 68.7,
+    "wind_mph": 6.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pearland",
+    "pop": 108821,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Port Arthur",
+    "pop": 55340,
+    "temp in f": 77.7,
+    "wind_mph": 9.6,
+    "condition": "Fog",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lufkin",
+    "pop": 36333,
+    "temp in f": 79.0,
+    "wind_mph": 6.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Temple",
+    "pop": 72277,
+    "temp in f": 82.9,
+    "wind_mph": 13.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Texarkana",
+    "pop": 37280,
+    "temp in f": 77.2,
+    "wind_mph": 5.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Carrollton",
+    "pop": 133168,
+    "temp in f": 84.7,
+    "wind_mph": 14.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Conroe",
+    "pop": 68602,
+    "temp in f": 77.2,
+    "wind_mph": 7.4,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Bryan",
+    "pop": 82118,
+    "temp in f": 64.9,
+    "wind_mph": 10.3,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lewisville",
+    "pop": 104039,
+    "temp in f": 84.0,
+    "wind_mph": 15.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Longview",
+    "pop": 82287,
+    "temp in f": 77.0,
+    "wind_mph": 8.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Harlingen",
+    "pop": 65774,
+    "temp in f": 79.0,
+    "wind_mph": 12.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Huntsville",
+    "pop": 40938,
+    "temp in f": 59.2,
+    "wind_mph": 3.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Allen",
+    "pop": 98143,
+    "temp in f": 48.4,
+    "wind_mph": 7.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Baytown",
+    "pop": 76335,
+    "temp in f": 80.6,
+    "wind_mph": 9.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Frisco",
+    "pop": 154407,
+    "temp in f": 84.7,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Galveston",
+    "pop": 50180,
+    "temp in f": 80.6,
+    "wind_mph": 11.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Del Rio",
+    "pop": 36153,
+    "temp in f": 91.0,
+    "wind_mph": 15.0,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "San Marcos",
+    "pop": 60684,
+    "temp in f": 62.1,
+    "wind_mph": 4.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sherman",
+    "pop": 40667,
+    "temp in f": 77.5,
+    "wind_mph": 10.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rowlett",
+    "pop": 60236,
+    "temp in f": 81.5,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Weatherford",
+    "pop": 28742,
+    "temp in f": 82.9,
+    "wind_mph": 16.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Palestine",
+    "pop": 18288,
+    "temp in f": 72.0,
+    "wind_mph": 4.3,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pflugerville",
+    "pop": 57122,
+    "temp in f": 81.0,
+    "wind_mph": 11.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pharr",
+    "pop": 76538,
+    "temp in f": 82.0,
+    "wind_mph": 13.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Marshall",
+    "pop": 23820,
+    "temp in f": 55.9,
+    "wind_mph": 4.0,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "McKinney",
+    "pop": 162898,
+    "temp in f": 73.9,
+    "wind_mph": 5.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mission",
+    "pop": 83298,
+    "temp in f": 64.9,
+    "wind_mph": 5.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Missouri City",
+    "pop": 74139,
+    "temp in f": 81.0,
+    "wind_mph": 9.4,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Katy",
+    "pop": 16158,
+    "temp in f": 81.0,
+    "wind_mph": 9.4,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Texas City",
+    "pop": 47618,
+    "temp in f": 80.6,
+    "wind_mph": 11.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "The Woodlands",
+    "pop": 93847,
+    "temp in f": 80.1,
+    "wind_mph": 8.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Duncanville",
+    "pop": 39826,
+    "temp in f": 81.0,
+    "wind_mph": 18.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Edinburg",
+    "pop": 84497,
+    "temp in f": 57.4,
+    "wind_mph": 9.6,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Euless",
+    "pop": 54219,
+    "temp in f": 84.0,
+    "wind_mph": 15.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Flower Mound",
+    "pop": 71253,
+    "temp in f": 84.0,
+    "wind_mph": 15.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cedar Park",
+    "pop": 65945,
+    "temp in f": 79.3,
+    "wind_mph": 11.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "League City",
+    "pop": 98312,
+    "temp in f": 80.8,
+    "wind_mph": 9.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Humble",
+    "pop": 15665,
+    "temp in f": 82.9,
+    "wind_mph": 8.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "DeSoto",
+    "pop": 52486,
+    "temp in f": 81.0,
+    "wind_mph": 18.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Bedford",
+    "pop": 49337,
+    "temp in f": 54.1,
+    "wind_mph": 14.1,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Gatesville",
+    "pop": 15724,
+    "temp in f": 82.6,
+    "wind_mph": 17.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Georgetown",
+    "pop": 63716,
+    "temp in f": 77.5,
+    "wind_mph": 6.7,
+    "condition": "Patchy light rain with thunder",
+    "precip_in": 0.02
+  },
+  {
+    "name": "Greenville",
+    "pop": 26515,
+    "temp in f": 55.9,
+    "wind_mph": 6.3,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Henderson",
+    "pop": 13529,
+    "temp in f": 84.6,
+    "wind_mph": 14.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pampa",
+    "pop": 18177,
+    "temp in f": 73.8,
+    "wind_mph": 17.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Eagle Pass",
+    "pop": 28765,
+    "temp in f": 91.8,
+    "wind_mph": 22.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Stafford",
+    "pop": 18459,
+    "temp in f": 59.5,
+    "wind_mph": 11.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.03
+  },
+  {
+    "name": "North Richland Hills",
+    "pop": 69204,
+    "temp in f": 84.0,
+    "wind_mph": 17.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Santa Fe",
+    "pop": 13037,
+    "temp in f": 57.6,
+    "wind_mph": 8.1,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Seguin",
+    "pop": 27864,
+    "temp in f": 80.1,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rosenberg",
+    "pop": 35510,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Waxahachie",
+    "pop": 33384,
+    "temp in f": 80.1,
+    "wind_mph": 18.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Weslaco",
+    "pop": 39474,
+    "temp in f": 82.0,
+    "wind_mph": 13.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Orange",
+    "pop": 19347,
+    "temp in f": 64.9,
+    "wind_mph": 7.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Paris",
+    "pop": 24782,
+    "temp in f": 48.9,
+    "wind_mph": 5.1,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mansfield",
+    "pop": 64274,
+    "temp in f": 57.6,
+    "wind_mph": 14.3,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mineral Wells",
+    "pop": 14754,
+    "temp in f": 82.9,
+    "wind_mph": 11.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Keller",
+    "pop": 45758,
+    "temp in f": 86.5,
+    "wind_mph": 18.8,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kingsville",
+    "pop": 26225,
+    "temp in f": 80.1,
+    "wind_mph": 12.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Terrell",
+    "pop": 16981,
+    "temp in f": 80.1,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "The Colony",
+    "pop": 41779,
+    "temp in f": 84.7,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tomball",
+    "pop": 11540,
+    "temp in f": 80.1,
+    "wind_mph": 7.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Uvalde",
+    "pop": 16476,
+    "temp in f": 84.0,
+    "wind_mph": 21.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ennis",
+    "pop": 19007,
+    "temp in f": 61.3,
+    "wind_mph": 11.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cedar Hill",
+    "pop": 48507,
+    "temp in f": 80.1,
+    "wind_mph": 18.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cleburne",
+    "pop": 30020,
+    "temp in f": 80.8,
+    "wind_mph": 20.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Colleyville",
+    "pop": 25487,
+    "temp in f": 84.0,
+    "wind_mph": 17.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Burleson",
+    "pop": 43625,
+    "temp in f": 80.8,
+    "wind_mph": 18.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "La Porte",
+    "pop": 35148,
+    "temp in f": 80.6,
+    "wind_mph": 9.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lake Jackson",
+    "pop": 27533,
+    "temp in f": 78.6,
+    "wind_mph": 8.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lancaster",
+    "pop": 38801,
+    "temp in f": 64.9,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Leander",
+    "pop": 37889,
+    "temp in f": 79.3,
+    "wind_mph": 11.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Little Elm",
+    "pop": 38341,
+    "temp in f": 84.7,
+    "wind_mph": 11.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Haltom City",
+    "pop": 44206,
+    "temp in f": 84.0,
+    "wind_mph": 17.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Hurst",
+    "pop": 39016,
+    "temp in f": 84.0,
+    "wind_mph": 18.3,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Copperas Cove",
+    "pop": 33081,
+    "temp in f": 84.4,
+    "wind_mph": 19.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Corsicana",
+    "pop": 23952,
+    "temp in f": 82.0,
+    "wind_mph": 14.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cypress",
+    "pop": 46025,
+    "temp in f": 61.3,
+    "wind_mph": 8.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Deer Park",
+    "pop": 33806,
+    "temp in f": 80.6,
+    "wind_mph": 9.6,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Denison",
+    "pop": 23150,
+    "temp in f": 77.5,
+    "wind_mph": 10.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Alief",
+    "pop": 98725,
+    "temp in f": 81.0,
+    "wind_mph": 9.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Alvin",
+    "pop": 25791,
+    "temp in f": 81.0,
+    "wind_mph": 11.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Bellaire",
+    "pop": 18518,
+    "temp in f": 80.8,
+    "wind_mph": 9.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Freeport",
+    "pop": 12154,
+    "temp in f": 55.9,
+    "wind_mph": 5.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Friendswood",
+    "pop": 38800,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Grapevine",
+    "pop": 51404,
+    "temp in f": 84.0,
+    "wind_mph": 15.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Alpine",
+    "pop": 5952,
+    "temp in f": 62.6,
+    "wind_mph": 8.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Big Spring",
+    "pop": 28862,
+    "temp in f": 84.9,
+    "wind_mph": 17.2,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Borger",
+    "pop": 12964,
+    "temp in f": 41.0,
+    "wind_mph": 11.4,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Buda",
+    "pop": 13705,
+    "temp in f": 48.9,
+    "wind_mph": 3.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Levelland",
+    "pop": 13914,
+    "temp in f": 87.1,
+    "wind_mph": 21.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Snyder",
+    "pop": 11768,
+    "temp in f": 84.6,
+    "wind_mph": 15.7,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Canyon",
+    "pop": 14887,
+    "temp in f": 80.1,
+    "wind_mph": 15.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Southlake",
+    "pop": 29941,
+    "temp in f": 84.0,
+    "wind_mph": 17.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Spring Hills",
+    "pop": 0,
+    "temp in f": 55.0,
+    "wind_mph": 6.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Stephenville",
+    "pop": 20120,
+    "temp in f": 81.1,
+    "wind_mph": 22.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sulphur Springs",
+    "pop": 16098,
+    "temp in f": 79.7,
+    "wind_mph": 7.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mount Pleasant",
+    "pop": 16051,
+    "temp in f": 73.8,
+    "wind_mph": 4.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "San Juan",
+    "pop": 36556,
+    "temp in f": 53.8,
+    "wind_mph": 8.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Schertz",
+    "pop": 43091,
+    "temp in f": 81.3,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Richmond",
+    "pop": 12138,
+    "temp in f": 57.9,
+    "wind_mph": 6.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rockwall",
+    "pop": 42566,
+    "temp in f": 81.5,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rockport",
+    "pop": 10490,
+    "temp in f": 82.0,
+    "wind_mph": 15.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sachse",
+    "pop": 24554,
+    "temp in f": 84.7,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Vernon",
+    "pop": 10573,
+    "temp in f": 61.5,
+    "wind_mph": 2.7,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Vidor",
+    "pop": 10945,
+    "temp in f": 77.7,
+    "wind_mph": 7.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Webster",
+    "pop": 11116,
+    "temp in f": 57.9,
+    "wind_mph": 4.7,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "West",
+    "pop": 2883,
+    "temp in f": 42.8,
+    "wind_mph": 3.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Portland",
+    "pop": 16116,
+    "temp in f": 64.0,
+    "wind_mph": 5.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lumberton",
+    "pop": 12421,
+    "temp in f": 64.0,
+    "wind_mph": 5.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Magnolia",
+    "pop": 1828,
+    "temp in f": 77.0,
+    "wind_mph": 5.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Midlothian",
+    "pop": 22318,
+    "temp in f": 51.1,
+    "wind_mph": 3.8,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jacksonville",
+    "pop": 14884,
+    "temp in f": 79.0,
+    "wind_mph": 6.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kerrville",
+    "pop": 23136,
+    "temp in f": 79.3,
+    "wind_mph": 16.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kilgore",
+    "pop": 14947,
+    "temp in f": 77.0,
+    "wind_mph": 7.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kyle",
+    "pop": 35733,
+    "temp in f": 81.0,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tennessee Colony",
+    "pop": 0,
+    "temp in f": 79.2,
+    "wind_mph": 11.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Addison",
+    "pop": 15518,
+    "temp in f": 48.9,
+    "wind_mph": 2.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "El Campo",
+    "pop": 11604,
+    "temp in f": 77.9,
+    "wind_mph": 10.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Evadale",
+    "pop": 1483,
+    "temp in f": 83.3,
+    "wind_mph": 5.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Channelview",
+    "pop": 38289,
+    "temp in f": 80.6,
+    "wind_mph": 9.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cibolo",
+    "pop": 33433,
+    "temp in f": 81.3,
+    "wind_mph": 12.5,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cleveland",
+    "pop": 7858,
+    "temp in f": 54.0,
+    "wind_mph": 12.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Brenham",
+    "pop": 16579,
+    "temp in f": 79.0,
+    "wind_mph": 11.0,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Brownwood",
+    "pop": 19031,
+    "temp in f": 82.6,
+    "wind_mph": 18.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lorena",
+    "pop": 1737,
+    "temp in f": 61.0,
+    "wind_mph": 2.9,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Harker Heights",
+    "pop": 29142,
+    "temp in f": 84.4,
+    "wind_mph": 19.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Hidalgo",
+    "pop": 13709,
+    "temp in f": 76.4,
+    "wind_mph": 7.2,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Coppell",
+    "pop": 41159,
+    "temp in f": 84.0,
+    "wind_mph": 15.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Dayton",
+    "pop": 7575,
+    "temp in f": 52.0,
+    "wind_mph": 6.0,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Dickinson",
+    "pop": 19895,
+    "temp in f": 81.0,
+    "wind_mph": 11.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Alice",
+    "pop": 19408,
+    "temp in f": 81.0,
+    "wind_mph": 14.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Angleton",
+    "pop": 19429,
+    "temp in f": 78.6,
+    "wind_mph": 8.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Aransas Pass",
+    "pop": 8530,
+    "temp in f": 82.0,
+    "wind_mph": 15.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Atascocita",
+    "pop": 65844,
+    "temp in f": 82.9,
+    "wind_mph": 8.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Athens",
+    "pop": 12788,
+    "temp in f": 68.4,
+    "wind_mph": 4.5,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Beeville",
+    "pop": 13277,
+    "temp in f": 79.4,
+    "wind_mph": 16.6,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fredericksburg",
+    "pop": 11094,
+    "temp in f": 52.7,
+    "wind_mph": 4.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Gainesville",
+    "pop": 16292,
+    "temp in f": 78.1,
+    "wind_mph": 4.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Bay City",
+    "pop": 17598,
+    "temp in f": 46.9,
+    "wind_mph": 11.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Edna",
+    "pop": 5792,
+    "temp in f": 73.3,
+    "wind_mph": 2.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Natalia",
+    "pop": 1490,
+    "temp in f": 71.6,
+    "wind_mph": 8.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Friona",
+    "pop": 3894,
+    "temp in f": 68.2,
+    "wind_mph": 6.5,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fritch",
+    "pop": 2066,
+    "temp in f": 75.0,
+    "wind_mph": 19.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Gardendale",
+    "pop": 1574,
+    "temp in f": 66.9,
+    "wind_mph": 4.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Hale Center",
+    "pop": 2093,
+    "temp in f": 75.6,
+    "wind_mph": 19.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Hamlin",
+    "pop": 2042,
+    "temp in f": 52.5,
+    "wind_mph": 6.9,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Hart",
+    "pop": 1044,
+    "temp in f": 51.1,
+    "wind_mph": 3.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Hereford",
+    "pop": 15021,
+    "temp in f": 57.4,
+    "wind_mph": 12.3,
+    "condition": "Patchy rain nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Horizon City",
+    "pop": 19288,
+    "temp in f": 87.1,
+    "wind_mph": 6.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Idalou",
+    "pop": 2337,
+    "temp in f": 87.1,
+    "wind_mph": 20.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Iraan",
+    "pop": 1287,
+    "temp in f": 81.1,
+    "wind_mph": 13.6,
+    "condition": "Light drizzle",
+    "precip_in": 0.01
+  },
+  {
+    "name": "Lamesa",
+    "pop": 9427,
+    "temp in f": 77.1,
+    "wind_mph": 20.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Littlefield",
+    "pop": 6090,
+    "temp in f": 54.1,
+    "wind_mph": 12.5,
+    "condition": "Heavy rain",
+    "precip_in": 0.06
+  },
+  {
+    "name": "Lockney",
+    "pop": 1689,
+    "temp in f": 75.6,
+    "wind_mph": 19.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lorenzo",
+    "pop": 1171,
+    "temp in f": 79.0,
+    "wind_mph": 3.4,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Marfa",
+    "pop": 1733,
+    "temp in f": 39.4,
+    "wind_mph": 6.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Memphis",
+    "pop": 2138,
+    "temp in f": 71.1,
+    "wind_mph": 8.1,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Merkel",
+    "pop": 2615,
+    "temp in f": 50.2,
+    "wind_mph": 10.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Olton",
+    "pop": 2137,
+    "temp in f": 55.6,
+    "wind_mph": 9.8,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ozona",
+    "pop": 3225,
+    "temp in f": 84.7,
+    "wind_mph": 11.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Petersburg",
+    "pop": 1131,
+    "temp in f": 55.0,
+    "wind_mph": 5.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Plainview",
+    "pop": 20919,
+    "temp in f": 54.0,
+    "wind_mph": 6.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Presidio",
+    "pop": 3904,
+    "temp in f": 85.0,
+    "wind_mph": 5.6,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ransom Canyon",
+    "pop": 1131,
+    "temp in f": 87.1,
+    "wind_mph": 20.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Roscoe",
+    "pop": 1325,
+    "temp in f": 48.2,
+    "wind_mph": 4.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rotan",
+    "pop": 1442,
+    "temp in f": 43.3,
+    "wind_mph": 6.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "San Elizario",
+    "pop": 8999,
+    "temp in f": 87.1,
+    "wind_mph": 6.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Seagraves",
+    "pop": 2762,
+    "temp in f": 79.7,
+    "wind_mph": 19.7,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Shallowater",
+    "pop": 2555,
+    "temp in f": 87.1,
+    "wind_mph": 20.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Shamrock",
+    "pop": 1989,
+    "temp in f": 91.8,
+    "wind_mph": 9.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Slaton",
+    "pop": 6072,
+    "temp in f": 87.1,
+    "wind_mph": 20.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Socorro",
+    "pop": 33222,
+    "temp in f": 87.1,
+    "wind_mph": 6.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Stanton",
+    "pop": 2936,
+    "temp in f": 61.3,
+    "wind_mph": 8.3,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sundown",
+    "pop": 1422,
+    "temp in f": 44.6,
+    "wind_mph": 4.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sunray",
+    "pop": 1931,
+    "temp in f": 54.1,
+    "wind_mph": 4.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sweetwater",
+    "pop": 10809,
+    "temp in f": 82.9,
+    "wind_mph": 3.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Terlingua",
+    "pop": 58,
+    "temp in f": 80.0,
+    "wind_mph": 13.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tornillo",
+    "pop": 1568,
+    "temp in f": 89.3,
+    "wind_mph": 2.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Van Horn",
+    "pop": 1928,
+    "temp in f": 78.1,
+    "wind_mph": 6.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wellington",
+    "pop": 2174,
+    "temp in f": 57.9,
+    "wind_mph": 15.7,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "West Odessa",
+    "pop": 22707,
+    "temp in f": 80.1,
+    "wind_mph": 22.6,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wink",
+    "pop": 1060,
+    "temp in f": 54.1,
+    "wind_mph": 7.4,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wolfforth",
+    "pop": 4249,
+    "temp in f": 87.1,
+    "wind_mph": 20.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Bushland",
+    "pop": 1500,
+    "temp in f": 71.1,
+    "wind_mph": 21.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cactus",
+    "pop": 3197,
+    "temp in f": 69.3,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Canadian",
+    "pop": 3013,
+    "temp in f": 59.9,
+    "wind_mph": 13.0,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Canutillo",
+    "pop": 6321,
+    "temp in f": 79.1,
+    "wind_mph": 7.2,
+    "condition": "Torrential rain shower",
+    "precip_in": 0.45
+  },
+  {
+    "name": "Childress",
+    "pop": 6101,
+    "temp in f": 78.1,
+    "wind_mph": 32.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Clint",
+    "pop": 1146,
+    "temp in f": 54.7,
+    "wind_mph": 6.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Colorado City",
+    "pop": 4117,
+    "temp in f": 71.1,
+    "wind_mph": 10.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Crane",
+    "pop": 3895,
+    "temp in f": 48.6,
+    "wind_mph": 10.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Dalhart",
+    "pop": 8370,
+    "temp in f": 69.3,
+    "wind_mph": 8.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Denver City",
+    "pop": 4864,
+    "temp in f": 79.7,
+    "wind_mph": 19.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Dumas",
+    "pop": 15001,
+    "temp in f": 69.3,
+    "wind_mph": 12.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fabens",
+    "pop": 8257,
+    "temp in f": 87.1,
+    "wind_mph": 6.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fort Hancock",
+    "pop": 1750,
+    "temp in f": 82.4,
+    "wind_mph": 7.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fort Stockton",
+    "pop": 8649,
+    "temp in f": 82.9,
+    "wind_mph": 25.7,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Anton",
+    "pop": 1128,
+    "temp in f": 46.6,
+    "wind_mph": 5.6,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Gruver",
+    "pop": 1190,
+    "temp in f": 53.1,
+    "wind_mph": 3.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ralls",
+    "pop": 1898,
+    "temp in f": 87.1,
+    "wind_mph": 13.0,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Spur",
+    "pop": 1205,
+    "temp in f": 73.0,
+    "wind_mph": 2.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Somerset",
+    "pop": 1783,
+    "temp in f": 50.2,
+    "wind_mph": 4.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Somerville",
+    "pop": 1383,
+    "temp in f": 51.1,
+    "wind_mph": 8.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sour Lake",
+    "pop": 1773,
+    "temp in f": 54.1,
+    "wind_mph": 6.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "South Houston",
+    "pop": 17544,
+    "temp in f": 81.0,
+    "wind_mph": 9.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "South Padre Island",
+    "pop": 2884,
+    "temp in f": 81.0,
+    "wind_mph": 15.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Southmayd",
+    "pop": 1015,
+    "temp in f": 77.5,
+    "wind_mph": 10.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Splendora",
+    "pop": 1684,
+    "temp in f": 76.5,
+    "wind_mph": 8.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Springtown",
+    "pop": 2811,
+    "temp in f": 66.4,
+    "wind_mph": 6.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Stamford",
+    "pop": 2973,
+    "temp in f": 52.0,
+    "wind_mph": 6.3,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Stockdale",
+    "pop": 1564,
+    "temp in f": 66.7,
+    "wind_mph": 11.2,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Stowell",
+    "pop": 1756,
+    "temp in f": 57.4,
+    "wind_mph": 15.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sullivan City",
+    "pop": 4189,
+    "temp in f": 82.0,
+    "wind_mph": 13.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mount Vernon",
+    "pop": 2753,
+    "temp in f": 55.0,
+    "wind_mph": 6.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Muenster",
+    "pop": 1608,
+    "temp in f": 57.4,
+    "wind_mph": 9.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Munday",
+    "pop": 1339,
+    "temp in f": 77.4,
+    "wind_mph": 3.6,
+    "condition": "Light rain shower",
+    "precip_in": 0.01
+  },
+  {
+    "name": "Murphy",
+    "pop": 20610,
+    "temp in f": 57.0,
+    "wind_mph": 5.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Naples",
+    "pop": 1339,
+    "temp in f": 59.5,
+    "wind_mph": 7.4,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nash",
+    "pop": 3141,
+    "temp in f": 63.0,
+    "wind_mph": 3.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Navasota",
+    "pop": 7476,
+    "temp in f": 79.0,
+    "wind_mph": 10.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nederland",
+    "pop": 17196,
+    "temp in f": 77.7,
+    "wind_mph": 7.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Needville",
+    "pop": 3063,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nevada",
+    "pop": 1008,
+    "temp in f": 55.9,
+    "wind_mph": 9.6,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "New Caney",
+    "pop": 20000,
+    "temp in f": 82.9,
+    "wind_mph": 8.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "New Summerfield",
+    "pop": 1111,
+    "temp in f": 77.7,
+    "wind_mph": 6.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "New Territory",
+    "pop": 15186,
+    "temp in f": 75.4,
+    "wind_mph": 5.4,
+    "condition": "Patchy rain nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "New Waverly",
+    "pop": 1040,
+    "temp in f": 50.2,
+    "wind_mph": 4.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Newark",
+    "pop": 1061,
+    "temp in f": 55.9,
+    "wind_mph": 5.8,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nixon",
+    "pop": 2465,
+    "temp in f": 68.2,
+    "wind_mph": 5.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nocona",
+    "pop": 2939,
+    "temp in f": 76.1,
+    "wind_mph": 12.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Nolanville",
+    "pop": 4774,
+    "temp in f": 82.9,
+    "wind_mph": 13.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Odem",
+    "pop": 2482,
+    "temp in f": 68.5,
+    "wind_mph": 2.5,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Olmito",
+    "pop": 1210,
+    "temp in f": 80.1,
+    "wind_mph": 4.0,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Olney",
+    "pop": 3179,
+    "temp in f": 53.1,
+    "wind_mph": 8.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Onalaska",
+    "pop": 1764,
+    "temp in f": 52.0,
+    "wind_mph": 3.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Salado",
+    "pop": 2140,
+    "temp in f": 54.7,
+    "wind_mph": 2.7,
+    "condition": "Fog",
+    "precip_in": 0.0
+  },
+  {
+    "name": "San Benito",
+    "pop": 24496,
+    "temp in f": 78.7,
+    "wind_mph": 4.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "San Saba",
+    "pop": 3030,
+    "temp in f": 80.7,
+    "wind_mph": 8.3,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sanger",
+    "pop": 7747,
+    "temp in f": 39.2,
+    "wind_mph": 5.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Santa Anna",
+    "pop": 1034,
+    "temp in f": 82.4,
+    "wind_mph": 26.4,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Santa Rosa",
+    "pop": 2876,
+    "temp in f": 95.5,
+    "wind_mph": 11.9,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Schulenburg",
+    "pop": 2925,
+    "temp in f": 43.3,
+    "wind_mph": 7.4,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Seabrook",
+    "pop": 13716,
+    "temp in f": 80.6,
+    "wind_mph": 9.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Seadrift",
+    "pop": 1474,
+    "temp in f": 79.7,
+    "wind_mph": 13.0,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Seagoville",
+    "pop": 15894,
+    "temp in f": 81.5,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sealy",
+    "pop": 6403,
+    "temp in f": 81.0,
+    "wind_mph": 18.6,
+    "condition": "Patchy rain nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sebastian",
+    "pop": 1917,
+    "temp in f": 80.1,
+    "wind_mph": 5.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Shepherd",
+    "pop": 2418,
+    "temp in f": 81.4,
+    "wind_mph": 18.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Shiner",
+    "pop": 2139,
+    "temp in f": 51.8,
+    "wind_mph": 8.3,
+    "condition": "Light rain",
+    "precip_in": 0.01
+  },
+  {
+    "name": "Sienna Plantation",
+    "pop": 13721,
+    "temp in f": 44.6,
+    "wind_mph": 2.7,
+    "condition": "Light rain shower",
+    "precip_in": 0.03
+  },
+  {
+    "name": "Silsbee",
+    "pop": 6688,
+    "temp in f": 77.7,
+    "wind_mph": 5.4,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Smithville",
+    "pop": 4101,
+    "temp in f": 50.5,
+    "wind_mph": 13.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Quinlan",
+    "pop": 1439,
+    "temp in f": 77.5,
+    "wind_mph": 11.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Quitman",
+    "pop": 1827,
+    "temp in f": 55.8,
+    "wind_mph": 7.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ranger",
+    "pop": 2464,
+    "temp in f": 88.3,
+    "wind_mph": 6.7,
+    "condition": "Light rain shower",
+    "precip_in": 0.09
+  },
+  {
+    "name": "Raymondville",
+    "pop": 11139,
+    "temp in f": 79.0,
+    "wind_mph": 14.3,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Red Oak",
+    "pop": 12022,
+    "temp in f": 55.9,
+    "wind_mph": 6.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Redwater",
+    "pop": 1071,
+    "temp in f": 46.8,
+    "wind_mph": 4.5,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rendon",
+    "pop": 12552,
+    "temp in f": 72.1,
+    "wind_mph": 3.8,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rhome",
+    "pop": 1630,
+    "temp in f": 86.5,
+    "wind_mph": 18.8,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Riesel",
+    "pop": 1019,
+    "temp in f": 41.4,
+    "wind_mph": 4.5,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rio Grande City",
+    "pop": 14404,
+    "temp in f": 80.4,
+    "wind_mph": 19.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rio Hondo",
+    "pop": 2445,
+    "temp in f": 73.2,
+    "wind_mph": 2.2,
+    "condition": "Light rain shower",
+    "precip_in": 0.03
+  },
+  {
+    "name": "Roanoke",
+    "pop": 7400,
+    "temp in f": 50.5,
+    "wind_mph": 5.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Robinson",
+    "pop": 11484,
+    "temp in f": 82.9,
+    "wind_mph": 16.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Robstown",
+    "pop": 11576,
+    "temp in f": 79.9,
+    "wind_mph": 12.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rockdale",
+    "pop": 5609,
+    "temp in f": 72.1,
+    "wind_mph": 8.5,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rogers",
+    "pop": 1211,
+    "temp in f": 68.4,
+    "wind_mph": 6.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rosebud",
+    "pop": 1373,
+    "temp in f": 53.2,
+    "wind_mph": 8.9,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rosharon",
+    "pop": 1152,
+    "temp in f": 79.0,
+    "wind_mph": 9.2,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Round Top",
+    "pop": 93,
+    "temp in f": 48.9,
+    "wind_mph": 3.1,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Royse City",
+    "pop": 11465,
+    "temp in f": 77.5,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Rule",
+    "pop": 619,
+    "temp in f": 60.7,
+    "wind_mph": 2.5,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Runge",
+    "pop": 1062,
+    "temp in f": 68.4,
+    "wind_mph": 2.9,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sabinal",
+    "pop": 1717,
+    "temp in f": 78.4,
+    "wind_mph": 2.9,
+    "condition": "Patchy rain nearby",
+    "precip_in": 0.01
+  },
+  {
+    "name": "Saginaw",
+    "pop": 22079,
+    "temp in f": 45.3,
+    "wind_mph": 10.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Saint Hedwig",
+    "pop": 2094,
+    "temp in f": 82.9,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Saint Jo",
+    "pop": 1043,
+    "temp in f": 42.8,
+    "wind_mph": 3.8,
+    "condition": "Light drizzle",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Venus",
+    "pop": 3297,
+    "temp in f": 63.0,
+    "wind_mph": 3.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Von Ormy",
+    "pop": 1175,
+    "temp in f": 83.7,
+    "wind_mph": 16.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Waller",
+    "pop": 2522,
+    "temp in f": 37.6,
+    "wind_mph": 2.7,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Waskom",
+    "pop": 2177,
+    "temp in f": 84.7,
+    "wind_mph": 9.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Watauga",
+    "pop": 24525,
+    "temp in f": 84.0,
+    "wind_mph": 17.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Weimar",
+    "pop": 2161,
+    "temp in f": 39.2,
+    "wind_mph": 4.3,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wells Branch",
+    "pop": 12120,
+    "temp in f": 46.9,
+    "wind_mph": 3.8,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "West Columbia",
+    "pop": 3935,
+    "temp in f": 72.0,
+    "wind_mph": 4.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "West University Place",
+    "pop": 15741,
+    "temp in f": 81.0,
+    "wind_mph": 9.6,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wharton",
+    "pop": 8726,
+    "temp in f": 77.9,
+    "wind_mph": 10.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "White Oak",
+    "pop": 6345,
+    "temp in f": 55.8,
+    "wind_mph": 8.7,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "White Settlement",
+    "pop": 17077,
+    "temp in f": 86.5,
+    "wind_mph": 21.3,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Whitehouse",
+    "pop": 8189,
+    "temp in f": 82.4,
+    "wind_mph": 2.2,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Whitesboro",
+    "pop": 3909,
+    "temp in f": 64.9,
+    "wind_mph": 6.0,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Whitewright",
+    "pop": 1633,
+    "temp in f": 81.0,
+    "wind_mph": 9.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Whitney",
+    "pop": 2101,
+    "temp in f": 75.4,
+    "wind_mph": 2.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Willis",
+    "pop": 6313,
+    "temp in f": 52.0,
+    "wind_mph": 7.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wills Point",
+    "pop": 3547,
+    "temp in f": 80.1,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wilmer",
+    "pop": 3928,
+    "temp in f": 43.5,
+    "wind_mph": 8.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wimberley",
+    "pop": 2670,
+    "temp in f": 81.0,
+    "wind_mph": 14.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Winnie",
+    "pop": 3254,
+    "temp in f": 77.7,
+    "wind_mph": 8.7,
+    "condition": "Fog",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Winnsboro",
+    "pop": 3340,
+    "temp in f": 79.9,
+    "wind_mph": 8.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Winters",
+    "pop": 2563,
+    "temp in f": 46.8,
+    "wind_mph": 12.1,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wolfe City",
+    "pop": 1416,
+    "temp in f": 77.5,
+    "wind_mph": 8.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Woodsboro",
+    "pop": 1483,
+    "temp in f": 52.0,
+    "wind_mph": 8.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Woodville",
+    "pop": 2478,
+    "temp in f": 70.3,
+    "wind_mph": 16.3,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Woodway",
+    "pop": 8777,
+    "temp in f": 82.9,
+    "wind_mph": 16.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wortham",
+    "pop": 1028,
+    "temp in f": 53.8,
+    "wind_mph": 10.7,
+    "condition": "Moderate rain",
+    "precip_in": 0.09
+  },
+  {
+    "name": "Orange Grove",
+    "pop": 1334,
+    "temp in f": 81.0,
+    "wind_mph": 20.1,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ore City",
+    "pop": 1189,
+    "temp in f": 76.8,
+    "wind_mph": 5.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Overton",
+    "pop": 2536,
+    "temp in f": 81.1,
+    "wind_mph": 5.6,
+    "condition": "Light rain shower",
+    "precip_in": 0.06
+  },
+  {
+    "name": "Palacios",
+    "pop": 4634,
+    "temp in f": 61.1,
+    "wind_mph": 5.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Palmer",
+    "pop": 2055,
+    "temp in f": 54.2,
+    "wind_mph": 2.2,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pecan Grove",
+    "pop": 15963,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Penitas",
+    "pop": 4715,
+    "temp in f": 78.6,
+    "wind_mph": 3.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pilot Point",
+    "pop": 4093,
+    "temp in f": 84.0,
+    "wind_mph": 10.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pinehurst",
+    "pop": 4624,
+    "temp in f": 60.1,
+    "wind_mph": 6.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pittsburg",
+    "pop": 4602,
+    "temp in f": 46.9,
+    "wind_mph": 5.8,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pleasanton",
+    "pop": 9829,
+    "temp in f": 54.0,
+    "wind_mph": 4.9,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ponder",
+    "pop": 1530,
+    "temp in f": 68.3,
+    "wind_mph": 6.0,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Port Aransas",
+    "pop": 3955,
+    "temp in f": 81.3,
+    "wind_mph": 17.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Port Isabel",
+    "pop": 5016,
+    "temp in f": 81.0,
+    "wind_mph": 12.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Port Lavaca",
+    "pop": 12416,
+    "temp in f": 79.7,
+    "wind_mph": 10.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Port Neches",
+    "pop": 12786,
+    "temp in f": 77.7,
+    "wind_mph": 7.2,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Poteet",
+    "pop": 3419,
+    "temp in f": 82.9,
+    "wind_mph": 15.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Poth",
+    "pop": 2167,
+    "temp in f": 59.0,
+    "wind_mph": 2.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Pottsboro",
+    "pop": 2250,
+    "temp in f": 77.5,
+    "wind_mph": 10.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Powderly",
+    "pop": 1178,
+    "temp in f": 60.1,
+    "wind_mph": 2.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Prairie View",
+    "pop": 6369,
+    "temp in f": 62.1,
+    "wind_mph": 6.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Premont",
+    "pop": 2659,
+    "temp in f": 47.1,
+    "wind_mph": 13.2,
+    "condition": "Partly cloudy",
+    "precip_in": 0.01
+  },
+  {
+    "name": "Princeton",
+    "pop": 8939,
+    "temp in f": 53.1,
+    "wind_mph": 10.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Progreso",
+    "pop": 5922,
+    "temp in f": 83.1,
+    "wind_mph": 6.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Prosper",
+    "pop": 15967,
+    "temp in f": 82.1,
+    "wind_mph": 5.4,
+    "condition": "Patchy rain nearby",
+    "precip_in": 0.03
+  },
+  {
+    "name": "Queen City",
+    "pop": 1468,
+    "temp in f": 43.0,
+    "wind_mph": 5.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Luling",
+    "pop": 5764,
+    "temp in f": 74.0,
+    "wind_mph": 5.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lyford",
+    "pop": 2607,
+    "temp in f": 57.6,
+    "wind_mph": 13.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Lytle",
+    "pop": 2869,
+    "temp in f": 63.0,
+    "wind_mph": 4.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mabank",
+    "pop": 3309,
+    "temp in f": 80.1,
+    "wind_mph": 13.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Malakoff",
+    "pop": 2296,
+    "temp in f": 48.9,
+    "wind_mph": 5.4,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Manchaca",
+    "pop": 1133,
+    "temp in f": 82.0,
+    "wind_mph": 11.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Manvel",
+    "pop": 7950,
+    "temp in f": 81.0,
+    "wind_mph": 11.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Marble Falls",
+    "pop": 6281,
+    "temp in f": 80.8,
+    "wind_mph": 18.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Marion",
+    "pop": 1111,
+    "temp in f": 48.0,
+    "wind_mph": 6.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Markham",
+    "pop": 1082,
+    "temp in f": 50.5,
+    "wind_mph": 8.7,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mart",
+    "pop": 1910,
+    "temp in f": 92.2,
+    "wind_mph": 2.2,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Martindale",
+    "pop": 1216,
+    "temp in f": 51.2,
+    "wind_mph": 2.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mason",
+    "pop": 2139,
+    "temp in f": 51.1,
+    "wind_mph": 4.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Maud",
+    "pop": 1071,
+    "temp in f": 100.8,
+    "wind_mph": 7.8,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mauriceville",
+    "pop": 3252,
+    "temp in f": 55.4,
+    "wind_mph": 3.6,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Medina",
+    "pop": 3247,
+    "temp in f": 48.9,
+    "wind_mph": 9.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Melissa",
+    "pop": 7436,
+    "temp in f": 58.8,
+    "wind_mph": 3.1,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mercedes",
+    "pop": 16657,
+    "temp in f": 57.5,
+    "wind_mph": 3.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mexia",
+    "pop": 7406,
+    "temp in f": 49.2,
+    "wind_mph": 6.5,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Milam",
+    "pop": 1480,
+    "temp in f": 58.1,
+    "wind_mph": 7.2,
+    "condition": "Patchy light rain in area with thunder",
+    "precip_in": 0.03
+  },
+  {
+    "name": "Mineola",
+    "pop": 4625,
+    "temp in f": 55.9,
+    "wind_mph": 5.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mission Bend",
+    "pop": 36501,
+    "temp in f": 81.0,
+    "wind_mph": 9.4,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Mont Belvieu",
+    "pop": 5193,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Montgomery",
+    "pop": 806,
+    "temp in f": 72.3,
+    "wind_mph": 4.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Moody",
+    "pop": 1380,
+    "temp in f": 54.5,
+    "wind_mph": 2.5,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Inez",
+    "pop": 2098,
+    "temp in f": 95.4,
+    "wind_mph": 5.1,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ingleside",
+    "pop": 9695,
+    "temp in f": 82.0,
+    "wind_mph": 14.8,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ingram",
+    "pop": 1822,
+    "temp in f": 52.2,
+    "wind_mph": 11.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Iowa Park",
+    "pop": 6344,
+    "temp in f": 73.0,
+    "wind_mph": 14.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Italy",
+    "pop": 1897,
+    "temp in f": 55.9,
+    "wind_mph": 6.3,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Itasca",
+    "pop": 1625,
+    "temp in f": 48.7,
+    "wind_mph": 2.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jacinto City",
+    "pop": 10782,
+    "temp in f": 80.8,
+    "wind_mph": 9.8,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jarrell",
+    "pop": 1171,
+    "temp in f": 82.9,
+    "wind_mph": 13.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jasper",
+    "pop": 7619,
+    "temp in f": 54.0,
+    "wind_mph": 3.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jefferson",
+    "pop": 2048,
+    "temp in f": 64.0,
+    "wind_mph": 6.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jewett",
+    "pop": 1192,
+    "temp in f": 51.3,
+    "wind_mph": 5.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Johnson City",
+    "pop": 1959,
+    "temp in f": 45.0,
+    "wind_mph": 2.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jollyville",
+    "pop": 16151,
+    "temp in f": 82.9,
+    "wind_mph": 11.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Josephine",
+    "pop": 1142,
+    "temp in f": 48.3,
+    "wind_mph": 3.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Joshua",
+    "pop": 6066,
+    "temp in f": 69.0,
+    "wind_mph": 20.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Jourdanton",
+    "pop": 4275,
+    "temp in f": 82.9,
+    "wind_mph": 15.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Junction",
+    "pop": 2444,
+    "temp in f": 65.7,
+    "wind_mph": 15.7,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Justin",
+    "pop": 3437,
+    "temp in f": 58.3,
+    "wind_mph": 7.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Karnes City",
+    "pop": 3371,
+    "temp in f": 77.8,
+    "wind_mph": 14.3,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kaufman",
+    "pop": 7156,
+    "temp in f": 80.1,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Keene",
+    "pop": 6181,
+    "temp in f": 46.9,
+    "wind_mph": 9.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kemah",
+    "pop": 1986,
+    "temp in f": 55.8,
+    "wind_mph": 2.2,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kenedy",
+    "pop": 3421,
+    "temp in f": 77.8,
+    "wind_mph": 14.3,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kennedale",
+    "pop": 7715,
+    "temp in f": 86.5,
+    "wind_mph": 18.3,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kempner",
+    "pop": 1078,
+    "temp in f": 84.4,
+    "wind_mph": 19.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kerens",
+    "pop": 1572,
+    "temp in f": 48.9,
+    "wind_mph": 7.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kingsland",
+    "pop": 6030,
+    "temp in f": 79.2,
+    "wind_mph": 3.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Kirbyville",
+    "pop": 2132,
+    "temp in f": 77.4,
+    "wind_mph": 4.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Knox City",
+    "pop": 1183,
+    "temp in f": 82.5,
+    "wind_mph": 8.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Krum",
+    "pop": 4990,
+    "temp in f": 39.4,
+    "wind_mph": 2.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "La Blanca",
+    "pop": 2488,
+    "temp in f": 74.2,
+    "wind_mph": 2.5,
+    "condition": "Patchy rain nearby",
+    "precip_in": 0.04
+  },
+  {
+    "name": "La Feria",
+    "pop": 7338,
+    "temp in f": 80.7,
+    "wind_mph": 5.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "La Homa",
+    "pop": 11985,
+    "temp in f": 57.6,
+    "wind_mph": 2.2,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Wylie",
+    "pop": 46708,
+    "temp in f": 81.0,
+    "wind_mph": 10.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Yorktown",
+    "pop": 2145,
+    "temp in f": 48.9,
+    "wind_mph": 5.4,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sunnyvale",
+    "pop": 6044,
+    "temp in f": 55.8,
+    "wind_mph": 4.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Sweeny",
+    "pop": 3771,
+    "temp in f": 56.8,
+    "wind_mph": 7.4,
+    "condition": "Light drizzle",
+    "precip_in": 0.02
+  },
+  {
+    "name": "Taft",
+    "pop": 3091,
+    "temp in f": 84.7,
+    "wind_mph": 2.7,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tatum",
+    "pop": 1379,
+    "temp in f": 77.2,
+    "wind_mph": 3.4,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Taylor",
+    "pop": 16702,
+    "temp in f": 52.0,
+    "wind_mph": 8.3,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Teague",
+    "pop": 3572,
+    "temp in f": 82.0,
+    "wind_mph": 13.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tenaha",
+    "pop": 1152,
+    "temp in f": 80.1,
+    "wind_mph": 7.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Thorndale",
+    "pop": 1316,
+    "temp in f": 42.8,
+    "wind_mph": 2.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Three Rivers",
+    "pop": 1971,
+    "temp in f": 39.7,
+    "wind_mph": 3.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Timberwood Park",
+    "pop": 13447,
+    "temp in f": 82.0,
+    "wind_mph": 13.6,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Timpson",
+    "pop": 1149,
+    "temp in f": 80.1,
+    "wind_mph": 7.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tom Bean",
+    "pop": 1055,
+    "temp in f": 81.0,
+    "wind_mph": 10.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Trinity",
+    "pop": 2752,
+    "temp in f": 81.0,
+    "wind_mph": 9.6,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Trophy Club",
+    "pop": 11759,
+    "temp in f": 86.5,
+    "wind_mph": 17.7,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Troup",
+    "pop": 1966,
+    "temp in f": 81.0,
+    "wind_mph": 8.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Troy",
+    "pop": 1843,
+    "temp in f": 48.0,
+    "wind_mph": 10.5,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Tye",
+    "pop": 1260,
+    "temp in f": 52.0,
+    "wind_mph": 12.8,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Universal City",
+    "pop": 19986,
+    "temp in f": 81.3,
+    "wind_mph": 14.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "University Park",
+    "pop": 24759,
+    "temp in f": 79.0,
+    "wind_mph": 6.9,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Valley Mills",
+    "pop": 1177,
+    "temp in f": 84.0,
+    "wind_mph": 19.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Van",
+    "pop": 2685,
+    "temp in f": 61.2,
+    "wind_mph": 2.5,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Van Alstyne",
+    "pop": 3344,
+    "temp in f": 81.0,
+    "wind_mph": 10.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Van Vleck",
+    "pop": 1844,
+    "temp in f": 78.6,
+    "wind_mph": 10.5,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Alamo",
+    "pop": 19246,
+    "temp in f": 73.8,
+    "wind_mph": 2.5,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Albany",
+    "pop": 2014,
+    "temp in f": 48.9,
+    "wind_mph": 8.7,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Aldine",
+    "pop": 15869,
+    "temp in f": 82.9,
+    "wind_mph": 9.8,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Aledo",
+    "pop": 3412,
+    "temp in f": 53.7,
+    "wind_mph": 2.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Eagle Lake",
+    "pop": 3650,
+    "temp in f": 43.5,
+    "wind_mph": 2.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Early",
+    "pop": 2833,
+    "temp in f": 59.2,
+    "wind_mph": 5.4,
+    "condition": "Partly cloudy",
+    "precip_in": 0.01
+  },
+  {
+    "name": "East Bernard",
+    "pop": 2304,
+    "temp in f": 77.9,
+    "wind_mph": 9.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Eastland",
+    "pop": 3825,
+    "temp in f": 83.5,
+    "wind_mph": 9.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Edcouch",
+    "pop": 3316,
+    "temp in f": 81.0,
+    "wind_mph": 13.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Eden",
+    "pop": 2786,
+    "temp in f": 52.0,
+    "wind_mph": 5.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Edgewood",
+    "pop": 1450,
+    "temp in f": 54.1,
+    "wind_mph": 9.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Electra",
+    "pop": 2711,
+    "temp in f": 41.0,
+    "wind_mph": 9.6,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Elgin",
+    "pop": 9039,
+    "temp in f": 48.0,
+    "wind_mph": 2.2,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Elkhart",
+    "pop": 1317,
+    "temp in f": 43.3,
+    "wind_mph": 5.1,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Elmendorf",
+    "pop": 1688,
+    "temp in f": 43.3,
+    "wind_mph": 8.9,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Elsa",
+    "pop": 6647,
+    "temp in f": 84.9,
+    "wind_mph": 7.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fairfield",
+    "pop": 2912,
+    "temp in f": 60.3,
+    "wind_mph": 8.3,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Falfurrias",
+    "pop": 4962,
+    "temp in f": 79.5,
+    "wind_mph": 13.2,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Farmers Branch",
+    "pop": 32689,
+    "temp in f": 84.7,
+    "wind_mph": 13.0,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Farmersville",
+    "pop": 3447,
+    "temp in f": 73.0,
+    "wind_mph": 5.8,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Fate",
+    "pop": 9847,
+    "temp in f": 102.9,
+    "wind_mph": 9.8,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Ferris",
+    "pop": 2534,
+    "temp in f": 81.5,
+    "wind_mph": 5.4,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Flatonia",
+    "pop": 1401,
+    "temp in f": 79.2,
+    "wind_mph": 13.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Florence",
+    "pop": 1231,
+    "temp in f": 52.2,
+    "wind_mph": 4.5,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Floresville",
+    "pop": 7321,
+    "temp in f": 82.9,
+    "wind_mph": 15.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Canyon Lake",
+    "pop": 21262,
+    "temp in f": 80.1,
+    "wind_mph": 15.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Carrizo Springs",
+    "pop": 5898,
+    "temp in f": 90.3,
+    "wind_mph": 20.6,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Carthage",
+    "pop": 6844,
+    "temp in f": 61.0,
+    "wind_mph": 11.0,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Castroville",
+    "pop": 2931,
+    "temp in f": 82.4,
+    "wind_mph": 16.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Celina",
+    "pop": 7697,
+    "temp in f": 46.9,
+    "wind_mph": 6.7,
+    "condition": "Partly Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Center",
+    "pop": 5211,
+    "temp in f": 54.0,
+    "wind_mph": 4.0,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Chandler",
+    "pop": 2949,
+    "temp in f": 89.2,
+    "wind_mph": 15.9,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Charlotte",
+    "pop": 1815,
+    "temp in f": 62.1,
+    "wind_mph": 4.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Chico",
+    "pop": 1069,
+    "temp in f": 72.0,
+    "wind_mph": 5.1,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "China",
+    "pop": 1130,
+    "temp in f": 82.8,
+    "wind_mph": 6.9,
+    "condition": "Sunny",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cinco Ranch",
+    "pop": 18274,
+    "temp in f": 81.1,
+    "wind_mph": 9.4,
+    "condition": "Mist",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cisco",
+    "pop": 3791,
+    "temp in f": 70.0,
+    "wind_mph": 13.0,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Clifton",
+    "pop": 3361,
+    "temp in f": 53.1,
+    "wind_mph": 5.6,
+    "condition": "Light rain",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Cloverleaf",
+    "pop": 22942,
+    "temp in f": 81.0,
+    "wind_mph": 9.2,
+    "condition": "Partly cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Clute",
+    "pop": 11444,
+    "temp in f": 78.6,
+    "wind_mph": 8.9,
+    "condition": "Overcast",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Clyde",
+    "pop": 3771,
+    "temp in f": 57.4,
+    "wind_mph": 7.6,
+    "condition": "Light rain",
+    "precip_in": 0.01
+  },
+  {
+    "name": "Collinsville",
+    "pop": 1687,
+    "temp in f": 57.0,
+    "wind_mph": 5.6,
+    "condition": "Cloudy",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Columbus",
+    "pop": 3629,
+    "temp in f": 51.1,
+    "wind_mph": 4.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Comanche",
+    "pop": 4197,
+    "temp in f": 78.7,
+    "wind_mph": 4.7,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Combes",
+    "pop": 3059,
+    "temp in f": 55.4,
+    "wind_mph": 4.7,
+    "condition": "Fog",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Comfort",
+    "pop": 2363,
+    "temp in f": 84.6,
+    "wind_mph": 2.2,
+    "condition": "Clear",
+    "precip_in": 0.0
+  },
+  {
+    "name": "Commerce",
+    "pop": 8892,
+    "temp in f": 63.1,
+    "wind_mph": 6.7,
+    "condition": "Thundery outbreaks in nearby",
+    "precip_in": 0.0
+  }
+]

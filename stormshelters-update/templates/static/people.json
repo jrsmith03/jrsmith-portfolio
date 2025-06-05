@@ -1,0 +1,42 @@
+{
+	"people": [
+		{
+			"name": "Rohit Chawla",
+			"username": "rohitc28",
+			"email": "rohitchawla77@gmail.com",
+			"description": "I'm a Computer Science major in my Junior year. I have lived in Austin my entire life and I enjoy playing board games.",
+			"picture": "rohit.jpeg"
+		},
+		{
+			"name": "John Smith",
+			"username": "johnrsmith2003",
+			"email": "johnrsmith2003@gmail.com",
+			"description": "I am a junior computer science major from the Rio Grande Valley. In my free time, I enjoy camping and spending time with family.",
+			"picture": "john.jpg"
+		},
+		{
+			"name": "Shreya Nakka",
+			"username": "shreya.n",
+			"email": "shreyanakka@utexas.edu",
+			"description": "I'm a junior computer science major. I enjoy playing tennis, volleyball, and painting.",
+			"picture": "shreya.PNG"
+		},
+        {
+			"name": "Adriana Reyes",
+			"username": "areye2020",
+			"email": "areye2020@gmail.com",
+			"description": "I'm a senior computer science major from Austin. Outside of CS I like to play guitar, skateboard, and draw.",
+			"picture": "rohit.jpeg"
+		},
+        {
+			"name": "Aaron Kulkarni",
+			"username": "aaronk2711",
+			"email": "aaronkulkarni@utexas.edu",
+			"description": "I am a CS major currently in my third year from New Jersey. My favorite activities outside of the classroom are basketball, judo, and guitar.",
+			"picture": "aaron.jpg"
+		}
+	]
+}
+		
+
+			

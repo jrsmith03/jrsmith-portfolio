@@ -1,0 +1,89 @@
+.text-center {
+  text-align: center;
+}
+.shelters-container {
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.shelter-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.shelter-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: #333;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.shelter-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+.shelter-image-container {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shelter-card-img-top {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.shelter-card-body {
+  padding: 20px;
+  color: white;
+}
+
+.shelter-card-title {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+  gap: 20px;
+}
+
+.shelter-button {
+  width: 30%;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+.shelter-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

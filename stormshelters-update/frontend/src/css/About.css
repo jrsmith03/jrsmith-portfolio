@@ -1,0 +1,68 @@
+.about-container {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.about-card {
+  width: 15%;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 20px;
+  text-align: center;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+.team-members-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  overflow-x: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.about-container p {
+  color: #ccc;
+}
+
+.about-container h1,
+.about-container h2 {
+  color: #fff;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+}
+
+.about-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}

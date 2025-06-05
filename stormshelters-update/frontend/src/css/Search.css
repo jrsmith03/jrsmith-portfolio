@@ -1,0 +1,31 @@
+.search-card-container {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 30px;
+    display: block;
+}
+
+.highlight{
+    display: inline-block;
+    padding: .25em 0;
+    background: #FFC107;
+    color: #ffffff;
+}
+  
+/* .input-group {
+  width: 500px;
+  height: 500px;
+} */
+  /* Style the search box inside the navigation bar */
+  /* input[type=search] {
+    height: 500px;
+    /* float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 50%;
+    height: 100px; */
+    /* } */
+  
