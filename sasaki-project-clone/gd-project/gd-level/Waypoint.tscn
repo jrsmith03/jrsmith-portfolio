@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dugv2f2i22kc6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1fblr"]
+albedo_color = Color(1, 0.215686, 0.0862745, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_oet6r"]
+material = SubResource("StandardMaterial3D_1fblr")
+
+[node name="Waypoint" type="Waypoint" groups=["waypoints"]]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("CylinderMesh_oet6r")

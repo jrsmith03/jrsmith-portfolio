@@ -1,0 +1,15 @@
+.godot
+*.os
+.sconsign.dblite
+gd-project/bin/*
+!gd-project/bin/*.gdextension
+
+.vscode
+.DS_Store
+godot-cpp/
+*.import
+*.so
+*.nfs*
+**/*.obj
+**/*.lib
+**/*.TMP

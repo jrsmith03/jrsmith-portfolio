@@ -1,0 +1,125 @@
+In file included from godot-cpp/gen/include/godot_cpp/classes/node.hpp:41,
+                 from godot-cpp/gen/include/godot_cpp/classes/node3d.hpp:38,
+                 from godot-cpp/gen/include/godot_cpp/classes/collision_object3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/physics_body3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/static_body3d.hpp:36,
+                 from src/platform/ProcGen.h:4,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/include/godot_cpp/classes/ref.hpp: In instantiation of 'godot::Ref<T>::Ref(const godot::Ref<T_Other>&) [with T_Other = godot::ConcavePolygonShape3D; T = godot::Shape3D]':
+src/platform/ProcGen.cpp:64:59:   required from here
+godot-cpp/include/godot_cpp/classes/ref.hpp:166:47: error: invalid static_cast from type 'godot::ConcavePolygonShape3D*' to type 'const godot::RefCounted*'
+  166 |   RefCounted *refb = const_cast<RefCounted *>(static_cast<const RefCounted *>(p_from.ptr()));
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from godot-cpp/gen/include/godot_cpp/classes/array_mesh.hpp:40,
+                 from src/platform/ProcGen.h:5,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/gen/include/godot_cpp/classes/mesh.hpp:52:7: note: class type 'godot::ConcavePolygonShape3D' is incomplete
+   52 | class ConcavePolygonShape3D;
+      |       ^~~~~~~~~~~~~~~~~~~~~
+In file included from godot-cpp/gen/include/godot_cpp/classes/node.hpp:41,
+                 from godot-cpp/gen/include/godot_cpp/classes/node3d.hpp:38,
+                 from godot-cpp/gen/include/godot_cpp/classes/collision_object3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/physics_body3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/static_body3d.hpp:36,
+                 from src/platform/ProcGen.h:4,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/include/godot_cpp/classes/ref.hpp: In instantiation of 'void godot::Ref<T>::unref() [with T = godot::ConcavePolygonShape3D]':
+godot-cpp/include/godot_cpp/classes/ref.hpp:217:3:   required from 'godot::Ref<T>::~Ref() [with T = godot::ConcavePolygonShape3D]'
+src/platform/ProcGen.cpp:64:58:   required from here
+godot-cpp/include/godot_cpp/classes/ref.hpp:204:31: error: invalid use of incomplete type 'class godot::ConcavePolygonShape3D'
+  204 |   if (reference && reference->unreference()) {
+      |                    ~~~~~~~~~~~^~~~~~~~~~~
+In file included from godot-cpp/gen/include/godot_cpp/classes/array_mesh.hpp:40,
+                 from src/platform/ProcGen.h:5,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/gen/include/godot_cpp/classes/mesh.hpp:52:7: note: forward declaration of 'class godot::ConcavePolygonShape3D'
+   52 | class ConcavePolygonShape3D;
+      |       ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/move.h:55,
+                 from /usr/include/c++/9/bits/stl_pair.h:59,
+                 from /usr/include/c++/9/bits/stl_algobase.h:64,
+                 from /usr/include/c++/9/bits/specfun.h:45,
+                 from /usr/include/c++/9/cmath:1927,
+                 from godot-cpp/include/godot_cpp/core/math.hpp:38,
+                 from godot-cpp/include/godot_cpp/variant/quaternion.hpp:34,
+                 from godot-cpp/include/godot_cpp/variant/basis.hpp:35,
+                 from godot-cpp/gen/include/godot_cpp/classes/node3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/collision_object3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/physics_body3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/static_body3d.hpp:36,
+                 from src/platform/ProcGen.h:4,
+                 from src/platform/ProcGen.cpp:1:
+/usr/include/c++/9/type_traits: In instantiation of 'struct std::is_base_of<godot::Wrapped, godot::ConcavePolygonShape3D>':
+/usr/include/c++/9/type_traits:2991:25:   required from 'constexpr const bool std::is_base_of_v<godot::Wrapped, godot::ConcavePolygonShape3D>'
+godot-cpp/include/godot_cpp/core/memory.hpp:120:45:   required by substitution of 'template<class T, typename std::enable_if<is_base_of_v<godot::Wrapped, T>, bool>::type <anonymous> > void godot::memdelete(T*) [with T = godot::ConcavePolygonShape3D; typename std::enable_if<is_base_of_v<godot::Wrapped, T>, bool>::type <anonymous> = <missing>]'
+godot-cpp/include/godot_cpp/classes/ref.hpp:205:13:   required from 'void godot::Ref<T>::unref() [with T = godot::ConcavePolygonShape3D]'
+godot-cpp/include/godot_cpp/classes/ref.hpp:217:3:   required from 'godot::Ref<T>::~Ref() [with T = godot::ConcavePolygonShape3D]'
+src/platform/ProcGen.cpp:64:58:   required from here
+/usr/include/c++/9/type_traits:1294:12: error: invalid use of incomplete type 'class godot::ConcavePolygonShape3D'
+ 1294 |     struct is_base_of
+      |            ^~~~~~~~~~
+In file included from godot-cpp/gen/include/godot_cpp/classes/array_mesh.hpp:40,
+                 from src/platform/ProcGen.h:5,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/gen/include/godot_cpp/classes/mesh.hpp:52:7: note: forward declaration of 'class godot::ConcavePolygonShape3D'
+   52 | class ConcavePolygonShape3D;
+      |       ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/9/bits/move.h:55,
+                 from /usr/include/c++/9/bits/stl_pair.h:59,
+                 from /usr/include/c++/9/bits/stl_algobase.h:64,
+                 from /usr/include/c++/9/bits/specfun.h:45,
+                 from /usr/include/c++/9/cmath:1927,
+                 from godot-cpp/include/godot_cpp/core/math.hpp:38,
+                 from godot-cpp/include/godot_cpp/variant/quaternion.hpp:34,
+                 from godot-cpp/include/godot_cpp/variant/basis.hpp:35,
+                 from godot-cpp/gen/include/godot_cpp/classes/node3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/collision_object3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/physics_body3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/static_body3d.hpp:36,
+                 from src/platform/ProcGen.h:4,
+                 from src/platform/ProcGen.cpp:1:
+/usr/include/c++/9/type_traits: In instantiation of 'constexpr const bool std::is_base_of_v<godot::Wrapped, godot::ConcavePolygonShape3D>':
+godot-cpp/include/godot_cpp/core/memory.hpp:120:45:   required by substitution of 'template<class T, typename std::enable_if<is_base_of_v<godot::Wrapped, T>, bool>::type <anonymous> > void godot::memdelete(T*) [with T = godot::ConcavePolygonShape3D; typename std::enable_if<is_base_of_v<godot::Wrapped, T>, bool>::type <anonymous> = <missing>]'
+godot-cpp/include/godot_cpp/classes/ref.hpp:205:13:   required from 'void godot::Ref<T>::unref() [with T = godot::ConcavePolygonShape3D]'
+godot-cpp/include/godot_cpp/classes/ref.hpp:217:3:   required from 'godot::Ref<T>::~Ref() [with T = godot::ConcavePolygonShape3D]'
+src/platform/ProcGen.cpp:64:58:   required from here
+/usr/include/c++/9/type_traits:2991:25: error: 'value' is not a member of 'std::is_base_of<godot::Wrapped, godot::ConcavePolygonShape3D>'
+ 2991 |   inline constexpr bool is_base_of_v = is_base_of<_Base, _Derived>::value;
+      |                         ^~~~~~~~~~~~
+In file included from godot-cpp/gen/include/godot_cpp/classes/node.hpp:41,
+                 from godot-cpp/gen/include/godot_cpp/classes/node3d.hpp:38,
+                 from godot-cpp/gen/include/godot_cpp/classes/collision_object3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/physics_body3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/static_body3d.hpp:36,
+                 from src/platform/ProcGen.h:4,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/include/godot_cpp/classes/ref.hpp: In instantiation of 'void godot::Ref<T>::unref() [with T = godot::ConcavePolygonShape3D]':
+godot-cpp/include/godot_cpp/classes/ref.hpp:217:3:   required from 'godot::Ref<T>::~Ref() [with T = godot::ConcavePolygonShape3D]'
+src/platform/ProcGen.cpp:64:58:   required from here
+godot-cpp/include/godot_cpp/classes/ref.hpp:205:13: error: no matching function for call to 'memdelete(godot::ConcavePolygonShape3D*&)'
+  205 |    memdelete(reference);
+      |    ~~~~~~~~~^~~~~~~~~~~
+In file included from godot-cpp/include/godot_cpp/templates/cowdata.hpp:37,
+                 from godot-cpp/include/godot_cpp/variant/char_string.hpp:34,
+                 from godot-cpp/gen/include/godot_cpp/variant/string.hpp:38,
+                 from godot-cpp/gen/include/godot_cpp/variant/builtin_types.hpp:36,
+                 from godot-cpp/include/godot_cpp/variant/variant.hpp:36,
+                 from godot-cpp/include/godot_cpp/core/property_info.hpp:38,
+                 from godot-cpp/include/godot_cpp/core/object.hpp:38,
+                 from godot-cpp/gen/include/godot_cpp/classes/node.hpp:39,
+                 from godot-cpp/gen/include/godot_cpp/classes/node3d.hpp:38,
+                 from godot-cpp/gen/include/godot_cpp/classes/collision_object3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/physics_body3d.hpp:36,
+                 from godot-cpp/gen/include/godot_cpp/classes/static_body3d.hpp:36,
+                 from src/platform/ProcGen.h:4,
+                 from src/platform/ProcGen.cpp:1:
+godot-cpp/include/godot_cpp/core/memory.hpp:112:6: note: candidate: 'template<class T> void godot::memdelete(T*, typename std::enable_if<(! is_base_of_v<godot::Wrapped, T>)>::type*)'
+  112 | void memdelete(T *p_class, typename std::enable_if<!std::is_base_of_v<godot::Wrapped, T>>::type * = nullptr) {
+      |      ^~~~~~~~~
+godot-cpp/include/godot_cpp/core/memory.hpp:112:6: note:   template argument deduction/substitution failed:
+godot-cpp/include/godot_cpp/core/memory.hpp:121:6: note: candidate: 'template<class T, typename std::enable_if<is_base_of_v<godot::Wrapped, T>, bool>::type <anonymous> > void godot::memdelete(T*)'
+  121 | void memdelete(T *p_class) {
+      |      ^~~~~~~~~
+godot-cpp/include/godot_cpp/core/memory.hpp:121:6: note:   substitution of deduced template arguments resulted in errors seen above
+scons: *** [src/platform/ProcGen.os] Error 1
+make: *** [Makefile:19: changes] Error 2

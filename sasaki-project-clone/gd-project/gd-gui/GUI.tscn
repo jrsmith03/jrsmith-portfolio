@@ -1,0 +1,170 @@
+[gd_scene load_steps=10 format=3 uid="uid://bo1jg13cjbwnc"]
+
+[ext_resource type="PackedScene" uid="uid://cmfsh5atn0m2x" path="res://gd-gui/my_label.tscn" id="1_vd3at"]
+[ext_resource type="FontFile" uid="uid://bpa1g2th37ocx" path="res://themes/fonts/digi/DS-DIGI.TTF" id="2_m4khh"]
+[ext_resource type="PackedScene" uid="uid://cub8ybnoy53nw" path="res://gd-gui/slider_label.tscn" id="2_xh533"]
+[ext_resource type="PackedScene" uid="uid://cjjes0u06x6gn" path="res://gd-gui/PauseScreen.tscn" id="3_8xl66"]
+[ext_resource type="PackedScene" uid="uid://cy4k6wsiqslmr" path="res://gd-gui/EndScreen.tscn" id="4_mpipu"]
+[ext_resource type="Texture2D" uid="uid://byqvn8pems8hx" path="res://textures/gui/speedometer/dial.png" id="5_0aps3"]
+[ext_resource type="Texture2D" uid="uid://ou33mfi4oq4i" path="res://textures/gui/speedometer/numbers.png" id="6_ywetc"]
+[ext_resource type="Texture2D" uid="uid://c17or1dy50rr" path="res://textures/gui/speedometer/hand.png" id="7_kfo1q"]
+[ext_resource type="PackedScene" uid="uid://hifvb3rn0ltb" path="res://my_label2.tscn" id="9_48i20"]
+
+[node name="Control" type="GUI"]
+process_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Score" parent="." instance=ExtResource("1_vd3at")]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -115.0
+offset_right = 16.0
+offset_bottom = -115.0
+grow_vertical = 0
+
+[node name="value2" type="Label" parent="Score"]
+visible = false
+layout_mode = 0
+offset_left = 109.0
+offset_top = 2.0
+offset_right = 205.0
+offset_bottom = 103.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_m4khh")
+theme_override_font_sizes/font_size = 100
+text = "0"
+
+[node name="Glider" parent="." instance=ExtResource("2_xh533")]
+offset_left = 162.0
+offset_top = 14.0
+offset_right = 162.0
+offset_bottom = 14.0
+
+[node name="EndScreen" parent="." instance=ExtResource("4_mpipu")]
+physics_interpolation_mode = 0
+visible = false
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="PauseScreen" parent="." instance=ExtResource("3_8xl66")]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = -207.0
+offset_bottom = -207.0
+scale = Vector2(0.600002, 0.600002)
+
+[node name="Speedometer" type="Control" parent="."]
+anchors_preset = 0
+offset_left = -16.0
+offset_top = 1.0
+offset_right = 24.0
+offset_bottom = 41.0
+
+[node name="dial" type="TextureRect" parent="Speedometer"]
+layout_mode = 0
+offset_left = -37.0
+offset_top = -18.0
+offset_right = 251.0
+offset_bottom = 198.0
+texture = ExtResource("5_0aps3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="numbers" type="TextureRect" parent="Speedometer"]
+layout_mode = 0
+offset_left = -49.0
+offset_top = -54.0
+offset_right = 232.0
+offset_bottom = 219.0
+texture = ExtResource("6_ywetc")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="hand" type="TextureRect" parent="Speedometer"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 12.0
+offset_top = 6.0
+offset_right = 156.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(71.16, 55.13)
+texture = ExtResource("7_kfo1q")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CheckpointMissing" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -443.5
+offset_top = -101.0
+offset_right = 443.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_m4khh")
+theme_override_font_sizes/font_size = 100
+text = "missing a checkpoint!"
+
+[node name="CheckpointRollback" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -748.0
+offset_top = -101.0
+offset_right = 748.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_m4khh")
+theme_override_font_sizes/font_size = 100
+text = "Moving back to previous checkpoint"
+
+[node name="Label" type="Label" parent="CheckpointRollback"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="CheckpointTime" parent="." instance=ExtResource("9_48i20")]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -343.0
+offset_top = -114.0
+offset_right = -343.0
+offset_bottom = -114.0
+grow_horizontal = 0
+grow_vertical = 0

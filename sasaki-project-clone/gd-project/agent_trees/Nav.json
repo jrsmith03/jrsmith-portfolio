@@ -1,0 +1,6 @@
+{
+    "is_player_nearby": {
+        "yes":"PATHFIND",
+        "no":"IDLE"
+    }
+}

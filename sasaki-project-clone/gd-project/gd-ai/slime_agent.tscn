@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://dyke2nuseer6v"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8ohq5"]
+rough = true
+bounce = 1.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y6q34"]
+size = Vector3(5, 5, 5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jo7xh"]
+transparency = 1
+albedo_color = Color(0.352941, 0.776471, 0.317647, 0.490196)
+
+[sub_resource type="BoxMesh" id="BoxMesh_cwbju"]
+material = SubResource("StandardMaterial3D_jo7xh")
+size = Vector3(5, 5, 5)
+
+[node name="SlimeAgent" type="SlimeAgent"]
+mass = 100.0
+physics_material_override = SubResource("PhysicsMaterial_8ohq5")
+gravity_scale = 0.0
+angular_damp = 10.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(4.02, 0, 0, 0, 4.02, 0, 0, 0, 4.02, 0, 0, 0)
+shape = SubResource("BoxShape3D_y6q34")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(4.02, 0, 0, 0, 4.02, 0, 0, 0, 4.02, 0, 0, 0)
+mesh = SubResource("BoxMesh_cwbju")
+
+[node name="AStar" type="AStar" parent="."]

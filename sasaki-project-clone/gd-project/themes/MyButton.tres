@@ -1,0 +1,29 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bbc4ldhibkblj"]
+
+[ext_resource type="FontFile" uid="uid://6seyotdphixu" path="res://themes/fonts/orbitron/Orbitron-Regular.ttf" id="1_n54g1"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_63hex"]
+draw_center = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lbdx7"]
+skew = Vector2(0.49, 0)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_57vd2"]
+bg_color = Color(0.368285, 0.622652, 0.861197, 0.215686)
+skew = Vector2(0.49, 0)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+
+[resource]
+default_font = ExtResource("1_n54g1")
+Button/fonts/font = ExtResource("1_n54g1")
+Button/styles/disabled = SubResource("StyleBoxTexture_63hex")
+Button/styles/hover = SubResource("StyleBoxFlat_lbdx7")
+Button/styles/normal = SubResource("StyleBoxFlat_57vd2")
+Button/styles/pressed = null

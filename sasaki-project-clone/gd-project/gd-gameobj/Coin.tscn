@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=4 uid="uid://cnj74nlbke7ix"]
+
+[ext_resource type="Material" uid="uid://ck3wu6tquqrdm" path="res://shaders/compass/compass_shader_material.tres" id="1_58kqj"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_hkjum"]
+radius = 1.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eppbo"]
+albedo_color = Color(1, 1, 0.145098, 1)
+metallic = 0.75
+metallic_specular = 1.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6uwbe"]
+resource_name = "Star_Circle"
+_surfaces = [{
+"aabb": AABB(-0.945741, 0, -0.994411, 1.89148, 0.168027, 1.79891),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPw=="),
+"format": 34359742487,
+"index_count": 168,
+"index_data": PackedByteArray("AgASAAAAEgAOABAADgAKAAwACgAGAAgABgACAAQAAgAOABIADgAGAAoAAgAGAA4AKgBMAC4AKgBIAEwAAQAZAAMAAQAVABkADwAsABEADwApACwACQAkAAsACQAhACQAAwAcAAUAAwAZABwAEQAvABMAEQAsAC8ACwAnAA0ACwAkACcABQAfAAcABQAcAB8AEwAVAAEAEwAvABUADQApAA8ADQAnACkABwAhAAkABwAfACEANwA9ADoAPQBCAD8AQgBHAEUARwBNAEoATQA3ADMANwBCAD0AQgBNAEcANwBNAEIAIgBDACUAIgBAAEMAGAA5ABsAGAA2ADkALQBOADAALQBLAE4AIwBEACYAIwBBAEQAGgA8AB4AGgA4ADwAMQA0ABYAMQBPADQAKABJACsAKABGAEkAHQA+ACAAHQA7AD4AFAA1ABcAFAAyADUA"),
+"material": SubResource("StandardMaterial3D_eppbo"),
+"name": "Material.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 80,
+"vertex_data": PackedByteArray("AMpbrgAAAACwkX6/AMpbrgAAAACwkX6/8btovgAAAABiKqC+8btovgAAAABiKqC+DxxyvwAAAAAVVZ2+DxxyvwAAAAAVVZ2+MUm8vgAAAAAPtvQ9MUm8vgAAAAAPtvQ9yKEVvwAAAABj800/yKEVvwAAAABj800/IBaIrwAAAAC7+cU+IBaIrwAAAAC7+cU+yKEVPwAAAABj800/yKEVPwAAAABj800/MUm8PgAAAAAPtvQ9MUm8PgAAAAAPtvQ9DxxyPwAAAAAVVZ2+DxxyPwAAAAAVVZ2+8btoPgAAAABiKqC+8btoPgAAAABiKqC+AMpbrgAAAACwkX6/AMpbrgAAAACwkX6/AMpbrgAAAACwkX6/8btovgAAAABiKqC+8btovgAAAABiKqC+8btovgAAAABiKqC+DxxyvwAAAAAVVZ2+DxxyvwAAAAAVVZ2+DxxyvwAAAAAVVZ2+MUm8vgAAAAAPtvQ9MUm8vgAAAAAPtvQ9MUm8vgAAAAAPtvQ9yKEVvwAAAABj800/yKEVvwAAAABj800/yKEVvwAAAABj800/IBaIrwAAAAC7+cU+IBaIrwAAAAC7+cU+IBaIrwAAAAC7+cU+yKEVPwAAAABj800/yKEVPwAAAABj800/yKEVPwAAAABj800/MUm8PgAAAAAPtvQ9MUm8PgAAAAAPtvQ9MUm8PgAAAAAPtvQ9DxxyPwAAAAAVVZ2+DxxyPwAAAAAVVZ2+DxxyPwAAAAAVVZ2+8btoPgAAAABiKqC+8btoPgAAAABiKqC+8btoPgAAAABiKqC+AMpbrlwPLD6wkX6/AMpbrlwPLD6wkX6/AMpbrlwPLD6wkX6/8btovlwPLD5iKqC+8btovlwPLD5iKqC+8btovlwPLD5iKqC+Dxxyv1wPLD4VVZ2+Dxxyv1wPLD4VVZ2+Dxxyv1wPLD4VVZ2+MUm8vlwPLD4PtvQ9MUm8vlwPLD4PtvQ9MUm8vlwPLD4PtvQ9yKEVv1wPLD5j800/yKEVv1wPLD5j800/yKEVv1wPLD5j800/IBaIr1wPLD67+cU+IBaIr1wPLD67+cU+IBaIr1wPLD67+cU+yKEVP1wPLD5j800/yKEVP1wPLD5j800/yKEVP1wPLD5j800/MUm8PlwPLD4PtvQ9MUm8PlwPLD4PtvQ9MUm8PlwPLD4PtvQ9DxxyP1wPLD4VVZ2+DxxyP1wPLD4VVZ2+DxxyP1wPLD4VVZ2+8btoPlwPLD5iKqC+8btoPlwPLD5iKqC+8btoPlwPLD5iKqC+/38AAP///7//f///////v/9/AAD///+//3///////7//fwAA////v/9///////+//38AAP///7//f///////v/9/AAD///+//3///////7//fwAA////v/9///////+//38AAP///7//f///////v/9/AAD///+//3///////7//fwAA////v/9///////+//38AAP///7//f///////vwAAAaD///+//3///////7///wGg////vwAAAaD///+/AAAE/////7//f///////v6FJ/3////8/AAAE/////7//f///////vwAAxJ7///+/oUn/f////z//f///////vwAAxJ7///+//3///////79atf9/////P6RK/3////8//3///////79atf9/////P6RK/3////8//3///////7///8Se////v/9///////+/Xbb/f////z///8Se////v/9///////+///8E/////79dtv9/////P/9///////+///8E/////7///wGg////vwAAAaD///+//3///////7///wGg////vwAAAaD///+/AAAE/////7//f///////v6FJ/3////8/AAAE/////7//f///////vwAAxJ7///+/oUn/f////z//f///////vwAAxJ7///+//3///////79atf9/////P6RK/3////8//3///////79atf9/////P6RK/3////8//3///////7///8Se////v/9///////+/Xbb/f////z///8Se////v/9///////+///8E/////79dtv9/////P/9///////+///8E/////7///wGg////vw==")
+}]
+blend_shape_mode = 0
+
+[node name="Coin" type="Coin"]
+transform = Transform3D(-4.21469, 0, 2.69105, 0, 5, 0, -2.69105, 0, -4.21469, 0, 8, 0)
+
+[node name="Area3D" type="Area3D" parent="."]
+transform = Transform3D(5.67, 0, 0, 0, 5.67, 0, 0, 0, 5.67, 0, 2.83, 0)
+collision_layer = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("SphereShape3D_hkjum")
+
+[node name="Circle" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.170735, -4.97502, 0.469092, 4.69846, -2.05376e-07, -1.7101, 1.70156, 0.499197, 4.67498, 0.0301054, 3.52014, -0.0543144)
+mesh = SubResource("ArrayMesh_6uwbe")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("1_58kqj")

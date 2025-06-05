@@ -1,0 +1,35 @@
+[gd_scene load_steps=9 format=3 uid="uid://dxwgus4w56q8e"]
+
+[ext_resource type="Texture2D" uid="uid://bovbfpsds5gg8" path="res://textures/ball/Chip001_4K-JPG_Color.jpg" id="1_2w1sk"]
+[ext_resource type="Texture2D" uid="uid://ls252mgvlk60" path="res://textures/ball/Chip001_4K-JPG_Displacement.jpg" id="2_afc48"]
+[ext_resource type="Texture2D" uid="uid://d1j1fgdcg47qd" path="res://textures/ball/Chip001_4K-JPG_Metalness.jpg" id="3_sx664"]
+[ext_resource type="Texture2D" uid="uid://dwtsitoh2fue4" path="res://textures/ball/Chip001_4K-JPG_NormalGL.jpg" id="4_n80bm"]
+[ext_resource type="Texture2D" uid="uid://dh3lgb36llg8f" path="res://textures/ball/Chip001_4K-JPG_Roughness.jpg" id="5_74sa0"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ccx1c"]
+margin = 0.0
+radius = 1.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_cb6ib"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hnur2"]
+albedo_texture = ExtResource("1_2w1sk")
+metallic = 1.0
+metallic_texture = ExtResource("3_sx664")
+roughness_texture = ExtResource("5_74sa0")
+normal_enabled = true
+normal_texture = ExtResource("4_n80bm")
+heightmap_enabled = true
+heightmap_scale = 0.1
+heightmap_texture = ExtResource("2_afc48")
+
+[node name="RemotePlayer" type="RigidBody3D"]
+mass = 500.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_ccx1c")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+mesh = SubResource("SphereMesh_cb6ib")
+surface_material_override/0 = SubResource("StandardMaterial3D_hnur2")

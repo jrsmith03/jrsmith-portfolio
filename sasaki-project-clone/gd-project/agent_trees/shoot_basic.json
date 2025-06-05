@@ -1,0 +1,12 @@
+{
+    "is_player_far": {
+        "yes":"IDLE",
+        "is_player_nearby": {
+            "yes": "WANDER",
+            "is_player_close": {
+                "yes":"SHOOT",
+                "no": "WANDER"
+            }
+        }
+    }
+}

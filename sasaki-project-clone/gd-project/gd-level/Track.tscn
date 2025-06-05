@@ -1,0 +1,59 @@
+[gd_scene load_steps=14 format=3 uid="uid://dm4qdompfcoje"]
+
+[ext_resource type="Texture2D" uid="uid://igcliga86xqq" path="res://textures/platform/TactilePaving004_8K-JPG_Color.jpg" id="1_nv5sb"]
+[ext_resource type="Texture2D" uid="uid://6b0iajsei3cx" path="res://textures/platform/TactilePaving004_8K-JPG_AmbientOcclusion.jpg" id="2_8h4yq"]
+[ext_resource type="Texture2D" uid="uid://ctxwk3uxd8x8x" path="res://textures/platform/TactilePaving004_8K-JPG_Displacement.jpg" id="3_320ue"]
+[ext_resource type="Texture2D" uid="uid://chfohd8tq1hul" path="res://textures/platform/TactilePaving004_8K-JPG_NormalGL.jpg" id="4_eblvb"]
+[ext_resource type="Texture2D" uid="uid://d23yd33pbg1ec" path="res://textures/platform/TactilePaving004_8K-JPG_Roughness.jpg" id="5_6bv7c"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nq5ah"]
+friction = 0.0
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ngxkx"]
+rough = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_idp31"]
+size = Vector3(3, 0.1, 3)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lcbgw"]
+size = Vector3(3, 0.5, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pj01j"]
+albedo_texture = ExtResource("1_nv5sb")
+roughness_texture = ExtResource("5_6bv7c")
+normal_enabled = true
+normal_texture = ExtResource("4_eblvb")
+ao_enabled = true
+ao_texture = ExtResource("2_8h4yq")
+heightmap_enabled = true
+heightmap_scale = 0.25
+heightmap_texture = ExtResource("3_320ue")
+
+[sub_resource type="ImageTexture" id="ImageTexture_inwj5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_muhh5"]
+albedo_texture = SubResource("ImageTexture_inwj5")
+
+[sub_resource type="BoxMesh" id="BoxMesh_8cjro"]
+material = SubResource("StandardMaterial3D_muhh5")
+
+[node name="Track" type="Track"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+physics_material_override = SubResource("PhysicsMaterial_nq5ah")
+
+[node name="TrackPlane" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0.27701, 0)
+physics_material_override = SubResource("PhysicsMaterial_ngxkx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TrackPlane"]
+transform = Transform3D(1, 0, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, 0, -0.0439323, 0)
+shape = SubResource("BoxShape3D_idp31")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_lcbgw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 0.5, 0, 0, 0, 3, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_pj01j")
+mesh = SubResource("BoxMesh_8cjro")
+skeleton = NodePath("")

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://rjvgrywjqfd7"]
+
+[ext_resource type="PackedScene" uid="uid://dm4qdompfcoje" path="res://Track.tscn" id="1_ganex"]
+
+[node name="LobbyScene" type="LobbyScene"]
+
+[node name="Track" parent="." instance=ExtResource("1_ganex")]
+transform = Transform3D(60, 0, 0, 0, 5, 0, 0, 0, 60, 0, 0, 0)

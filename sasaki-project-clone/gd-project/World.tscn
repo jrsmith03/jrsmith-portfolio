@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://rodciamoxyn6"]
+
+[ext_resource type="PackedScene" uid="uid://daa6t0c0mapq7" path="res://gd-gui/StartScreen.tscn" id="1_abxg2"]
+[ext_resource type="PackedScene" uid="uid://bdr8n10fkqa47" path="res://gd-gui/SettingsScreen.tscn" id="2_1y1h5"]
+[ext_resource type="PackedScene" uid="uid://dndn24keq5nnt" path="res://gd-gui/MultiplayerScreen.tscn" id="3_53f2o"]
+[ext_resource type="PackedScene" uid="uid://28dj0rbh2l38" path="res://gd-gui/results_screen.tscn" id="4_t021c"]
+
+[node name="World" type="World"]
+
+[node name="NetMain" type="NetMain" parent="."]
+lerp_weight = 0.05
+lerp_threshold = 0.25
+
+[node name="StartScreen" parent="." instance=ExtResource("1_abxg2")]
+
+[node name="SettingsScreen" parent="." instance=ExtResource("2_1y1h5")]
+visible = false
+
+[node name="MultiplayerScreen" parent="." instance=ExtResource("3_53f2o")]
+visible = false
+
+[node name="ResultsScreen" parent="." instance=ExtResource("4_t021c")]

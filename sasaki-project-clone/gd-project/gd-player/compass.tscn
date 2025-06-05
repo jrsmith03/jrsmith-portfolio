@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvhi4lqtjjuiq"]
+
+[ext_resource type="Material" uid="uid://ck3wu6tquqrdm" path="res://shaders/compass/compass_shader_material.tres" id="1_33w8r"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_kv4gy"]
+material = ExtResource("1_33w8r")
+top_radius = 0.01
+bottom_radius = 0.4
+height = 1.552
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tfvtm"]
+material = ExtResource("1_33w8r")
+top_radius = 0.15
+bottom_radius = 0.2
+
+[node name="Compass" type="Node3D"]
+transform = Transform3D(43.3013, 0, -25, 0, 50, 0, 25, 0, 43.3013, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 4)
+mesh = SubResource("CylinderMesh_kv4gy")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 3)
+mesh = SubResource("CylinderMesh_tfvtm")

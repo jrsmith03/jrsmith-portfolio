@@ -1,0 +1,142 @@
+[gd_scene load_steps=17 format=3 uid="uid://c358n5a1a2jhv"]
+
+[ext_resource type="Texture2D" uid="uid://bgu3bqbmiye6u" path="res://textures/ball/Chip001_4K-JPG_Color.jpg" id="1_wv167"]
+[ext_resource type="Texture2D" uid="uid://cm1hu6j8kgl06" path="res://textures/ball/Chip001_4K-JPG_Displacement.jpg" id="2_it78h"]
+[ext_resource type="Texture2D" uid="uid://dwlghw8l5a17p" path="res://textures/ball/Chip001_4K-JPG_Metalness.jpg" id="3_55lsa"]
+[ext_resource type="Texture2D" uid="uid://dvpxvx5hidvij" path="res://textures/ball/Chip001_4K-JPG_NormalGL.jpg" id="4_hd1sa"]
+[ext_resource type="Texture2D" uid="uid://ct8a1kc4rik2j" path="res://textures/ball/Chip001_4K-JPG_Roughness.jpg" id="5_5olm6"]
+[ext_resource type="PackedScene" uid="uid://bo1jg13cjbwnc" path="res://gd-gui/GUI.tscn" id="7_yk057"]
+
+[sub_resource type="Gradient" id="Gradient_rcnfp"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 0.877895, 0.903158)
+colors = PackedColorArray(0.00362953, 4.51226e-09, 0.0893862, 1, 0.403922, 0.564706, 0.937255, 1, 0.935449, 0.888424, 0.768858, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_imvkw"]
+noise_type = 0
+frequency = 0.1989
+fractal_octaves = 10
+fractal_lacunarity = 2.565
+fractal_gain = 1.815
+cellular_distance_function = 2
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_53ukv"]
+width = 7309
+height = 941
+seamless = true
+seamless_blend_skirt = 0.0
+color_ramp = SubResource("Gradient_rcnfp")
+noise = SubResource("FastNoiseLite_imvkw")
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_rhxkf"]
+panorama = SubResource("NoiseTexture2D_53ukv")
+filter = false
+energy_multiplier = 0.35
+
+[sub_resource type="Sky" id="Sky_wo6le"]
+sky_material = SubResource("PanoramaSkyMaterial_rhxkf")
+
+[sub_resource type="Environment" id="Environment_x575r"]
+background_mode = 2
+background_energy_multiplier = 16.0
+sky = SubResource("Sky_wo6le")
+sky_rotation = Vector3(6.28319, 0, 0)
+ambient_light_source = 3
+ambient_light_color = Color(1, 0.566815, 0.286611, 1)
+ambient_light_energy = 16.0
+reflected_light_source = 2
+ssr_enabled = true
+glow_enabled = true
+fog_mode = 1
+fog_density = 0.9055
+fog_sky_affect = 0.0
+fog_depth_begin = 50.0
+fog_depth_end = 10000.0
+volumetric_fog_density = 0.0
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_vs54n"]
+margin = 0.0
+radius = 1.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_eu2m1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vk7xb"]
+albedo_texture = ExtResource("1_wv167")
+metallic = 1.0
+metallic_texture = ExtResource("3_55lsa")
+roughness_texture = ExtResource("5_5olm6")
+normal_enabled = true
+normal_texture = ExtResource("4_hd1sa")
+heightmap_enabled = true
+heightmap_scale = 0.1
+heightmap_texture = ExtResource("2_it78h")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2vfqx"]
+
+[node name="Player" type="Player" groups=["players"]]
+air_resistance = 5.0
+player_speed = 1.0
+glide_gravity_scale = 1.2
+transform = Transform3D(4.195, 0, 0, 0, 4.195, 0, 0, 0, 4.195, 0, 0, 0)
+collision_mask = 14
+mass = 20.0
+gravity_scale = 10.0
+contact_monitor = true
+max_contacts_reported = 100
+angular_damp = 10.0
+metadata/_edit_group_ = true
+
+[node name="PrettySky" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_x575r")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_vs54n")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+mesh = SubResource("SphereMesh_eu2m1")
+surface_material_override/0 = SubResource("StandardMaterial3D_vk7xb")
+
+[node name="PlayerCamera" type="PlayerCamera" parent="."]
+camera_distance = 10.0
+transform = Transform3D(0.505607, -0.860561, 0.0616083, 2.98023e-08, 0.0714079, 0.997447, -0.862764, -0.504317, 0.0361043, 0.616083, 9.97447, 0.361043)
+current = true
+
+[node name="GliderPlaceholder" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.03, 0, 0, 0, 2.03, 0, 0, 0, 2.03, 0, -0.747328, 0)
+visible = false
+
+[node name="Clip" type="RayCast3D" parent="."]
+target_position = Vector3(0.616083, 9.97447, 0.361043)
+
+[node name="PlayerArea" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0155679, -0.00516117, 0.00128222)
+visible = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PlayerArea"]
+shape = SubResource("SphereShape3D_2vfqx")
+
+[node name="EdgeFront" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.53674e-07, -4.76837e-07, -5.96046e-08)
+target_position = Vector3(3, -3, 0)
+
+[node name="EdgeRight" type="RayCast3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -9.53674e-07, -4.76837e-07, -5.96046e-08)
+target_position = Vector3(3, -3, 0)
+
+[node name="EdgeLeft" type="RayCast3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -9.53674e-07, -4.76837e-07, -5.96046e-08)
+target_position = Vector3(3, -3, 0)
+
+[node name="EdgeBack" type="RayCast3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.53674e-07, -4.76837e-07, -5.96046e-08)
+target_position = Vector3(3, -3, 0)
+
+[node name="Down" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0, -9.53674e-07, -8.17124e-14)
+target_position = Vector3(0, -3, 0)
+
+[node name="GlideTimer" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="Control" parent="." instance=ExtResource("7_yk057")]

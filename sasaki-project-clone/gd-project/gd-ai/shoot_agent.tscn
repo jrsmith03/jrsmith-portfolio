@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://v4ylxww8wxes"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_33grx"]
+transparency = 1
+albedo_color = Color(0.133333, 0.133333, 0, 0.929412)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_eyss8"]
+material = SubResource("StandardMaterial3D_33grx")
+top_radius = 0.69
+bottom_radius = 1.49
+height = 3.98
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wd6ue"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_yvbfu"]
+material = SubResource("StandardMaterial3D_wd6ue")
+radius = 1.135
+height = 1.545
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_8r3ip"]
+height = 4.235
+radius = 1.435
+
+[node name="ShootAgent" type="ShootAgent"]
+gravity_scale = 0.0
+angular_damp = 4.66
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+mesh = SubResource("CylinderMesh_eyss8")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 9.41362, 0)
+mesh = SubResource("SphereMesh_yvbfu")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+shape = SubResource("CylinderShape3D_8r3ip")
+
+[node name="AStar" type="AStar" parent="."]

@@ -1,0 +1,96 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdr8n10fkqa47"]
+
+[ext_resource type="Texture2D" uid="uid://dpvrscg3re8r0" path="res://textures/ball/Chip001_85px.png" id="1_jkn2i"]
+[ext_resource type="Texture2D" uid="uid://br4p144fwcm2a" path="res://textures/ball/Marble016_85px.png" id="2_ick14"]
+[ext_resource type="Texture2D" uid="uid://f5w3iypvptve" path="res://textures/ball/Fabric061_85px.png" id="3_r8gvt"]
+
+[node name="SettingsScreen" type="SettingsScreen" groups=["state_managers"]]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="UsernameLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -159.0
+offset_right = 159.0
+offset_bottom = 85.0
+grow_horizontal = 2
+theme_override_font_sizes/normal_font_size = 56
+text = "Username"
+
+[node name="UsernameField" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -250.0
+offset_top = 90.0
+offset_right = 250.0
+offset_bottom = 180.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "Player"
+
+[node name="BallTextureLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -166.5
+offset_top = -132.5
+offset_right = 166.5
+offset_bottom = -47.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 56
+text = "Ball Texture"
+
+[node name="BallTextureButton" type="OptionButton" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -187.5
+offset_top = -48.0
+offset_right = 187.5
+offset_bottom = 48.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 64
+alignment = 1
+expand_icon = true
+selected = 0
+item_count = 3
+popup/item_0/text = "Circuit"
+popup/item_0/icon = ExtResource("1_jkn2i")
+popup/item_1/text = "Marble"
+popup/item_1/icon = ExtResource("2_ick14")
+popup/item_1/id = 1
+popup/item_2/text = "Fabric"
+popup/item_2/icon = ExtResource("3_r8gvt")
+popup/item_2/id = 2
+
+[node name="MainMenuButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -159.0
+offset_top = -125.0
+offset_right = 159.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 56
+text = "Main Menu"

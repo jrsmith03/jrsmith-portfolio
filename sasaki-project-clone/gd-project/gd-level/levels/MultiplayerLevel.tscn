@@ -1,0 +1,78 @@
+[gd_scene load_steps=12 format=3 uid="uid://bjumyrds15b7x"]
+
+[ext_resource type="PackedScene" uid="uid://dm4qdompfcoje" path="res://gd-level/Track.tscn" id="1_rjodc"]
+[ext_resource type="PackedScene" uid="uid://c3votvicd0qmc" path="res://gd-level/Checkpoint.tscn" id="2_p4mj6"]
+[ext_resource type="Texture2D" uid="uid://x82x5ce552ed" path="res://textures/ground/Ground037_4K-JPG_Color.jpg" id="4_pyexn"]
+[ext_resource type="Texture2D" uid="uid://82pdkif4rlw8" path="res://textures/ground/Ground037_4K-JPG_AmbientOcclusion.jpg" id="5_m3h01"]
+[ext_resource type="Texture2D" uid="uid://3m33s8lqncdu" path="res://textures/ground/Ground037_4K-JPG_Displacement.jpg" id="6_tfvwq"]
+[ext_resource type="Texture2D" uid="uid://bwghnu7a38tc5" path="res://textures/ground/Ground037_4K-JPG_NormalGL.jpg" id="7_4f4tx"]
+[ext_resource type="Texture2D" uid="uid://bn7twlsxvibxu" path="res://textures/ground/Ground037_4K-JPG_Roughness.jpg" id="8_lpb0y"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_mburq"]
+friction = 10.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ilfxm"]
+size = Vector3(1e+06, 1, 1e+06)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ydwcx"]
+albedo_texture = ExtResource("4_pyexn")
+roughness_texture = ExtResource("8_lpb0y")
+normal_enabled = true
+normal_texture = ExtResource("7_4f4tx")
+ao_enabled = true
+ao_texture = ExtResource("5_m3h01")
+heightmap_enabled = true
+heightmap_scale = 1.0
+heightmap_texture = ExtResource("6_tfvwq")
+uv1_scale = Vector3(50, 50, 50)
+
+[sub_resource type="BoxMesh" id="BoxMesh_sj6bk"]
+material = SubResource("StandardMaterial3D_ydwcx")
+size = Vector3(1000, 1, 1000)
+
+[node name="MultiplayerLevel" type="Level"]
+
+[node name="Track" parent="." instance=ExtResource("1_rjodc")]
+transform = Transform3D(50, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="Track2" parent="." instance=ExtResource("1_rjodc")]
+transform = Transform3D(-2.18557e-06, 0, -10, 0, 10, 0, 50, 0, -4.37114e-07, -90.0134, 0, 59.6899)
+
+[node name="Track3" parent="." instance=ExtResource("1_rjodc")]
+transform = Transform3D(50, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 119.77)
+
+[node name="Track4" parent="." instance=ExtResource("1_rjodc")]
+transform = Transform3D(-2.18557e-06, 0, 10, 0, 10, 0, -50, 0, -4.37114e-07, 89.1433, 0, 59.6236)
+
+[node name="Checkpoints" type="Node3D" parent="."]
+
+[node name="Checkpoint0" parent="Checkpoints" instance=ExtResource("2_p4mj6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.45004)
+script = null
+
+[node name="Checkpoint1" parent="Checkpoints" instance=ExtResource("2_p4mj6")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -99.0459, 0, 63.2471)
+script = null
+
+[node name="Checkpoint2" parent="Checkpoints" instance=ExtResource("2_p4mj6")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.0767136, 0, 128.668)
+script = null
+
+[node name="Checkpoint3" parent="Checkpoints" instance=ExtResource("2_p4mj6")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 98.6686, 0, 56.7899)
+script = null
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -186.35, 50.6607, 0)
+shadow_enabled = true
+
+[node name="Terrain" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, -25, -75)
+physics_material_override = SubResource("PhysicsMaterial_mburq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Terrain"]
+shape = SubResource("BoxShape3D_ilfxm")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Terrain"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.047287, -0.311287, 0)
+mesh = SubResource("BoxMesh_sj6bk")

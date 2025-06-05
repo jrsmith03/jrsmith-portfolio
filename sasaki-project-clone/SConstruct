@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+import os
+import sys
+
+env = SConscript("godot-cpp/SConstruct")
+
+# For reference:
+# - CCFLAGS are compilation flags shared between C and C++
+# - CFLAGS are for C-specific compilation flags
+# - CXXFLAGS are for C++-specific compilation flags
+# - CPPFLAGS are for pre-processor flags
+# - CPPDEFINES are for pre-processor defines
+# - LINKFLAGS are for linking flags
+
+# tweak this if you want to use different folders, or more folders, to store your source code in.
+env.Append(CPPPATH=["src/"])
+player_sources = Glob("src/player/*.cpp")  # Only files related to libplayer
+platform_sources = Glob("src/platform/*.cpp")  # Only files related to libplatform
+gui_sources = Glob("src/gui/*.cpp")  # Only files related to libgui
+gameobj_sources = Glob("src/game_obj/*.cpp")  # Only files related to libgameobj
+ai_sources = Glob("src/ai/*.cpp") + \
+             Glob("src/ai/agents/Slime/*.cpp") + \
+             Glob("src/ai/agents/KirbyAgent/*.cpp") + \
+             Glob("src/ai/agents/Push/*.cpp") + \
+             Glob("src/ai/agents/Shooter/*.cpp") + \
+             Glob("src/ai/agents/projectiles/*.cpp")
+net_sources = Glob("src/net/*.cpp");
+
+
+if env["platform"] == "macos":
+    libplayer = env.SharedLibrary(
+        "gd-project/bin/libplayer.{}.{}.framework/libplayer.{}.{}".format(
+            env["platform"], env["target"], env["platform"], env["target"]
+        ),
+        source=player_sources,
+    )
+    libplatform = env.SharedLibrary(
+        "gd-project/bin/libplatform.{}.{}.framework/libplatform.{}.{}".format(
+            env["platform"], env["target"], env["platform"], env["target"]
+        ),
+        source=platform_sources,
+    )
+    libgui = env.SharedLibrary(
+        "gd-project/bin/libgui.{}.{}.framework/libgui.{}.{}".format(
+            env["platform"], env["target"], env["platform"], env["target"]
+        ),
+        source=gui_sources,
+    )
+    libobj = env.SharedLibrary(
+        "gd-project/bin/libobj.{}.{}.framework/libobj.{}.{}".format(
+            env["platform"], env["target"], env["platform"], env["target"]
+        ),
+        source=gameobj_sources,
+    )
+    libai = env.SharedLibrary(
+        "gd-project/bin/libai.{}.{}.framework/libai.{}.{}".format(
+            env["platform"], env["target"], env["platform"], env["target"]
+        ),
+        source=ai_sources,
+    )
+    libnet = env.SharedLibrary(
+        "gd-project/bin/libnet.{}.{}.framework/libnet.{}.{}".format(
+            env["platform"], env["target"], env["platform"], env["target"]
+        ),
+        source=net_sources,
+    )
+
+else:
+    libplayer = env.SharedLibrary(
+        "gd-project/bin/libplayer{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        source=player_sources,
+    )
+
+    libplatform = env.SharedLibrary(
+        "gd-project/bin/libplatform{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        source=platform_sources,
+    )
+
+    libgui = env.SharedLibrary(
+        "gd-project/bin/libgui{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        source=gui_sources,
+    )
+
+    libobj = env.SharedLibrary(
+        "gd-project/bin/libgameobj{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        source=gameobj_sources,
+    )
+
+    libai = env.SharedLibrary(
+        "gd-project/bin/libai{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        source=ai_sources,
+    )
+
+    libnet = env.SharedLibrary(
+        "gd-project/bin/libnet{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+        source=net_sources,
+    )
+
+
+
+Default(libplayer, libplatform, libgui, libobj, libai, libnet)

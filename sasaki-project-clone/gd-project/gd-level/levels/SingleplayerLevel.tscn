@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://d35666hjidop5"]
+
+[node name="SingleplayerLevel" type="Level"]
+chunk_size = 768
+
+[node name="CheckpointTimer" type="Timer" parent="."]

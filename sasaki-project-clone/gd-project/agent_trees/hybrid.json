@@ -1,0 +1,18 @@
+{
+    "is_player_nearby": {
+        "stationary":{
+            "grounded": {
+                "yes": "PULL",
+                "no": "SHOOT"
+            },
+            "fast" : {
+                "has_glider": {
+                    "yes": "DEFENSE",
+                    "no": "PUSH"
+                },
+                "no": "PURSUIT"
+            }
+        },
+        "no": "WANDER"
+    }
+}

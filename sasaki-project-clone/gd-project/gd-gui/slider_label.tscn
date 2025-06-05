@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cub8ybnoy53nw"]
+
+[node name="SliderLabel" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="name" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Name:"
+
+[node name="total" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(200, 10)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 5.0
+offset_right = 256.0
+offset_bottom = 23.0
+color = Color(0.493545, 0.493546, 0.493546, 1)
+
+[node name="current" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 0
+offset_left = 56.0
+offset_top = 5.0
+offset_right = 256.0
+offset_bottom = 23.0
+color = Color(0.31481, 0.452568, 0.909199, 1)

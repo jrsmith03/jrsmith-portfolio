@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://b3vbt1kbcl7g5"]
+
+[ext_resource type="ArrayMesh" uid="uid://drmfraxba3i2y" path="res://textures/glider/base_glider.obj" id="1_2ukkj"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ao4li"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_edwdx"]
+albedo_color = Color(0.160784, 0.670588, 0.92549, 1)
+
+[node name="Glider" type="Glider"]
+transform = Transform3D(1.75038, 0, 0.967591, 0, 2, 0, -0.967591, 0, 1.75038, 0, 0, 0)
+
+[node name="Area3D" type="Area3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("SphereShape3D_ao4li")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0447747, -0.883867, 0, 0.883867, -0.0447747, 0, 0, 0, 0.885, 0, 0, 0)
+mesh = ExtResource("1_2ukkj")
+surface_material_override/0 = SubResource("StandardMaterial3D_edwdx")

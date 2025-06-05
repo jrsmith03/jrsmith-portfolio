@@ -1,0 +1,181 @@
+[gd_scene load_steps=13 format=3 uid="uid://daa6t0c0mapq7"]
+
+[ext_resource type="Script" path="res://gd-gui/lava_pb.gd" id="1_4wkef"]
+[ext_resource type="Texture2D" uid="uid://dxv1twpy3os7r" path="res://textures/title_screen/synthwave/00.png" id="2_gmga4"]
+[ext_resource type="Texture2D" uid="uid://caucdb4ijhusd" path="res://textures/title_screen/synthwave/01.png" id="3_tq2a4"]
+[ext_resource type="Texture2D" uid="uid://5epiabt8tdra" path="res://textures/title_screen/synthwave/02.png" id="4_sakpy"]
+[ext_resource type="Texture2D" uid="uid://3aabjchc4600" path="res://textures/title_screen/synthwave/03.png" id="5_0m5iq"]
+[ext_resource type="Theme" uid="uid://bbc4ldhibkblj" path="res://themes/MyButton.tres" id="6_3hr6x"]
+[ext_resource type="Texture2D" uid="uid://bowy04th0psoc" path="res://textures/title_screen/synthwave/04.png" id="6_s4y11"]
+[ext_resource type="Theme" uid="uid://2ny7hkh7ibxw" path="res://themes/Title.tres" id="7_pgjkn"]
+[ext_resource type="Texture2D" uid="uid://bbcrrr3w3qrak" path="res://textures/title_screen/synthwave/05.png" id="7_ygjx4"]
+[ext_resource type="Texture2D" uid="uid://04tx7gvn0r8v" path="res://textures/title_screen/synthwave/06.png" id="8_hilst"]
+[ext_resource type="Texture2D" uid="uid://d01ql6eauir8g" path="res://textures/title_screen/synthwave/07.png" id="9_3s337"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_kjuie"]
+
+[node name="StartScreen" type="StartScreen" groups=["state_managers"]]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LavaPB" type="ParallaxBackground" parent="."]
+scroll_ignore_camera_zoom = true
+script = ExtResource("1_4wkef")
+
+[node name="00" type="Sprite2D" parent="LavaPB"]
+position = Vector2(1299, 797)
+scale = Vector2(2.08125, 2.4287)
+texture = ExtResource("2_gmga4")
+
+[node name="01pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(549, -34)
+scale = Vector2(1.685, 1.685)
+motion_scale = Vector2(0.1, 1)
+motion_mirroring = Vector2(1550, 0)
+
+[node name="01" type="Sprite2D" parent="LavaPB/01pl"]
+position = Vector2(-21.365, -10.089)
+texture = ExtResource("3_tq2a4")
+centered = false
+region_enabled = true
+region_rect = Rect2(59.9706, 0, 1835.43, 493.313)
+
+[node name="02pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(-558, -250)
+scale = Vector2(1.82, 1.82)
+motion_scale = Vector2(0.2, 1)
+motion_mirroring = Vector2(1700, 0)
+
+[node name="02" type="Sprite2D" parent="LavaPB/02pl"]
+position = Vector2(-85, -20)
+texture = ExtResource("4_sakpy")
+centered = false
+region_enabled = true
+region_rect = Rect2(16.2487, 0, 1864.9, 1080)
+
+[node name="03pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(-997, -472)
+scale = Vector2(2, 2)
+motion_scale = Vector2(0.3, 1)
+motion_mirroring = Vector2(1650, 0)
+
+[node name="03" type="Sprite2D" parent="LavaPB/03pl"]
+position = Vector2(-12, -26)
+texture = ExtResource("5_0m5iq")
+centered = false
+
+[node name="04pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(-1039, -510)
+scale = Vector2(2, 2)
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(1650, 0)
+
+[node name="04" type="Sprite2D" parent="LavaPB/04pl"]
+position = Vector2(-28, -28)
+texture = ExtResource("6_s4y11")
+centered = false
+
+[node name="05pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(-1705, -473)
+scale = Vector2(2.285, 2.285)
+motion_scale = Vector2(0.5, 1)
+motion_mirroring = Vector2(1400, 0)
+
+[node name="05" type="Sprite2D" parent="LavaPB/05pl"]
+position = Vector2(-359.707, -165.568)
+texture = ExtResource("7_ygjx4")
+centered = false
+region_enabled = true
+region_rect = Rect2(228.564, 0, 1691.44, 1076.91)
+
+[node name="06pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(-299, -627)
+scale = Vector2(1.77, 1.77)
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(1860, 0)
+
+[node name="06" type="Sprite2D" parent="LavaPB/06pl"]
+position = Vector2(2, -10)
+texture = ExtResource("8_hilst")
+centered = false
+
+[node name="07pl" type="ParallaxLayer" parent="LavaPB"]
+texture_repeat = 2
+position = Vector2(-174, -812)
+scale = Vector2(2, 2)
+motion_mirroring = Vector2(1520.31, 20)
+
+[node name="07" type="Sprite2D" parent="LavaPB/07pl"]
+position = Vector2(-1, 8)
+texture = ExtResource("9_3s337")
+centered = false
+
+[node name="Buttons" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -463.0
+offset_top = -366.0
+offset_right = -27.0
+offset_bottom = -14.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="SoloButton" type="Button" parent="Buttons"]
+layout_mode = 2
+theme = ExtResource("6_3hr6x")
+theme_override_font_sizes/font_size = 56
+text = "Solo"
+icon = SubResource("ViewportTexture_kjuie")
+
+[node name="MultiplayerButton" type="Button" parent="Buttons"]
+layout_mode = 2
+theme = ExtResource("6_3hr6x")
+theme_override_font_sizes/font_size = 56
+disabled = true
+text = "Multiplayer
+"
+
+[node name="SettingsButton" type="Button" parent="Buttons"]
+layout_mode = 2
+theme = ExtResource("6_3hr6x")
+theme_override_font_sizes/font_size = 56
+text = "Settings"
+
+[node name="QuitButton" type="Button" parent="Buttons"]
+layout_mode = 2
+theme = ExtResource("6_3hr6x")
+theme_override_font_sizes/font_size = 56
+text = "Quit"
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -608.0
+offset_top = -140.0
+offset_right = 608.0
+offset_bottom = 140.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("7_pgjkn")
+text = "[IN] FINITE
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 171

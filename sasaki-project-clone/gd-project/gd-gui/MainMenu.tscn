@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2sieo7c2eyg8"]
+
+[ext_resource type="PackedScene" uid="uid://daa6t0c0mapq7" path="res://gd-gui/StartScreen.tscn" id="1_rd2pu"]
+[ext_resource type="PackedScene" uid="uid://bdr8n10fkqa47" path="res://gd-gui/SettingsScreen.tscn" id="2_1tfv0"]
+[ext_resource type="PackedScene" uid="uid://dndn24keq5nnt" path="res://gd-gui/MultiplayerScreen.tscn" id="3_4hf4e"]
+[ext_resource type="PackedScene" uid="uid://b11ixfu3aens8" path="res://gd-gui/LobbyScreen.tscn" id="4_2hulh"]
+
+[node name="MainMenu" type="MainMenu"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartScreen" parent="." instance=ExtResource("1_rd2pu")]
+layout_mode = 1
+
+[node name="SettingsScreen" parent="." instance=ExtResource("2_1tfv0")]
+visible = false
+layout_mode = 1
+
+[node name="MultiplayerScreen" parent="." instance=ExtResource("3_4hf4e")]
+visible = false
+layout_mode = 1
+
+[node name="LobbyScreen" parent="." instance=ExtResource("4_2hulh")]
+visible = false
+layout_mode = 1
+
+[connection signal="load_multiplayer" from="StartScreen" to="." method="on_load_multiplayer"]
+[connection signal="load_settings" from="StartScreen" to="." method="on_load_settings"]
+[connection signal="load_start" from="SettingsScreen" to="." method="on_load_start"]
+[connection signal="new_texture" from="SettingsScreen" to="." method="on_texture_update"]
+[connection signal="new_username" from="SettingsScreen" to="." method="on_username_update"]
+[connection signal="load_lobby" from="MultiplayerScreen" to="." method="on_load_lobby"]
+[connection signal="load_start" from="MultiplayerScreen" to="." method="on_load_start"]
+[connection signal="protocol_update" from="MultiplayerScreen" to="." method="on_protocol_update"]
+[connection signal="server_info" from="MultiplayerScreen" to="." method="on_server_update"]

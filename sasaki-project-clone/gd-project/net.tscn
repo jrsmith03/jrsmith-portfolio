@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cx71q786kvco4"]
+
+[node name="Net" type="NetMain"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 989.0
+offset_top = 610.0
+offset_right = 1096.0
+offset_bottom = 633.0
+text = "Server mode: "
+
+[node name="SetServer" type="CheckButton" parent="."]
+offset_left = 1099.0
+offset_top = 611.0
+offset_right = 1143.0
+offset_bottom = 635.0

@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://ck3wu6tquqrdm"]
+
+[ext_resource type="Shader" path="res://shaders/compass/compass_shader.gdshader" id="1_re0fl"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_re0fl")
+shader_parameter/hue_speed = 1.0
+shader_parameter/swirl_speed = 1.0
+shader_parameter/swirl_scale = 0.5

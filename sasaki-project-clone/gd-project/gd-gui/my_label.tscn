@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://cmfsh5atn0m2x"]
+
+[ext_resource type="Texture2D" uid="uid://blfbb0vdkeltx" path="res://textures/gui/star_asset.png" id="1_pyaw8"]
+[ext_resource type="FontFile" uid="uid://bpa1g2th37ocx" path="res://themes/fonts/digi/DS-DIGI.TTF" id="2_r3uor"]
+
+[sub_resource type="Theme" id="Theme_jcrwl"]
+
+[node name="MyLabel" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+offset_right = 328.0
+offset_bottom = 99.0
+theme = SubResource("Theme_jcrwl")
+color = Color(0.466667, 0.466667, 0.466667, 0.678431)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+offset_left = 10.0
+offset_top = 8.0
+offset_right = 88.0
+offset_bottom = 83.0
+texture = ExtResource("1_pyaw8")
+expand_mode = 1
+
+[node name="name" type="Label" parent="."]
+visible = false
+custom_minimum_size = Vector2(30, 20)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Name:"
+
+[node name="value" type="Label" parent="."]
+layout_mode = 1
+offset_left = 109.0
+offset_top = -1.0
+offset_right = 352.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_r3uor")
+theme_override_font_sizes/font_size = 100

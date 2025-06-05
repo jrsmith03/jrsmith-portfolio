@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://e480p2ne1jwk"]
+
+[sub_resource type="HeightMapShape3D" id="HeightMapShape3D_7kyam"]
+
+[node name="ProcPlane" type="ProceduralPlane"]
+biome = 48
+prev_biome = 1852137326
+is_biome_transition = true
+collision_layer = 8
+collision_mask = 5
+
+[node name="ProceduralPlaneMesh" type="MeshInstance3D" parent="."]
+
+[node name="Collider" type="CollisionShape3D" parent="."]
+shape = SubResource("HeightMapShape3D_7kyam")
