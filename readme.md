@@ -9,7 +9,7 @@ This repository contains my biggest and most notable projects. My biggest passio
 
 Please use this README to explore links to the most relevant code in the projects along with descriptions of my biggest accomplishments.
 
-# [Command and Control](\c2)
+# [Command and Control](c2)
 - Gained privileged remote access to a vulnerable Linux server by locating password through packet analysis and
 exploitation of strace command and insecure CRON job.
 - Built an obscured remote shell server ([backdoor](c2/backdoor.c)) and client [utility](c2/c2_client.c) with encrypted traffic and fullly-privileged
@@ -17,7 +17,7 @@ access. Used sockets to issue commands to a listening port and publish output to
 management, and the tiny-aes library for end-to-end encryption.
 - Obscured the backdoor via shell scripts that replaced an instance of the ssh program with the backdoor upon boot and also replaced directory listing and [process listing](c2/ls_wrapper.sh) utilities with scripts that obscured the backdoor process. Further leveraged the CRON job vulnerabilities to allow the script to execute.
 
-# [Full Stack Web App](\stormshelters-update)
+# [Full Stack Web App](stormshelters-update)
 - Collaborated in a group of five to develop a full-stack web application that dynamically displayed relevant information
 from various APIs.
 - Used asynchronous methods to query our backend database to fetch data for the frontend (see [here](./stormshelters-update/frontend/src/components/Cities.js)). Used hooks to dynamically update content based on filtering/pagination changes. Displayed information [cards](./stormshelters-update/frontend/src/components/CityModel.js) via a React object to allow for easy reusability of styling/interface logic components across the site.
