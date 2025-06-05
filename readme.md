@@ -37,6 +37,7 @@ source APIs, and writing website architecture documentation.
     * Produced a confusion matrix to analyze the accuracy and recall of each method.
     * Used both numpy and a SMOTE library to deal with a label imbalance in the data. First tried dropping instances of the majority (80% of instances) lablel, and then performed the oversampling of the minority label which produced multiple new instances with similar properties to their nearest neighbors. The later method improved recall by 20%.
 # [Media Sorting Application](media-sort)
+* Personal project
 - Utility to index, analyze and relocate media files in a directory. 
 - First, [recursively traversed](media-sort/process-dir.c) every file within a directory. Analyzed each file to see if it was media, and then used file system API to derive metadata from it. 
 - [Created directories](media-sort/process-file.c) based on user specifications, and moved/renamed media files based on the metadata (i.e. date taken). 
@@ -55,6 +56,14 @@ relevancy.
     * [AI system](https://docs.google.com/document/d/1zXz3D65diKs2vCYJ6tYEYdY2nsZke57dQzGm1EEXFtI/edit?tab=t.0#heading=h.ybo076yl3qtn)
     * [Raytracer Application](https://docs.google.com/document/d/1gVWFMx0-x3MVRb6G71p3sDGOjdMWLjpOg7Gnt_zydsc/edit?tab=t.0)
     * [Traffic Simulation Plugin](https://docs.google.com/document/d/1O8mpTvQJYsX2rGy8UXILxIn6hxQ4ol9m_ayMS1qTCbU/edit?tab=t.0#heading=h.558rgclapg7u)
+# [Multithreaded File Server](net-transfer)
+* Small personal project, but demonstrates some highly relevant systems programming tools/skills.
+* Simple utility that creates a web server and client using POSIX sockets. 
+* [Client CLI](net-transfer/client.c) provides simple interface to upload files or directories.
+* Multithreaded [server application](net-transfer/server.c) supports and processes multiple client sessions concurrently.
+* Memory-mapped I/O is used in the client application to greatly speed up file caching for transfer.
+* Multithreaded client allows multiple files to be transferred concurrently.
+
 # [Energy-Aware Task Scheduling in Operating Systems](task-scheduling.pdf) 
 * Literature review investigating the performance and energy utilization effects on various informed task
 scheduling algorithms.
